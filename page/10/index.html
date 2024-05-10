@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>The Lab Bunny</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://labbunny.com/wp-content/themes/ryu/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>The Lab Bunny</title>
+	<link rel="canonical" href="/page/10/">
+	<link rel="prev" href="/page/9/">
+	<link rel="next" href="/page/11/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="The Lab Bunny">
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="The Lab Bunny">
+	<meta property="og:image" content="/wp-content/uploads/2013/04/cropped-labbunny.jpg">
+	<meta property="og:image:width" content="328">
+	<meta property="og:image:height" content="328">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@labbunny">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"/","url":"/page/10/","name":"The Lab Bunny","isPartOf":{"@id":"/#website"},"breadcrumb":{"@id":"/page/10/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"/page/10/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"The Lab Bunny","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Comments Feed" href="/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/ryu/genericons/genericons.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-style-css" href="/wp-content/themes/ken/style.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-lato-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-playfair-display-css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('labbunny.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>	<style type="text/css">.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		.header-image {
+			margin-bottom: 0;
+		}</style>
+			<style type="text/css" id="wp-custom-css">.ch_poweredby {
+	display: none;
+}
+
+.social a, .social a:hover {
+	border: 0;
+}</style>
+		</head>
+
+<body class="home blog paged paged-10 group-blog">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+
+
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="toppanel hide">
+		<div id="secondary" role="complementary" class="wrap clear four">
+		<div id="top-sidebar-one" class="widget-area" role="complementary">
+			</div>
+<!-- #first .widget-area -->
+	
+		<div id="top-sidebar-two" class="widget-area" role="complementary">
+		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">Gaby Love</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-8103">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">May</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-7932">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Zee</span> on <a href="/sephora-precision-pore-cleansing-pad/#comment-7655">Sephora Precision Pore Cleansing Pad</a>
+</li>
+</ul></aside>	</div>
+<!-- #second .widget-area -->
+	
+		<div id="top-sidebar-three" class="widget-area" role="complementary">
+			</div>
+<!-- #third .widget-area -->
+	
+		<div id="top-sidebar-four" class="widget-area" role="complementary">
+		<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>
+			<ul>
+					<li><a href="/2015/04/">April 2015</a></li>
+	<li><a href="/2015/01/">January 2015</a></li>
+	<li><a href="/2014/10/">October 2014</a></li>
+	<li><a href="/2014/09/">September 2014</a></li>
+	<li><a href="/2014/08/">August 2014</a></li>
+	<li><a href="/2014/07/">July 2014</a></li>
+	<li><a href="/2014/06/">June 2014</a></li>
+	<li><a href="/2014/05/">May 2014</a></li>
+	<li><a href="/2014/04/">April 2014</a></li>
+	<li><a href="/2014/03/">March 2014</a></li>
+	<li><a href="/2014/02/">February 2014</a></li>
+	<li><a href="/2014/01/">January 2014</a></li>
+	<li><a href="/2013/12/">December 2013</a></li>
+	<li><a href="/2013/11/">November 2013</a></li>
+	<li><a href="/2013/10/">October 2013</a></li>
+	<li><a href="/2013/09/">September 2013</a></li>
+	<li><a href="/2013/08/">August 2013</a></li>
+	<li><a href="/2013/07/">July 2013</a></li>
+	<li><a href="/2013/06/">June 2013</a></li>
+	<li><a href="/2013/05/">May 2013</a></li>
+	<li><a href="/2013/04/">April 2013</a></li>
+			</ul>
+
+			</aside>	</div>
+<!-- #four .widget-area -->
+	</div>
+<!-- #secondary -->	</div>
+	
+	
+	<div id="search-wrapper" class="toppanel hide">
+		
+<form method="get" id="searchform" class="searchform" action="https://labbunny.com/" role="search">
+	<label for="s" class="screen-reader-text">Search</label>
+	<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;">
+	<input type="submit" class="submit" id="searchsubmit" value="Search">
+</form>	</div>
+
+	<div id="triggers-wrapper">
+		<ul class="triggers clear">
+						<li class="widgets-trigger">
+				<a href="#" class="genericon" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</a>
+			</li>
+			
+			
+			<li class="search-trigger">
+				<a href="#" class="genericon" title="Search">
+					<span class="screen-reader-text">Search</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="wrap">
+			
+							<a class="site-logo" href="/" title="The Lab Bunny" rel="home">
+					<picture><source srcset="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png.webp" type="image/webp"><img src="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png" width="1280" height="250" alt="" class="no-grav header-image" data-eio="p"></picture>
+				</a>
+			
+			<hgroup>
+				<h1 class="site-title"><a href="/" title="The Lab Bunny" rel="home">The Lab Bunny</a></h1>
+				<h2 class="site-description"></h2>
+			</hgroup>
+		</div>
+<!-- .wrap -->
+
+					<nav id="site-navigation" class="navigation-main clear" role="navigation">
+				<h1 class="menu-toggle">Menu</h1>
+				<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="wrap"><ul id="menu-menu" class="menu">
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="/about/">About</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="/contact/">Contact</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="https://www.facebook.com/TheLabBunny">Facebook</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://twitter.com/LabBunny">Twitter</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-272"><a href="http://instagram.com/thelabbunny">Instagram</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+						
+				
+<article id="post-687" class="clear post-687 post type-post status-publish format-standard hentry category-beauty-tools category-general category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/beauty-tools/" rel="category tag">Beauty Tools</a>, <a href="/category/general/" rel="category tag">General</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/thats-bag-baby/" rel="bookmark">That&#8217;s my bag, baby!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/thats-bag-baby/" title="11:25 am" rel="bookmark"><time datetime="2013-10-18T11:25:58-07:00">October 18, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/thats-bag-baby/#comments">3 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>Check it out, guys! Austin Powers joke! BA-BAM! COMEDY.</p>
+<p>So, Jason got me a new makeup bag for my birthday, and I&#8217;m doing the big swap/clean right now. I thought I&#8217;d run down a list of the things I always have in my makeup bag for you guys. It&#8217;s going to be a long list.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/10/makeup-bag-925x1024.jpg.webp 925w, /wp-content/uploads/2013/10/makeup-bag-270x300.jpg.webp 270w, /wp-content/uploads/2013/10/makeup-bag-1272x1408.jpg.webp 1272w, /wp-content/uploads/2013/10/makeup-bag.jpg.webp 1850w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-688" alt="makeup bag" src="/wp-content/uploads/2013/10/makeup-bag-925x1024.jpg" width="696" height="770" srcset="/wp-content/uploads/2013/10/makeup-bag-925x1024.jpg 925w, /wp-content/uploads/2013/10/makeup-bag-270x300.jpg 270w, /wp-content/uploads/2013/10/makeup-bag-1272x1408.jpg 1272w, /wp-content/uploads/2013/10/makeup-bag.jpg 1850w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>I&#8217;m doing this on the couch while I watch CONAN. </em></p>
+<p style="text-align: left;">Let&#8217;s start on the left, and work our way up.</p>
+<p style="text-align: center;"><strong>Blushes and Bronzers</strong></p>
+<p style="text-align: left;">MAC Sheertone Blush in &#8220;Peaches&#8221;</p>
+<p style="text-align: left;">Urban Decay Baked Bronzer in &#8220;Gilded&#8221;</p>
+<p style="text-align: left;">NARS Blush in &#8220;Super Orgasm&#8221; (ALL TIME FAVE)</p>
+<p style="text-align: left;">MAC Creme Bronzer in &#8220;Beach Bronze&#8221;</p>
+<p style="text-align: left;">MAC Mineralize Skinfinish in &#8220;Give Me Sun&#8221;</p>
+<p style="text-align: left;">MAC Mineralize Skinfinish in &#8220;Redhead&#8221;</p>
+<p style="text-align: center;"><strong>Mascaras</strong></p>
+<p style="text-align: left;"><a title="Benefit They’re Real Mascara" href="/benefit-theyre-real-mascara/">Benefit &#8220;They&#8217;re Real&#8221;</a></p>
+<p style="text-align: left;">Benefit &#8220;Bad Gal Plum&#8221;</p>
+<p style="text-align: center;"><strong>Concealers, Highlighters and Primers</strong></p>
+<p style="text-align: left;">Benefit &#8220;High Beam&#8221;</p>
+<p style="text-align: left;">Marcelle BB Cream in &#8220;Golden Glow&#8221;</p>
+<p style="text-align: left;">Benefit &#8220;Watt&#8217;s Up&#8221;</p>
+<p style="text-align: left;">NARS  Pore-Prime Pore Refining Primer</p>
+<p style="text-align: left;">MAC Select Cover-Up in NW20</p>
+<p style="text-align: left;">Tarte Clean Slate Face Primer</p>
+<p style="text-align: left;">MAC Lustre Drops in &#8220;Sun Rush&#8221;</p>
+<p style="text-align: left;">MAC Select Moisture Cover in NC20</p>
+<p style="text-align: left;">Urban Decay Lip Primer Potion</p>
+<p style="text-align: left;">Urban Decay Eyeshadow Primer Potion in &#8220;Eden&#8221; (ALL TIME FAVE)</p>
+<p style="text-align: left;">Urban Decay Eyeshadow Primer Potion</p>
+<p style="text-align: center;"><strong>Eyeshadow Palettes</strong></p>
+<p style="text-align: left;">Urban Decay Naked Basics (NEW FAVE!! Thank you, Click!!)</p>
+<p style="text-align: left;">Urban Decay Naked (the original) (ALL TIME FAVE)</p>
+<p style="text-align: left;">Urban Decay Naked 2 (ALL TIME FAVE)</p>
+<p style="text-align: center;"><strong>Foundation and Finishing Powders</strong></p>
+<p style="text-align: left;">Ben Nye Neutral Set</p>
+<p style="text-align: left;"><a title="MAKE UP FOR EVER HD Foundation" href="/makeup-forever-hd-foundation/">MAKE UP FOR EVER HD Foundation (ALL TIME FAVE)</a></p>
+<p style="text-align: left;">e.l.f. High Definition Powder</p>
+<p style="text-align: center;"><strong>LIPSTICKS AND LIP GLOSSES!!!</strong></p>
+<p style="text-align: left;">Fresh Sugar Rose</p>
+<p style="text-align: left;">Urban Decay Lipstick in &#8220;Jilted&#8221; (ALL TIME FAVE)</p>
+<p style="text-align: left;">Sephora Lip Gloss Pencil 05</p>
+<p style="text-align: left;"><a title="NYX Cosmetics Matte Lipstick in Indie Flick" href="/nyx-cosmetics-matte-lipstick-indie-flick/">NYX Matte Lipstick in &#8220;Indie Flick&#8221;</a></p>
+<p style="text-align: left;">Urban Decay Lip Gloss in &#8220;Guys Heart Betsey&#8221;</p>
+<p style="text-align: left;">MAC Lustreglass in &#8220;Flashmode&#8221;</p>
+<p style="text-align: left;">Sephora Collection Color Lip Last #12 &#8220;Royal Raspberry&#8221;</p>
+<p style="text-align: left;">Revlon Colorburst Lip Butters in &#8220;Tutti Frutti,&#8221; &#8220;Peach Parfait&#8221; and &#8220;Cupcake&#8221;</p>
+<p style="text-align: left;"><a title="Maybelline Fuchsia Flash Color Sensational Vivids Review" href="/maybelline-fuchsia-flash-color-sensational-vivids-review/">Maybelline Vivids in &#8220;Fuchsia Flash&#8221;</a></p>
+<p style="text-align: left;">Model Co Matte Lipstick in &#8220;Peony&#8221;</p>
+<p style="text-align: left;">MAC Lip Glass in &#8220;Schemer&#8221;</p>
+<p style="text-align: left;"><a title="OCC Lip Tar Queen" href="/occ-lip-tar-queen/">OCC Lip Tar in &#8220;Queen&#8221;</a></p>
+<p style="text-align: left;">Urban Decay Lip Gloss in &#8220;Naked&#8221;</p>
+<p style="text-align: left;">Urban Decay XXX Shine Lip Gloss in &#8220;Heatherette&#8221;</p>
+<p style="text-align: left;">Urban Decay Lipstick in &#8220;Naked&#8221;</p>
+<p style="text-align: left;">MAC Lip Glass in &#8220;Hush, Hush Rose&#8221;</p>
+<p style="text-align: left;">NARS Lip Gloss in &#8220;Super Orgasm&#8221;</p>
+<p style="text-align: left;">MAC Lipsticks in &#8220;Honey Love,&#8221; &#8220;Russian Red&#8221; and &#8220;Rebel&#8221; (Russian Red is MY JAM! ALL TIME FAVE!!)</p>
+<p style="text-align: left;">Urban Decay Revolution Lipstick in &#8220;69&#8221;</p>
+<p style="text-align: left;">Clinique Almost Lipstick in &#8220;Black Honey&#8221; (OG ALL TIME FAVE)</p>
+<p style="text-align: left;">CHAPSTICK</p>
+<p style="text-align: center;"><strong>Eyes</strong></p>
+<p style="text-align: left;">Essence Gel Eyeliners in &#8220;Midnight in Paris&#8221; and &#8220;London Baby&#8221;</p>
+<p style="text-align: left;"><a title="Urban Decay Moondust Eyeshadow Diamond Dog" href="/urban-decay-moondust-eyeshadow-diamond-dog/">Urban Decay Moondust Eyeshadow in &#8220;Diamond Dog&#8221;</a></p>
+<p style="text-align: left;"><a title="Stila Magnificent Metals Foil Finish Eye Shadow in Vintage Black Gold" href="/stila-magnificent-metals-foil-finish-eye-shadow-vintage-black-gold/">Stila Magnificent Metals in &#8220;Vintage Black Gold&#8221;</a></p>
+<p style="text-align: left;">Urban Decay &#8220;Heist&#8221;</p>
+<p style="text-align: left;"><a title="MAC Trax Eyeshadow" href="/mac-trax-eyeshadow/">MAC &#8220;Trax&#8221; (ALL TIME FAVE)</a></p>
+<p style="text-align: left;">NARS &#8220;Galapagos&#8221;</p>
+<p style="text-align: left;">Sephora Collection &#8220;Aspen Summit&#8221;</p>
+<p style="text-align: left;">Anastasia Brow Powder Duo in &#8220;Brunette/Dark Brown&#8221;</p>
+<p style="text-align: center;"><strong>Lip and Eye Pencils</strong></p>
+<p style="text-align: left;">Cover Girl Perfect Blend Pencil in &#8220;Mink&#8221;</p>
+<p style="text-align: left;">MAC Lip Pencil in &#8220;Burgundy&#8221;</p>
+<p style="text-align: left;">Urban Decay 24/7 Glide-On Eye Pencil in &#8220;1999&#8221;</p>
+<p style="text-align: left;">Urban Decay 24/7 Glide-On Eye Pencil Duo in &#8220;Zero/Whisky&#8221; (ALL TIME FAVE)</p>
+<p style="text-align: left;">Urban Decay 24/7 Glide-On Eye Pencil in &#8220;Flipside&#8221;</p>
+<p style="text-align: left;">Urban Decay 24/7 Glide-On Eye Pencil in &#8220;Smoke&#8221;</p>
+<p style="text-align: left;">Sephora Lip Pencil in &#8220;Pure Pinky&#8221;</p>
+<p style="text-align: left;">MAC Lip Pencil in &#8220;Spice&#8221;</p>
+<p style="text-align: left;">Urban Decay 24/7 Glide-On Lip Pencil in &#8220;Wicked&#8221;</p>
+<p style="text-align: left;">NARS Velvet Gloss Lip Pencil in &#8220;New Lover&#8221;</p>
+<p style="text-align: left;">Urban Decay Super Saturated High Gloss Lip Color in &#8220;Crush&#8221;</p>
+<p style="text-align: left;"><a title="Stila Stay All Day Waterproof Liquid Eyeliner" href="/stila-stay-all-day-waterproof-liquid-eyeliner/">Stila Stay All Day Waterproof Liquid Eyeliner in &#8220;Intense Black&#8221;</a></p>
+<p style="text-align: left;">Sephora Eye Pencil in &#8220;Pure White&#8221;</p>
+<p style="text-align: left;">Urban Decay 24/7 Glide-On Eye Pencil in &#8220;Perversion&#8221;</p>
+<p style="text-align: center;"><strong>Miscellaneous!</strong></p>
+<p>Double barreled pencil sharpener</p>
+<p>Eyelash curler</p>
+<p>Rubberband!!</p>
+<p style="text-align: center;"><strong>Brushes</strong></p>
+<p style="text-align: left;">There are a ton of brushes in there, but I&#8217;m not going to run through them because I&#8217;ve already done that, in detail, <a title="Brush Up, Part 1" href="/brush-up/">HERE</a>, <a title="Brush Up, Part 2" href="/brush-up-part-2/">HERE</a> and <a title="Brush Up, Part 3" href="/brush-up-part-3/">HERE</a>.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p><picture><source srcset="/wp-content/uploads/2013/10/makeup-bag-finished-1024x611.jpg.webp 1024w, /wp-content/uploads/2013/10/makeup-bag-finished-300x179.jpg.webp 300w, /wp-content/uploads/2013/10/makeup-bag-finished-1272x759.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img decoding="async" class="aligncenter size-large wp-image-689" alt="makeup bag finished" src="/wp-content/uploads/2013/10/makeup-bag-finished-1024x611.jpg" width="696" height="415" srcset="/wp-content/uploads/2013/10/makeup-bag-finished-1024x611.jpg 1024w, /wp-content/uploads/2013/10/makeup-bag-finished-300x179.jpg 300w, /wp-content/uploads/2013/10/makeup-bag-finished-1272x759.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>TA-DAA!! The finished product!</em></p>
+<p>I&#8217;m super stoked because my new makeup bag has an inner zipper pouch, so I can throw all my lip and eye pencils in there and cut out the possibility of a loose lid coming off and smearing color all over everything. This is why I had to wipe EVERYTHING down before it went into the new bag, it was all spotted with liner! Makeup wise, there are few things more frustrating than doing your makeup without realizing you have greasy, black pencil all over your hands. You learn about that mess the hard way when you go to make a tiny adjustment with your finger, and put a black smudge on the center of your perfectly contoured and powdered nose.</p>
+<p>These are my ride or die soldiers right HEAH. I use this stuff all the time, it all travels with me, I take the contents of this bag VERY SERIOUSLY. Some of it is always in there, some of it gets cycled out, but the list mostly stays the same. If anything, it just grows. I keep having to buy bigger and bigger bags. I imagine once I get my acrylic drawers, I&#8217;ll pare the bag down a little more. But, until then, ALL HAIL MY BAG OF TRICKS.</p>
+<p>I hope this peek into my makeup bag is fun for you guys! If anyone has any questions about how I use any of this stuff, or if you want to see swatches of anything in particular, let me know!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-679" class="clear post-679 post type-post status-publish format-standard hentry category-eyeshadow category-stila">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/eyeshadow/" rel="category tag">Eyeshadow</a>, <a href="/category/stila/" rel="category tag">Stila</a></span><h1 class="entry-title"><a href="/stila-magnificent-metals-foil-finish-eye-shadow-vintage-black-gold/" rel="bookmark">Stila Magnificent Metals Foil Finish Eye Shadow in Vintage Black Gold</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/stila-magnificent-metals-foil-finish-eye-shadow-vintage-black-gold/" title="10:34 am" rel="bookmark"><time datetime="2013-10-08T10:34:17-07:00">October 8, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/stila-magnificent-metals-foil-finish-eye-shadow-vintage-black-gold/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/10/stila-magnificent-foils.jpg.webp 450w, /wp-content/uploads/2013/10/stila-magnificent-foils-150x150.jpg.webp 150w, /wp-content/uploads/2013/10/stila-magnificent-foils-300x300.jpg.webp 300w" sizes="(max-width: 450px) 100vw, 450px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-685" alt="stila magnificent foils" src="/wp-content/uploads/2013/10/stila-magnificent-foils.jpg" width="450" height="450" srcset="/wp-content/uploads/2013/10/stila-magnificent-foils.jpg 450w, /wp-content/uploads/2013/10/stila-magnificent-foils-150x150.jpg 150w, /wp-content/uploads/2013/10/stila-magnificent-foils-300x300.jpg 300w" sizes="(max-width: 450px) 100vw, 450px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.sephora.com/magnificent-metals-foil-finish-eye-shadow-P382314">Sephora, $32</a></em></p>
+<p style="text-align: left;">A couple of weeks ago, on my way out of Sephora, I ran into these shadows. I had to go back to the counter because once I saw this color on my fingertips, there was no way I was leaving without it.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/10/stila-magnificent-foils-swatch-1024x463.jpg.webp 1024w, /wp-content/uploads/2013/10/stila-magnificent-foils-swatch-300x135.jpg.webp 300w, /wp-content/uploads/2013/10/stila-magnificent-foils-swatch-1272x576.jpg.webp 1272w, /wp-content/uploads/2013/10/stila-magnificent-foils-swatch.jpg.webp 1470w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-682" alt="stila magnificent foils swatch" src="/wp-content/uploads/2013/10/stila-magnificent-foils-swatch-1024x463.jpg" width="487" height="220" srcset="/wp-content/uploads/2013/10/stila-magnificent-foils-swatch-1024x463.jpg 1024w, /wp-content/uploads/2013/10/stila-magnificent-foils-swatch-300x135.jpg 300w, /wp-content/uploads/2013/10/stila-magnificent-foils-swatch-1272x576.jpg 1272w, /wp-content/uploads/2013/10/stila-magnificent-foils-swatch.jpg 1470w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Soooo pretty&#8230;</em></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-1024x845.jpg.webp 1024w, /wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-300x247.jpg.webp 300w, /wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-1272x1050.jpg.webp 1272w, /wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2.jpg.webp 2046w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-681" alt="stila magnificent metals shadow 2" src="/wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-1024x845.jpg" width="487" height="402" srcset="/wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-1024x845.jpg 1024w, /wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-300x247.jpg 300w, /wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2-1272x1050.jpg 1272w, /wp-content/uploads/2013/10/stila-magnificent-metals-shadow-2.jpg 2046w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Soooo hard to photograph&#8230;.</em></p>
+<p style="text-align: left;">This brilliant metallic cream shadow comes with a primer and a mixing tray to help you get the perfect foil lid. The color is buildable from a semi-sheer shimmer to a full on opaque foil. It&#8217;s easy to mix up, and application with fingertips is best. Admittedly, I can see how this product could be a little tricky for makeup newbies —I faced some difficulty getting my eyes blended evenly— but, practice makes perfect!</p>
+<p style="text-align: left;">This particular color, Vintage Black Gold, is a smoky brown-gold that reflects crazy gold the more you build. I had no problems with fallout on my cheeks during application, and, most importantly, I had no problems with fallout into my contacts. That&#8217;s the WORST.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/10/stila-magnificent-foils-face-768x1024.jpg.webp 768w, /wp-content/uploads/2013/10/stila-magnificent-foils-face-225x300.jpg.webp 225w, /wp-content/uploads/2013/10/stila-magnificent-foils-face.jpg.webp 960w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-683" alt="stila magnificent foils face" src="/wp-content/uploads/2013/10/stila-magnificent-foils-face-768x1024.jpg" width="557" height="742" srcset="/wp-content/uploads/2013/10/stila-magnificent-foils-face-768x1024.jpg 768w, /wp-content/uploads/2013/10/stila-magnificent-foils-face-225x300.jpg 225w, /wp-content/uploads/2013/10/stila-magnificent-foils-face.jpg 960w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/10/stila-magnificent-foils-face-2-768x1024.jpg.webp 768w, /wp-content/uploads/2013/10/stila-magnificent-foils-face-2-225x300.jpg.webp 225w, /wp-content/uploads/2013/10/stila-magnificent-foils-face-2.jpg.webp 960w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-684" alt="stila magnificent foils face 2" src="/wp-content/uploads/2013/10/stila-magnificent-foils-face-2-768x1024.jpg" width="557" height="742" srcset="/wp-content/uploads/2013/10/stila-magnificent-foils-face-2-768x1024.jpg 768w, /wp-content/uploads/2013/10/stila-magnificent-foils-face-2-225x300.jpg 225w, /wp-content/uploads/2013/10/stila-magnificent-foils-face-2.jpg 960w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: left;">This eye look is all Vintage Black Gold on the lid, and under the eye. I used my fingertips to apply it to my lid, and a very thin brush to line under my eyes.</p>
+<p style="text-align: left;">The $32 price tag is a little steep. I really can&#8217;t remember ever paying that much for a single shadow before, actually. But, this color and this finish together is kind of my dream. Jason was with me when I found it at Sephora, and he didn&#8217;t even protest a little bit about the price because, as soon as I touched the shadow, I started SHAKING WITH EXCITEMENT. Clearly, we were meant to be, me and Stila Magnificent Metals Foil Finish Eye Shadow in Vintage Black Gold. Our love is powerful.</p>
+<p style="text-align: left;">A little bit of this shadow goes a long way, and I really like getting the primer and the little tray included, so the price wasn&#8217;t that painful. I think it&#8217;s worth it for how easy this product makes it to get this high-metallic foil look.</p>
+<p style="text-align: left;"><a href="http://www.sephora.com/magnificent-metals-foil-finish-eye-shadow-P382314">Buy it HERE.</a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-677" class="clear post-677 post type-post status-publish format-standard hentry category-mac">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/mac/" rel="category tag">MAC</a></span><h1 class="entry-title"><a href="/rihanna-hearts-mac-fall-presale/" rel="bookmark">Rihanna Hearts MAC Fall Presale!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/rihanna-hearts-mac-fall-presale/" title="1:32 pm" rel="bookmark"><time datetime="2013-10-02T13:32:28-07:00">October 2, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>Just a little FYI&#8230;</p>
+<p>You can go buy any pieces you want from MAC&#8217;s Fall collaboration with Rihanna right now, and pick them up tomorrow when they officially go on sale! I went down to the MAC counter at the mall this morning, and did just that. I only ordered one lipstick, since nothing else really tickled my fancy. The eyeshadow quads look great, but I have similar colors in other brands, and I just can&#8217;t justify the purchase. Oh! If you really want RiRi Woo, this might be a good way to try and get it.</p>
+<p>I was in such a hurry to get to the MAC counter, that I didn&#8217;t pay attention to where I parked, and then when I came back out to the parking lot, I couldn&#8217;t find my car! And then I couldn&#8217;t find my keys. And <strong>then</strong> I knew for sure that I had dropped my keys walking in, and some slick car thief took my car and now my precious Corolla was being broken down for parts.</p>
+<p>For a second there, I was a weirdo wandering aimlessly through the mall parking lot though. Some old lady even eyed me suspiciously! But then, I found my keys in a little pocket inside a little pocket in my bag, and I found my car in another part of the parking lot. So, crisis averted! Well, more crisis averted. I was already in a crisis when I thought I got our car stolen.</p>
+<p>Go get yer RiRi on! Pay attention to where you parked!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-675" class="clear post-675 post type-post status-publish format-standard hentry category-blemish-control category-face category-skincare">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/blemish-control/" rel="category tag">Blemish Control</a>, <a href="/category/face/" rel="category tag">Face</a>, <a href="/category/skincare/" rel="category tag">Skincare</a></span><h1 class="entry-title"><a href="/shower-scene/" rel="bookmark">Shower Scene</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/shower-scene/" title="10:00 am" rel="bookmark"><time datetime="2013-10-02T10:00:38-07:00">October 2, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/shower-scene/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>If this all sounds less cohesive than usual, it&#8217;s because I&#8217;m on the PMS/stress eating special, and that includes wine and drugs and cookies and In N Out cheeseburgers, so, WHEEEEE!!!</p>
+<p><picture><source srcset="/wp-content/uploads/2013/10/wine-and-cookie-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/10/wine-and-cookie-300x225.jpg.webp 300w, /wp-content/uploads/2013/10/wine-and-cookie-1272x954.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-676" alt="wine and cookie" src="/wp-content/uploads/2013/10/wine-and-cookie-1024x768.jpg" width="696" height="522" srcset="/wp-content/uploads/2013/10/wine-and-cookie-1024x768.jpg 1024w, /wp-content/uploads/2013/10/wine-and-cookie-300x225.jpg 300w, /wp-content/uploads/2013/10/wine-and-cookie-1272x954.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><i>MOMMY NEEDS HER MEDICINE.</i></p>
+<p>Look at me!! I&#8217;m Hemingway!! Blah, blah, bullfights, blah, blah cats, blah blah Key West, blah blah blah big sweaters, blah blah blah blah I&#8217;m drunk and everyone loves me!</p>
+<p>Anyways, I was just reading something on another site, and the author of the article casually mentioned her shower routine. It went like this: rinse, shampoo, wash face, wash body, conditioner. I don&#8217;t want to write one of those &#8220;the way you do this totally normal thing is wrong&#8221; pieces, but that&#8217;s wrong. I&#8217;m sorry. It&#8217;s wrong.</p>
+<p>I was shocked by it, actually! It&#8217;s one of those things that I assume everyone knows.</p>
+<p>Maybe I just have too much time on my hands, so I spend too much time thinking about dumb shit, but there&#8217;s a reason that shower order is wrong.</p>
+<p>Conditioner.</p>
+<p>Conditioner, your face bumps and YOU!</p>
+<p>You guys see how this is wrong, right? Conditioner is creamy grease for your hair. If you&#8217;re washing your face prior to conditioning your hair, you&#8217;re just re-greasing your face. You&#8217;re greasing your face in a steamy, wet, warm room, so your skin is good and receptive to all those extra deep conditioners, oils, cremes, whatever.</p>
+<p>You really should be washing and conditioning your hair prior to washing your face or your body. That way, all your polluted hair soap, and conditioner runoff will be cascading down your dirty, dirty bodies, instead of your already clean bodies and faces. So, like, my routine goes: get everything wet, wash and condition my hair, wash my body, detail my butt, THEN I wash my face. Last.</p>
+<p>It&#8217;s a really small change that can make a big difference; especially if you have persistent bumps around your hairline, jaw and chin.</p>
+<p>Ok. That&#8217;s it. I&#8217;m going to schedule this to go up in the morning and go back to my wine, drugs and cookies. You can&#8217;t have any wine until you finish all your drug cookies!</p>
+<p>Meown.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-669" class="clear post-669 post type-post status-publish format-standard hentry category-floss-gloss category-nails">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/floss-gloss/" rel="category tag">Floss Gloss</a>, <a href="/category/nails/" rel="category tag">Nails</a></span><h1 class="entry-title"><a href="/floss-gloss-nail-lacquer-blood-suede-tears/" rel="bookmark">Floss Gloss Nail Lacquer in Blood, Suede &#038; Tears</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/floss-gloss-nail-lacquer-blood-suede-tears/" title="11:44 am" rel="bookmark"><time datetime="2013-09-30T11:44:26-07:00">September 30, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/floss-gloss-nail-lacquer-blood-suede-tears/#comments">3 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-150x150.jpg.webp 150w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-300x300.jpg.webp 300w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-1272x1272.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-670" alt="floss gloss blood suede and tears" src="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-1024x1024.jpg 1024w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-150x150.jpg 150w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-300x300.jpg 300w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-1272x1272.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://flossgloss.com/collections/lacquers/products/blood-suede-tears"><em>Blood, Suede &amp; Tears, Floss Gloss, $8</em></a></p>
+<p>I picked up Blood, Suede &amp; Tears during Floss Gloss&#8217; flash sale a few weeks ago. I&#8217;d been hovering around it since its release at the beginning of summer, so a sale gave me a good excuse to finally give in to DESIRE.</p>
+<p>This polish originally debuted as part of their &#8220;Super 70s Summer Collection,&#8221; but I haven&#8217;t seen a color this 90s since, like, 1996.</p>
+<p>It is SO 90s.</p>
+<p>I know these things happen in cycles, so it was only a matter of time before brown cosmetics made their way back into my life. Next up, TINY MACRAME BACKPACK!!</p>
+<p>When Blood, Suede &amp; Tears showed up at my house, I was a little taken aback by exactly how BROWN it was. I was like, &#8220;Sarah. Are you ready for this? Can you handle this? You know this brown polish is just going to be a gateway to brown lipstick.&#8221;</p>
+<p>I WON&#8217;T DO IT.</p>
+<p>I do love this polish though. I LOVE this polish.</p>
+<p>Like I said, in the bottle, it was so, so brown. On the nail, it was a warm, orangey, burgundy. It&#8217;s the color of chocolate syrup!! It&#8217;s warm and vampy, perfect for fall. 1994 me would have freaked out. She would have gone crazy for it, paired it with her brown lipstick, laced up her Docs, and gone back to talking to boys wearing flannels.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-768x1024.jpg.webp 768w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-225x300.jpg.webp 225w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-1272x1696.jpg.webp 1272w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-671" alt="floss gloss blood suede and tears pic" src="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-768x1024.jpg 768w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-225x300.jpg 225w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-pic-1272x1696.jpg 1272w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Brown lipstick, check. Oversized henley shirt, check. Bad attitude, check.</em></p>
+<p>I swear to you, I can still see a SEVENTEEN editorial from the 90s all about different shades of brown lipsticks and polishes that featured a color just like this. I remember it because I thought it looked so good. I wanted it for my back to school look!!</p>
+<p>Allow me to demonstrate exactly how 90s this color is by juxtaposing it with a bunch of stuff from the 90s that still lives in my house:</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-768x1024.jpg.webp 768w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-225x300.jpg.webp 225w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-1272x1696.jpg.webp 1272w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-672" alt="floss gloss blood suede and tears kurt" src="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-768x1024.jpg 768w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-225x300.jpg 225w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-kurt-1272x1696.jpg 1272w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Aww, cheer up, guy! It gets better! </em></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-300x225.jpg.webp 300w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-1272x954.jpg.webp 1272w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-673" alt="floss gloss blood suede and tears collage" src="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-1024x768.jpg 1024w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-300x225.jpg 300w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-collage-1272x954.jpg 1272w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>90S ART PROJECT</em></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-300x225.jpg.webp 300w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-1272x954.jpg.webp 1272w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-674" alt="floss gloss blood suede and tears zines" src="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-1024x768.jpg 1024w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-300x225.jpg 300w, /wp-content/uploads/2013/09/floss-gloss-blood-suede-and-tears-zines-1272x954.jpg 1272w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">ZINES, YOU GUYS. NOT PICTURED: The zine I used to make.</p>
+<p style="text-align: left;">Do you know how hard I had to look for those zines? Not hard at all! They were just sitting on my desk! I don&#8217;t know why!</p>
+<p style="text-align: left;">In conclusion, of course the grrrls at Floss Gloss would be the ones to turn me back to brown polish. They always seem to know what I want before I do. It&#8217;s weird. Some might say it&#8217;s&#8230;.eerie. Indiana. Eerie, Indiana.</p>
+<p style="text-align: left;">Get it?!</p>
+<p style="text-align: left;">It&#8217;s a show from the 90s. How old are you!?</p>
+<p style="text-align: left;">Don&#8217;t tell me. I don&#8217;t want to know.</p>
+<p style="text-align: left;"><a href="http://flossgloss.com/collections/lacquers/products/blood-suede-tears">Buy Blood, Suede &amp; Tears <strong>HERE</strong>.</a></p>
+<p style="text-align: center;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-662" class="clear post-662 post type-post status-publish format-standard hentry category-a-man-duhh category-friday-im-in-love category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/a-man-duhh/" rel="category tag">A man duhh</a>, <a href="/category/friday-im-in-love/" rel="category tag">Friday I'm in Love</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/jason-cosper-review-pics/" rel="bookmark">Jason Cosper Review and Pics</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/jason-cosper-review-pics/" title="1:33 pm" rel="bookmark"><time datetime="2013-09-27T13:33:53-07:00">September 27, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/jason-cosper-review-pics/#comments">7 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/09/fridayiminlove1-1024x400.jpg.webp 1024w, /wp-content/uploads/2013/09/fridayiminlove1-300x117.jpg.webp 300w, /wp-content/uploads/2013/09/fridayiminlove1-1272x496.jpg.webp 1272w, /wp-content/uploads/2013/09/fridayiminlove1.jpg.webp 1280w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-664" alt="fridayiminlove1" src="/wp-content/uploads/2013/09/fridayiminlove1-1024x400.jpg" width="696" height="271" srcset="/wp-content/uploads/2013/09/fridayiminlove1-1024x400.jpg 1024w, /wp-content/uploads/2013/09/fridayiminlove1-300x117.jpg 300w, /wp-content/uploads/2013/09/fridayiminlove1-1272x496.jpg 1272w, /wp-content/uploads/2013/09/fridayiminlove1.jpg 1280w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p>&nbsp;</p>
+<p>Can I talk about something unrelated to makeup? I can, right? You guys are cool with that? I knew you would be!</p>
+<p>Man. You guys are awesome.</p>
+<p>You know who else is awesome?</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/jason-bunny.jpg.webp 717w, /wp-content/uploads/2013/09/jason-bunny-224x300.jpg.webp 224w" sizes="(max-width: 502px) 100vw, 502px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-665" alt="jason bunny" src="/wp-content/uploads/2013/09/jason-bunny.jpg" width="502" height="672" srcset="/wp-content/uploads/2013/09/jason-bunny.jpg 717w, /wp-content/uploads/2013/09/jason-bunny-224x300.jpg 224w" sizes="(max-width: 502px) 100vw, 502px" data-eio="p"></picture></p>
+<p style="text-align: center;">THIS GUY.</p>
+<p style="text-align: left;">I&#8217;m 100% sure it was my idea for him to wear my bunny hat, and since he&#8217;s a good sport and a hilarious dude, here we are.</p>
+<p style="text-align: left;">Jason is always up for the joke. More importantly, he&#8217;s up for my jokes.</p>
+<p style="text-align: left;">And let me tell you, I have got JOKES.</p>
+<p style="text-align: left;">We just got back from a trip to Santa Barbara for our three year anniversary, so I&#8217;ve been spending a lot of time with this guy. I&#8217;m happy to say, that after a week of nearly 24/7 contact, I still really like him.</p>
+<p style="text-align: left;">It was touch and go there for a minute when we were arguing in the car on the drive, but then we got to the hotel, and forgot all about it. We&#8217;re good like that; we can recover from a fight almost instantly if you distract us. We&#8217;re not even really mad, we&#8217;re just dumb.</p>
+<p style="text-align: left;">Dumb idiots in love.</p>
+<p style="text-align: left;">Dumb idiot know-it-all smarty pants sarcastic depressives in love.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/sarah-and-jason.jpg.webp 900w, /wp-content/uploads/2013/09/sarah-and-jason-300x200.jpg.webp 300w" sizes="(max-width: 630px) 100vw, 630px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-666" alt="sarah and jason" src="/wp-content/uploads/2013/09/sarah-and-jason.jpg" width="630" height="420" srcset="/wp-content/uploads/2013/09/sarah-and-jason.jpg 900w, /wp-content/uploads/2013/09/sarah-and-jason-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-eio="p"></picture></p>
+<p style="text-align: left;">How did I ever go those first 24 years without him? What did I do? Was I happy?  Was I bored? It&#8217;s hard to remember now.</p>
+<p style="text-align: left;">I bet I was so bored!</p>
+<p style="text-align: left;">We&#8217;ve been together for almost 8 years now, and things haven&#8217;t been boring so far. Frustrating? Sometimes. Sexual? You know it! Boring? No way.</p>
+<p style="text-align: left;">Well&#8230;.</p>
+<p style="text-align: left;">Maybe the Star Wars parts are boring. I prefer to talk about Indiana Jones or Planet of the Apes.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/09/Cosper-family.jpg.webp 604w, /wp-content/uploads/2013/09/Cosper-family-300x225.jpg.webp 300w" sizes="(max-width: 604px) 100vw, 604px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-667" alt="Cosper family" src="/wp-content/uploads/2013/09/Cosper-family.jpg" width="604" height="453" srcset="/wp-content/uploads/2013/09/Cosper-family.jpg 604w, /wp-content/uploads/2013/09/Cosper-family-300x225.jpg 300w" sizes="(max-width: 604px) 100vw, 604px" data-eio="p"></picture></p>
+<p style="text-align: center;">How did we get so lucky? How does anyone get so lucky?</p>
+<p style="text-align: left;">I married the funniest, smartest dude I&#8217;ve ever met.</p>
+<p style="text-align: left;">I&#8217;ve met a lot of funny ones.</p>
+<p style="text-align: left;">A handful of smart ones.</p>
+<p style="text-align: left;">Maybe three funny AND smart ones.</p>
+<p style="text-align: left;">Only one Jason.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/sarah-and-jason-rings.jpg.webp 720w, /wp-content/uploads/2013/09/sarah-and-jason-rings-300x225.jpg.webp 300w" sizes="(max-width: 554px) 100vw, 554px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-668" alt="sarah and jason rings" src="/wp-content/uploads/2013/09/sarah-and-jason-rings.jpg" width="554" height="416" srcset="/wp-content/uploads/2013/09/sarah-and-jason-rings.jpg 720w, /wp-content/uploads/2013/09/sarah-and-jason-rings-300x225.jpg 300w" sizes="(max-width: 554px) 100vw, 554px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>GROSS.</em></p>
+<p style="text-align: left;">We talk about everything, we fight about the things we need to fight about, we don&#8217;t stay mad for long, we hold hands in bed every night when we fall asleep. He encourages everything I ever want to do, he believes in me.</p>
+<p style="text-align: left;">It was his idea to bring Rowdy home.</p>
+<p style="text-align: left;">What would I do without him?</p>
+<p style="text-align: left;">Oh, sick. I hate to even think about it.</p>
+<p style="text-align: left;">In conclusion, since I will never stop being an angsty teen with a dark song in my heart, I&#8217;d like to leave you with a poem I wrote for him last year. He&#8217;s the only person who&#8217;s ever seen it. I really intended on keeping it that way, but I want to put it out there: I really love Jason Cosper.</p>
+<p style="text-align: center;"><strong>A LOVE POEM FOR JASON</strong></p>
+<p>When we die,</p>
+<p>I want my bones to be buried inside your bones.</p>
+<p>My ribcage inside your ribcage</p>
+<p>my spine locked together with yours</p>
+<p>tibias, clavicles, teeth and fingers all mixed up.</p>
+<p>It’s comforting to think about,</p>
+<p>when I’m scaring myself with my own mortality,</p>
+<p>this idea of us together.</p>
+<p>It’s romantic to imagine,</p>
+<p>when I’m paralyzed by fear.</p>
+<p>Your bones guarding mine.</p>
+<p>My bones touching yours.</p>
+<p>Whatever happens next,</p>
+<p>whether we see it or not,</p>
+<p>I’d die knowing I’d be with you.</p>
+<p>The earth above pressing us into each other.</p>
+<p>Fusing us together.</p>
+<p>Parted by death no more.</p>
+<p>My bones inside your bones.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-661" class="post-661 post type-post status-publish format-image hentry category-personal post_format-post-format-image">
+	<style>#post-661 { background-color: #5d5450; }
+			#post-661,
+			#post-661 a,
+			#post-661 .entry-title,
+			#post-661 .entry-title a { color: rgb(255,255,255); }
+			#post-661 a:hover,
+			#post-661 .entry-title a:hover { color: rgba(255,255,255, 0.7); }
+			#post-661 .entry-format-badge { background-color: rgb(255,255,255); }
+			#post-661 .entry-format-badge:hover { background-color: rgba(255,255,255, 0.7); }
+			#post-661 a.entry-format-badge:before { color: #5d5450;}
+			#post-661 .entry-meta span,
+			#post-661 .entry-meta,
+			#post-661 div.sharedaddy div.sd-block { border-color: rgba(255,255,255, 0.1); }
+			#post-661 .entry-content a { border-color: rgba(255,255,255, 0.2); }
+			#post-661 .entry-content a:hover { border-color: rgba(255,255,255, 1); color: rgb(255,255,255); }
+			#post-661 .entry-meta span + span:before { color: rgba(255,255,255, 0.2); }</style>
+	<div class="entry-wrap wrap clear">
+		<div class="entry-content clear">
+			<p><a href="/wp-content/uploads/2013/09/20130924-161026.jpg"><picture><source srcset="/wp-content/uploads/2013/09/20130924-161026.jpg.webp" type="image/webp"><img decoding="async" src="/wp-content/uploads/2013/09/20130924-161026.jpg" alt="20130924-161026.jpg" class="alignnone size-full" data-eio="p"></picture></a></p>
+<p>Be back from vacation soon!</p>
+					</div>
+<!-- .entry-content -->
+
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/gone-fission/" rel="bookmark">Gone Fission</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/gone-fission/" title="4:11 pm" rel="bookmark"><time datetime="2013-09-24T16:11:43-07:00">September 24, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+			<span class="entry-format"><a href="/type/image/" title="All Image posts">Image</a></span>
+
+					</footer><!-- .entry-meta -->
+
+		
+		<a class="entry-format-badge theme-genericon" href="/type/image/" title="All Image posts"><span class="screen-reader-text">Image</span></a>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-657" class="clear post-657 post type-post status-publish format-standard hentry category-birchbox">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/birchbox/" rel="category tag">Birchbox</a></span><h1 class="entry-title"><a href="/birchbox-swap-party/" rel="bookmark">Birchbox Swap Party!!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/birchbox-swap-party/" title="10:48 am" rel="bookmark"><time datetime="2013-09-18T10:48:18-07:00">September 18, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/birchbox-swap-party/#comments">12 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>A few days ago, I had a brilliant idea.</p>
+<p>A brilliant idea that would combine four of my favorite things: new beauty products, my friend Erin, my friend Denys, and lunch.</p>
+<p style="text-align: center;"><strong>BIRCHBOX SWAP PARTY!!!!</strong></p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/09/birchbox-swap-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/09/birchbox-swap-300x225.jpg.webp 300w, /wp-content/uploads/2013/09/birchbox-swap-1272x954.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-658" alt="birchbox swap" src="/wp-content/uploads/2013/09/birchbox-swap-1024x768.jpg" width="696" height="522" srcset="/wp-content/uploads/2013/09/birchbox-swap-1024x768.jpg 1024w, /wp-content/uploads/2013/09/birchbox-swap-300x225.jpg 300w, /wp-content/uploads/2013/09/birchbox-swap-1272x954.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><strong>DID I INVENT THIS?! I THINK I INVENTED THIS!</strong></p>
+<p style="text-align: left;">We all went through our Birchboxes for the last few months, gathered up the samples we didn&#8217;t use or didn&#8217;t like, and met for lunch! Then, we dumped everything out and started swapping! It was so fun to see the things they got in their Birchboxes! It was SO FUN to pick new samples! It was so fun to talk to Denys into keeping her red lipstick!</p>
+<p style="text-align: left;">My Cuban sandwich gave me a stomach ache.</p>
+<p style="text-align: left;">But, my Birchbox swap idea gave me a great big head! Because my friends loved it!</p>
+<p style="text-align: left;">So now, I have a bunch of new samples to try, and a standing date with my friends to swap smooches and products.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/09/birchbox-swap-haul-1024x774.jpg.webp 1024w, /wp-content/uploads/2013/09/birchbox-swap-haul-300x226.jpg.webp 300w, /wp-content/uploads/2013/09/birchbox-swap-haul-1272x961.jpg.webp 1272w, /wp-content/uploads/2013/09/birchbox-swap-haul.jpg.webp 2032w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-659" alt="birchbox swap haul" src="/wp-content/uploads/2013/09/birchbox-swap-haul-1024x774.jpg" width="696" height="526" srcset="/wp-content/uploads/2013/09/birchbox-swap-haul-1024x774.jpg 1024w, /wp-content/uploads/2013/09/birchbox-swap-haul-300x226.jpg 300w, /wp-content/uploads/2013/09/birchbox-swap-haul-1272x961.jpg 1272w, /wp-content/uploads/2013/09/birchbox-swap-haul.jpg 2032w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>I&#8217;m smelly and into sun protection.</em></p>
+<p style="text-align: left;">If you and your friends get Birchbox subscriptions, I really recommend you start your own chapter of the Birchbox Lunch Bunch. If you don&#8217;t get Birchbox, you should!</p>
+<p style="text-align: left;">I think next time I&#8217;m going to make us all wear fancy red hats. The good ideas just keep coming!</p>
+<p style="text-align: left;"><a href="http://birch.ly/1aAhoAx">Get your own Birchbox subscription <strong>HERE</strong>.</a></p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-653" class="clear post-653 post type-post status-publish format-standard hentry category-birchbox category-lips category-nails">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/birchbox/" rel="category tag">Birchbox</a>, <a href="/category/lips/" rel="category tag">Lips</a>, <a href="/category/nails/" rel="category tag">Nails</a></span><h1 class="entry-title"><a href="/birchbox-september-2013-review-pics/" rel="bookmark">Birchbox September 2013, Review and Pics</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/birchbox-september-2013-review-pics/" title="10:23 am" rel="bookmark"><time datetime="2013-09-17T10:23:13-07:00">September 17, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/birchbox-september-2013-review-pics/#comments">5 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/09/birchbox-913-1024x830.jpg.webp 1024w, /wp-content/uploads/2013/09/birchbox-913-300x243.jpg.webp 300w, /wp-content/uploads/2013/09/birchbox-913-1272x1031.jpg.webp 1272w, /wp-content/uploads/2013/09/birchbox-913.jpg.webp 1568w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-654" alt="birchbox 9:13" src="/wp-content/uploads/2013/09/birchbox-913-1024x830.jpg" width="696" height="564" srcset="/wp-content/uploads/2013/09/birchbox-913-1024x830.jpg 1024w, /wp-content/uploads/2013/09/birchbox-913-300x243.jpg 300w, /wp-content/uploads/2013/09/birchbox-913-1272x1031.jpg 1272w, /wp-content/uploads/2013/09/birchbox-913.jpg 1568w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p>Damn you, Birchbox.</p>
+<p>After my first box was whatever, and that was followed by a box that was way late, I was ready to be mad. I had a strong thirst for haterade, and I was all set to chug it.</p>
+<p>But I keep getting great boxes!!</p>
+<p>This month&#8217;s box is the third box in a row that has been pretty spot on. I&#8217;ll use everything in it, and I&#8217;m actually going to BUY a full sized product this month! That&#8217;s never happened before!</p>
+<p>Let&#8217;s get to it. From left to right&#8230;.</p>
+<p style="text-align: center;"><strong>Serge Normant Meta Luxe Hair Spray</strong></p>
+<p style="text-align: left;">What they said: Airy mist that keeps your &#8216;do smooth and frizz free, and also shields strands from UV rays.</p>
+<p style="text-align: left;">What I say: I haven&#8217;t used this yet! I don&#8217;t really have a lot of use for hairspray in my day to day life. I do like to keep my travel toiletries bag stocked with travel size products, that way I only have to throw in the extra stuff I&#8217;m bringing, so I&#8217;m going to add this hairspray to that bag. It smells really, really good. That&#8217;s nice. I have one travel size hairspray that, I&#8217;m telling you, it smells like dead bodies. I&#8217;m going to chuck that one and add this one.</p>
+<p style="text-align: center;"><strong>Ruffian Nail Lacquer &#8211; Delirium</strong></p>
+<p style="text-align: left;">What they said: Bold purple from the fashion label&#8217;s first lacquer collection.</p>
+<p style="text-align: left;">What I say: WHOA THIS POLISH IS NICE.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/birchbox-913-ruffian-polish-1024x727.jpg.webp 1024w, /wp-content/uploads/2013/09/birchbox-913-ruffian-polish-300x213.jpg.webp 300w, /wp-content/uploads/2013/09/birchbox-913-ruffian-polish-1272x903.jpg.webp 1272w, /wp-content/uploads/2013/09/birchbox-913-ruffian-polish.jpg.webp 1882w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-655" alt="birchbox 9:13 ruffian polish" src="/wp-content/uploads/2013/09/birchbox-913-ruffian-polish-1024x727.jpg" width="487" height="346" srcset="/wp-content/uploads/2013/09/birchbox-913-ruffian-polish-1024x727.jpg 1024w, /wp-content/uploads/2013/09/birchbox-913-ruffian-polish-300x213.jpg 300w, /wp-content/uploads/2013/09/birchbox-913-ruffian-polish-1272x903.jpg 1272w, /wp-content/uploads/2013/09/birchbox-913-ruffian-polish.jpg 1882w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: left;">It is surely a bold purple, and I swear I&#8217;m picking up some shifting dark blue in there. The checkout lady at the grocery store said to me, &#8220;That&#8217;s a beautiful cobalt blue polish you have on!&#8221; And I was like, thanks. For whatever reason, I always find myself arguing with people over what is and isn&#8217;t purple. So, I just let this one go. It does look pretty blue indoors.</p>
+<p style="text-align: left;">The Ruffian bottle is pretty, and the handle on the brush made application super easy! The formula of their polish is really luxe. Deeply pigmented, beautifully self leveling, and flowing from the brush; I only really needed one coat. I did two just because I always do. Gorgeous.</p>
+<p style="text-align: center;"><strong>Grand Central Beauty S.M.A.R.T. Skin Perfecting Polisher</strong></p>
+<p style="text-align: left;">What they said: This multitasker made with natural botanical exfoliates, tones, smoothes, <em>and </em>moisturizes.</p>
+<p style="text-align: left;">What I say:  UMMM. FUN!!! This stuff is fun! You massage a little bit onto your face, and all this crud comes off! Little beads in the gel scrub everything up and lift it away. The bottle says rinsing is optional, so I didn&#8217;t rinse to see what would happen. Everything worked out great! My skin was soft, smooth and bright. My little bottle had some weird pink stuff all over it, and it was only about half full, but it was still cool.</p>
+<p style="text-align: center;"><strong>Dr. Lipp Original Nipple Balm for Lips</strong></p>
+<p style="text-align: left;">What they said: Originally made for nursing moms, this ultra hydrating balm is a makeup artist fave.</p>
+<p style="text-align: left;">What I say: I&#8217;m buying this!! It nailed my chapped lips and my scratchy cuticles in one fell swoop. A little bead of balm was all it took to take care of everything. LOVE IT. BUYING IT. WANT IT AT MY HOUSE. THE LIPS ARE THE NIPPLES OF THE FACE.</p>
+<p style="text-align: center;"><strong>Keratherapy Deep Conditioning Masque</strong></p>
+<p style="text-align: left;">What they said: Right any number of hair sins with this intensely restorative, keratin infused masque.</p>
+<p style="text-align: left;">What I say: I haven&#8217;t used this yet. It came in while <a title="Coconut Oil Hair Mask: The Results Show" href="/coconut-oil-hair-mask-results-show/">I had my head shellacked in a coconut scented disaster</a>, and I was feeling a little deep conditioned out. I&#8217;ll get to it soon. I always think my hair is too dry.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p style="text-align: left;">So, I guess at this point, I can really say I&#8217;m enjoying my Birchbox subscription. If the boxes keep coming like this, I&#8217;ll be happy. And still no perfume samples! I hate perfume samples.</p>
+<p style="text-align: left;"><a href="https://www.birchbox.com/?raf=f87ft&amp;utm_campaign=raf&amp;utm_source=birchbox&amp;utm_medium=raf_link">Get your own Birchbox subscription <strong>HERE</strong>. </a></p>
+<p style="text-align: left;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-650" class="clear post-650 post type-post status-publish format-standard hentry category-hair category-kitchen-sink-beauty category-moisturizer">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/hair/" rel="category tag">Hair</a>, <a href="/category/kitchen-sink-beauty/" rel="category tag">Kitchen Sink Beauty</a>, <a href="/category/moisturizer/" rel="category tag">Moisturizer</a></span><h1 class="entry-title"><a href="/coconut-oil-hair-mask-results-show/" rel="bookmark">Coconut Oil Hair Mask: The Results Show</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/coconut-oil-hair-mask-results-show/" title="9:23 am" rel="bookmark"><time datetime="2013-09-16T09:23:06-07:00">September 16, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/coconut-oil-hair-mask-results-show/#comments">16 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I know you&#8217;ve all been anxiously waiting to hear the outcome of my coconut oil experiment; and we&#8217;ll get to that, but first, let&#8217;s take a look back on the road to the finale&#8230;</p>
+<p>There was that time I followed a random idea that floated through my head and told you guys about it,</p>
+<p><strong><a title="Surprise! Coconut Oil Hair Mask!" href="/surprise-coconut-oil-hair-mask/">&#8220;I’ve got coconut oil, a hotel shower cap, very dry ends, a mildly ambitious attitude, and last night’s Project Runway.</a></strong></p>
+<p><strong><a title="Surprise! Coconut Oil Hair Mask!" href="/surprise-coconut-oil-hair-mask/">I’m going to get to the bottom of this coconut oil as hair mask situation for myself. Plus, this is going to be a good way to force myself into taking a shower.&#8221;</a></strong></p>
+<p>Then, I played with my phone, watched television and posted pictures on <a href="https://www.facebook.com/TheLabBunny">Facebook</a>:</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/coconut-oil-mask.jpg.webp 640w, /wp-content/uploads/2013/09/coconut-oil-mask-218x300.jpg.webp 218w" sizes="(max-width: 512px) 100vw, 512px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-651" alt="coconut oil mask" src="/wp-content/uploads/2013/09/coconut-oil-mask.jpg" width="512" height="704" srcset="/wp-content/uploads/2013/09/coconut-oil-mask.jpg 640w, /wp-content/uploads/2013/09/coconut-oil-mask-218x300.jpg 218w" sizes="(max-width: 512px) 100vw, 512px" data-eio="p"></picture></p>
+<p>Finally, I left us with the million dollar question&#8230;.</p>
+<p style="text-align: center;"><strong><a href="/coconut-oil-hair-mask-special-bulletin/">&#8220;Is my hair wet? Is my hair greasy?&#8221;</a></strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/09/20130913-155623.jpg.webp 640w, /wp-content/uploads/2013/09/20130913-155623-218x300.jpg.webp 218w" sizes="(max-width: 512px) 100vw, 512px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-648" alt="20130913-155623.jpg" src="/wp-content/uploads/2013/09/20130913-155623.jpg" width="512" height="704" srcset="/wp-content/uploads/2013/09/20130913-155623.jpg 640w, /wp-content/uploads/2013/09/20130913-155623-218x300.jpg 218w" sizes="(max-width: 512px) 100vw, 512px" data-eio="p"></picture></p>
+<p style="text-align: center;">NOBODY KNEW.</p>
+<p style="text-align: left;">And that about brings us up to speed.</p>
+<p style="text-align: left;">The answer?</p>
+<p style="text-align: left;">I was SO greasy, buddy!</p>
+<p style="text-align: left;"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-652" alt="pauly shore gif" src="/wp-content/uploads/2013/09/pauly-shore-gif.gif" width="500" height="280"></p>
+<p style="text-align: center;">In a bad way. Not in a Pauly Shore way. Which is a GREAT way.</p>
+<p style="text-align: left;">This just didn&#8217;t work out great for me. Some weird stuff did happen though, so I&#8217;ll share.</p>
+<p style="text-align: left;">I think the idea to try this out popped into my head because my hair has been through a lot lately. I&#8217;ve been swimming a lot, and I have the suspicion that my Suave coconut conditioner is not up to the task of taking care of that sun and chlorine damage. My hair was feeling pretty dry and poofy. My hair is never poofy. But, you could gather it up in a ponytail, and it was like a big clump at the end. GROSS.</p>
+<p style="text-align: left;">At first, I was super stoked about the way the oil was feeling, because it seemed like my hair was really sucking it up. I&#8217;d add more, and it would be gone. All in all, I probably used a little over a 1/4 cup of oil in my hair. Is that too much? In retrospect, it seems like a lot. I have a lot of hair though, so maybe it isn&#8217;t? I massaged the oil into my scalp, and all down the entire length of my hair, being really generous at the ends. After my head felt saturated, I pulled it up into a shower cap, and waited for about an hour and a half.</p>
+<p style="text-align: left;">As soon as I started trying to wash out the oil in the shower, I knew I had made a mistake. It was pretty readily apparent that my cleansing conditioner was going to struggle with removing the oil. And, whoa, struggle it did. After a little while, there didn&#8217;t seem to be any more I could do, so I got out, hoping that meant the oil that was left was there because my hair wanted it. NOPE! The oil that was left was there because I couldn&#8217;t wash it. There was a lot of it. Everything from my ears down was slick with oil. It was weird though because it didn&#8217;t feel heavy, or even really sticky greasy. You could easily run your fingers through my hair, and it was light. It was greasy though; all piecey and slick. It was strange. I&#8217;d never really felt and oiliness like that.</p>
+<p style="text-align: left;">Instead of getting back in the shower, I braided my hair into milkmaid braids and pinned them up. I was still optimistic that, in the end, everything would work out. Now it was like I was having a long term moisture treatment on my hair! How luxurious! I left it like that for about a day, and then I tried again to wash it out.</p>
+<p style="text-align: left;">This time, I used shampoo.</p>
+<p style="text-align: left;">Here&#8217;s where another weird thing happened! The second the shampoo went onto my hair, everything tangled up! It was fucking bizarre! It felt like my hair completely flipped from a slick, over greasy, stick straight mess to a rough, tangled, tumbleweed mess. Scrubbing was a nightmare, everything pulled and hurt. Conditioner barely helped. It was a disaster!</p>
+<p style="text-align: left;">And don&#8217;t even get me started on the death trap that was my shower floor while all this was happening.</p>
+<p style="text-align: left;">I dried my hair and I was unimpressed. My hair was shinier and softer, but not soft or shiny enough to make it worth all the mess. You can get faster results from a regular deep conditioner.</p>
+<p style="text-align: left;">If you still want to try it, go for it. As usual, your results will vary. Tread very carefully if you have thin or fine hair, and maybe don&#8217;t do it if you have somewhere to be in the same day.</p>
+<p style="text-align: left;">So, there you have it. More bullshit that doesn&#8217;t work as well as I&#8217;d hoped!</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				<nav role="navigation" id="nav-below" class="navigation-paging double">
+		<div class="wrap clear">
+			<h1 class="screen-reader-text">Post navigation</h1>
+
+		
+						<div class="next"><a href="/page/9/"><span class="meta-nav">&rarr;</span> <span class="text-nav">Newer posts</span></a></div>
+			
+						<div class="previous"><a href="/page/11/"><span class="meta-nav">&larr;</span> <span class="text-nav">Older posts</span></a></div>
+			
+		
+		</div>
+	</nav><!-- #nav-below -->
+	
+		
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+
+
+	</div>
+<!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info wrap">
+						<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Ryu by <a href="http://automattic.com/" rel="designer">Automattic</a>.		</div>
+<!-- .site-info -->
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+<script type="text/javascript" src="/wp-content/themes/ryu/js/navigation.js?ver=20120206" id="ryu-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/skip-link-focus-fix.js?ver=20130115" id="ryu-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/ryu.js?ver=20130319" id="ryu-theme-js"></script>
+
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41236199-1']);
+  _gaq.push(['_trackPageview']);
+
+  setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+</body>
+</html>

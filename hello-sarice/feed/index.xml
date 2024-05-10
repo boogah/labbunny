@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Hello, Sarice	</title>
+	<atom:link href="/hello-sarice/feed/" rel="self" type="application/rss+xml" />
+	<link>/hello-sarice/</link>
+	<description></description>
+	<lastBuildDate>Fri, 30 Aug 2013 17:22:47 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>
+		By: Erin-Kurley		</title>
+		<link>/hello-sarice/#comment-374</link>
+
+		<dc:creator><![CDATA[Erin-Kurley]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2013 17:22:47 +0000</pubDate>
+		<guid isPermaLink="false">https://labbunny.zbucaao2-liquidwebsites.com/?p=593#comment-374</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/hello-sarice/#comment-373&quot;&gt;Erin-Kurley&lt;/a&gt;.
+
+Also, I&#039;m glad I decided to take a beat and Google &quot;fava beans&quot;. Because I almost said &quot;Favre beans&quot;. Big dumb idiot!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/hello-sarice/#comment-373">Erin-Kurley</a>.</p>
+<p>Also, I&#8217;m glad I decided to take a beat and Google &#8220;fava beans&#8221;. Because I almost said &#8220;Favre beans&#8221;. Big dumb idiot!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Erin-Kurley		</title>
+		<link>/hello-sarice/#comment-373</link>
+
+		<dc:creator><![CDATA[Erin-Kurley]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2013 17:14:08 +0000</pubDate>
+		<guid isPermaLink="false">https://labbunny.zbucaao2-liquidwebsites.com/?p=593#comment-373</guid>
+
+					<description><![CDATA[I&#039;m hungry for the delicious flavor of my own face. I chew the insides of my cheeks when I&#039;m nervous or stressed. A la carte! No fava beans, no chianti no nothing. Chomp chomp chomp...]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m hungry for the delicious flavor of my own face. I chew the insides of my cheeks when I&#8217;m nervous or stressed. A la carte! No fava beans, no chianti no nothing. Chomp chomp chomp&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Maintenance Archives - The Lab Bunny</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://labbunny.com/wp-content/themes/ryu/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Maintenance Archives - The Lab Bunny</title>
+	<link rel="canonical" href="/category/maintenance/">
+	<link rel="next" href="/category/maintenance/page/2/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Maintenance Archives - The Lab Bunny">
+	<meta property="og:url" content="/category/maintenance/">
+	<meta property="og:site_name" content="The Lab Bunny">
+	<meta property="og:image" content="/wp-content/uploads/2013/04/cropped-labbunny.jpg">
+	<meta property="og:image:width" content="328">
+	<meta property="og:image:height" content="328">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@labbunny">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"/category/maintenance/","url":"/category/maintenance/","name":"Maintenance Archives - The Lab Bunny","isPartOf":{"@id":"/#website"},"breadcrumb":{"@id":"/category/maintenance/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"/category/maintenance/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Maintenance"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"The Lab Bunny","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Maintenance Category Feed" href="/category/maintenance/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/ryu/genericons/genericons.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-style-css" href="/wp-content/themes/ken/style.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-lato-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-playfair-display-css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/12">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('labbunny.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>	<style type="text/css">.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		.header-image {
+			margin-bottom: 0;
+		}</style>
+			<style type="text/css" id="wp-custom-css">.ch_poweredby {
+	display: none;
+}
+
+.social a, .social a:hover {
+	border: 0;
+}</style>
+		</head>
+
+<body class="archive category category-maintenance category-12 group-blog">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+
+
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="toppanel hide">
+		<div id="secondary" role="complementary" class="wrap clear four">
+		<div id="top-sidebar-one" class="widget-area" role="complementary">
+			</div>
+<!-- #first .widget-area -->
+	
+		<div id="top-sidebar-two" class="widget-area" role="complementary">
+		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">Gaby Love</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-8103">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">May</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-7932">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Zee</span> on <a href="/sephora-precision-pore-cleansing-pad/#comment-7655">Sephora Precision Pore Cleansing Pad</a>
+</li>
+</ul></aside>	</div>
+<!-- #second .widget-area -->
+	
+		<div id="top-sidebar-three" class="widget-area" role="complementary">
+			</div>
+<!-- #third .widget-area -->
+	
+		<div id="top-sidebar-four" class="widget-area" role="complementary">
+		<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>
+			<ul>
+					<li><a href="/2015/04/">April 2015</a></li>
+	<li><a href="/2015/01/">January 2015</a></li>
+	<li><a href="/2014/10/">October 2014</a></li>
+	<li><a href="/2014/09/">September 2014</a></li>
+	<li><a href="/2014/08/">August 2014</a></li>
+	<li><a href="/2014/07/">July 2014</a></li>
+	<li><a href="/2014/06/">June 2014</a></li>
+	<li><a href="/2014/05/">May 2014</a></li>
+	<li><a href="/2014/04/">April 2014</a></li>
+	<li><a href="/2014/03/">March 2014</a></li>
+	<li><a href="/2014/02/">February 2014</a></li>
+	<li><a href="/2014/01/">January 2014</a></li>
+	<li><a href="/2013/12/">December 2013</a></li>
+	<li><a href="/2013/11/">November 2013</a></li>
+	<li><a href="/2013/10/">October 2013</a></li>
+	<li><a href="/2013/09/">September 2013</a></li>
+	<li><a href="/2013/08/">August 2013</a></li>
+	<li><a href="/2013/07/">July 2013</a></li>
+	<li><a href="/2013/06/">June 2013</a></li>
+	<li><a href="/2013/05/">May 2013</a></li>
+	<li><a href="/2013/04/">April 2013</a></li>
+			</ul>
+
+			</aside>	</div>
+<!-- #four .widget-area -->
+	</div>
+<!-- #secondary -->	</div>
+	
+	
+	<div id="search-wrapper" class="toppanel hide">
+		
+<form method="get" id="searchform" class="searchform" action="https://labbunny.com/" role="search">
+	<label for="s" class="screen-reader-text">Search</label>
+	<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;">
+	<input type="submit" class="submit" id="searchsubmit" value="Search">
+</form>	</div>
+
+	<div id="triggers-wrapper">
+		<ul class="triggers clear">
+						<li class="widgets-trigger">
+				<a href="#" class="genericon" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</a>
+			</li>
+			
+			
+			<li class="search-trigger">
+				<a href="#" class="genericon" title="Search">
+					<span class="screen-reader-text">Search</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="wrap">
+			
+							<a class="site-logo" href="/" title="The Lab Bunny" rel="home">
+					<picture><source srcset="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png.webp" type="image/webp"><img src="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png" width="1280" height="250" alt="" class="no-grav header-image" data-eio="p"></picture>
+				</a>
+			
+			<hgroup>
+				<h1 class="site-title"><a href="/" title="The Lab Bunny" rel="home">The Lab Bunny</a></h1>
+				<h2 class="site-description"></h2>
+			</hgroup>
+		</div>
+<!-- .wrap -->
+
+					<nav id="site-navigation" class="navigation-main clear" role="navigation">
+				<h1 class="menu-toggle">Menu</h1>
+				<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="wrap"><ul id="menu-menu" class="menu">
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="/about/">About</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="/contact/">Contact</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="https://www.facebook.com/TheLabBunny">Facebook</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://twitter.com/LabBunny">Twitter</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-272"><a href="http://instagram.com/thelabbunny">Instagram</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<section id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+			<header class="page-header">
+				<div class="wrap">
+					<h1 class="page-title">
+						Category Archives: <span>Maintenance</span>					</h1>
+									</div>
+			</header><!-- .page-header -->
+
+						
+				
+<article id="post-1099" class="clear post-1099 post type-post status-publish format-standard hentry category-bargain-beauty category-blemish-control category-cetaphil category-cleansers category-face category-maintenance category-skincare">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/bargain-beauty/" rel="category tag">Bargain Beauty</a>, <a href="/category/blemish-control/" rel="category tag">Blemish Control</a>, <a href="/category/cetaphil/" rel="category tag">Cetaphil</a>, <a href="/category/cleansers/" rel="category tag">Cleansers</a>, <a href="/category/face/" rel="category tag">Face</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/skincare/" rel="category tag">Skincare</a></span><h1 class="entry-title"><a href="/worlds-easiest-resolution/" rel="bookmark">The World&#8217;s Easiest Resolution</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/worlds-easiest-resolution/" title="8:00 am" rel="bookmark"><time datetime="2015-01-16T08:00:42-08:00">January 16, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/worlds-easiest-resolution/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I&#8217;m not a resolutions person. Obviously. I mean, here I am, knocking the dust off this blog well into the second (technically third) week of January. A resolutions person would have been here that first Monday. To me, New Year&#8217;s resolutions are amateur hour. I&#8217;m making and breaking promises to myself 365, BAYBAY!!</p>
+<p>My problem is, I always go too big. Lose weight, save money, find my life&#8217;s purpose, blah blah. That stuff is a lot of work! You know what&#8217;s probably way better for our mental well-being? Starting small. Make your bed every day! Kick your panties into the hamper instead of leaving them sunny-side up in the bathroom! Mop!<br>
+No. Don&#8217;t mop. I&#8217;m sorry I said that. FUCK mopping.</p>
+<p>How about, instead, you could resolve to have cleaner skin? You don&#8217;t even have to buy a new face wash, or an expensive cleansing brush. Are you all ready for my ONE WEIRD TRICK?</p>
+<p>Here it is:</p>
+<p>Wash your face longer. For 60 whole seconds. That&#8217;s it.</p>
+<p>Real talk, you guys; I know what you&#8217;re doing. I see how quickly you wash your face. I SEE YOU. But, it&#8217;s ok! I used to do the same thing! In fact, I considered myself a pretty accomplished face washer. I washed my face every night and most mornings, I used my Clarisonic. I would even wash my face when I was three sheets to an ill wind! Some of the mascara might be left behind, but, I&#8217;d AT LEAST use a cleansing wipe. So, pretty good, right? Pretty good, but could be better. Like, maybe better if I didn&#8217;t rush through it in just a few seconds. You know, like how washing a fork with soap real fast is good, but making sure you get all the crud off is preferable?</p>
+<p>Still not convinced? (Pretend you&#8217;re not convinced.) Will a little bit of Beauty School Confidential help? Consider this; a big reason for the effectiveness of a spa facial is the extensive time spent on cleansing. Most estheticians will cleanse your skin twice during a facial. When all is said and done, you&#8217;re going to get, probably, a combined five minutes of solid cleanser on skin action. It&#8217;s not an accident that your skin is so bright after that! I mean, the <em>default</em> time on my Clarisonic is 60 seconds, and that thing is using sonic vibrations, or whatever, AND bristles. If the Clarisonic needs 60 seconds to get your face clean with all that technology behind it, your sweet lil fingers need at least that long. It&#8217;s so easy though! A big part of this cleaner face resolution is the simplicity, because hopefully, you&#8217;re already washing your face. So, you don&#8217;t have to do a whole new thing, you just have to a regular thing differently.</p>
+<p>&#8220;But, Sarah,&#8221; you might be thinking, &#8220;60 seconds is a long time to count! What if I get bored or lose my place? What if I count too fast or too slow? How am I supposed to keep track of the time when I&#8217;m in the shower in all my nudely glory?!&#8221; It&#8217;s easy! Zones, guys. It&#8217;s all about zones. Your forehead? ZONE. Nose down to your chin? ZONE. Those precious cheeks? ZONE(S). Three zones, 20 seconds each. That&#8217;s all you need to do to get cleaner skin. It&#8217;s free, it&#8217;s easy, it works!</p>
+<p>Since I&#8217;ve been making an effort to wash my face more thoroughly, I&#8217;ve seen a visible improvement in my skin. I have a lot less tiny white heads around my eye/cheek area, and, I haven&#8217;t been getting random, underground, throbbing, volcanic breakouts on my jaw and chin. I even managed to avoid the inevitable eruptions I deal with whenever I get sick, and those are usually really gross, and really hard to kill.</p>
+<p><picture><source srcset="/wp-content/uploads/2015/01/clean-skin-e1421386030944.jpg.webp" type="image/webp"><img fetchpriority="high" decoding="async" class="aligncenter wp-image-1101 size-full" src="/wp-content/uploads/2015/01/clean-skin-e1421386030944.jpg" alt="clean skin" width="540" height="540" data-eio="p"></picture></p>
+<p style="text-align: center;">HASHTAG NO FILTER</p>
+<p style="text-align: left;">HASHTAG NO FOUNDATION, too. That&#8217;s right. No foundation. I have on a little concealer around my nose to cover some tissue related redness, and, I have on a little under eye brightener. But, that&#8217;s it. No foundation, no powder. No filter! Just my clean, moisturized skin. For comparison, here&#8217;s an unedited photo from the end of last summer.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/clean-face-comparison-e1421387573768.jpg.webp" type="image/webp"><img decoding="async" class="aligncenter wp-image-1102 size-full" src="/wp-content/uploads/2015/01/clean-face-comparison-e1421387573768.jpg" alt="clean face comparison" width="540" height="540" data-eio="p"></picture></p>
+<p style="text-align: left;">I think you can tell a difference. In the first picture my skin looks brighter, clearer, and smoother. I&#8217;m wearing a full face in this photo, and my skin still doesn&#8217;t look as good. See what I&#8217;m saying? I&#8217;m not making it up!</p>
+<p style="text-align: left;">I don&#8217;t even use an expensive cleanser.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/cetaphil-cleanser.jpg.webp 300w, /wp-content/uploads/2015/01/cetaphil-cleanser-225x300.jpg.webp 225w" sizes="(max-width: 300px) 100vw, 300px" type="image/webp"><img decoding="async" class="aligncenter size-full wp-image-1104" src="/wp-content/uploads/2015/01/cetaphil-cleanser.jpg" alt="cetaphil cleanser" width="300" height="400" srcset="/wp-content/uploads/2015/01/cetaphil-cleanser.jpg 300w, /wp-content/uploads/2015/01/cetaphil-cleanser-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.walgreens.com/store/c/cetaphil-daily-facial-cleanser-lotion/ID=prod351435-product">Cetaphil Daily Facial Cleanser, $7.49, Walgreens</a></em></p>
+<p style="text-align: left;">Bet you didn&#8217;t think it was going to be THAT cheap. A cheap cleanser and your free fingers. That&#8217;s all you need. It&#8217;s really so easy! Easier than losing weight, easier than kicking your underwear into the hamper, easier than pretty much most things, and you get nicer skin. Happy freaking New Year! So fresh and so clean in 2015!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-808" class="clear post-808 post type-post status-publish format-standard hentry category-maintenance category-nails category-nails-inc">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/nails/" rel="category tag">Nails</a>, <a href="/category/nails-inc/" rel="category tag">Nails Inc.</a></span><h1 class="entry-title"><a href="/nails-inc-kensington-caviar-base-coat/" rel="bookmark">Nails Inc. Kensington Caviar Base Coat</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/nails-inc-kensington-caviar-base-coat/" title="10:11 am" rel="bookmark"><time datetime="2013-12-03T10:11:57-08:00">December 3, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/nails-inc-kensington-caviar-base-coat/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/12/nails-inc-base-coat.png.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-810" alt="nails inc base coat" src="/wp-content/uploads/2013/12/nails-inc-base-coat.png" width="168" height="275" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.sephora.com/kensington-caviar-base-coat-P292006?skuId=1354786">Sephora, $10</a></em></p>
+<p style="text-align: left;">I&#8217;ve never had loyalty to a base coat like I do to <a title="Seche Vite Dry Fast Top Coat" href="/seche-vite-dry-fast-top-coat/">my beloved top coat</a>. I sort of just pick up whatever tickles my fancy at the time, and use it until I need a new one. A base coat has to be really bad or really good for me to notice any kind of difference between brands. Since I&#8217;m writing about this base coat, that has to mean it falls under one of those two categories.</p>
+<p style="text-align: left;">Drumroll!!</p>
+<p style="text-align: left;">It&#8217;s REALLY GOOD!!</p>
+<p style="text-align: left;">I bought this on sort of a whim during the Sephora Friends &amp; Family sale a few weeks ago. I was scraping the bottom of the barrel on my old bottle, and I was looking for something well reviewed that wasn&#8217;t too expensive. This Nails Inc. Kensington Caviar base coat easily fit the bill. I&#8217;ve been wearing it for nearly two weeks now, and it far exceeds any expectations I had.</p>
+<p style="text-align: left;">I wore it under a <a title="Floss Gloss Fall 2013 Princess of the Night Collection Swatches &amp; Review" href="/floss-gloss-fall-2013-princess-of-the-night-collection-swatches-review/">highly pigmented, creamy black polish</a> last week, and my manicure looked chip free for nearly the whole week. That&#8217;s pretty good. Through dishes, lots of typing, thoughtful/nervous/compulsive head scratching, and all my everyday dog and husband stuff, it held on. It also lasted through my cuticle chewing. Between the spit and the teeth scraping, most base coats give up the goat there, so the tops of my manicures are usually the first places to show chipping. I know that&#8217;s gross, and I&#8217;m sorry. It&#8217;s just one of the best ways I can illustrate the strength of this base coat.  It&#8217;s also the reason why I think I don&#8217;t catch common sicknesses very often. I always have my fingers in my mouth, so I think I&#8217;ve built up an immunity to, like, the germs that are on escalator handrails. OR, that could be how I caught Whooping Cough a couple year ago. I don&#8217;t think so though. I&#8217;m pretty sure I caught The Whoop from a coughing hooker who sat on the bench next to me inside a laundromat in Hollywood. She was not big on covering her mouth when she coughed.</p>
+<p style="text-align: left;">Anyways. I didn&#8217;t mean to take you guys on a guided tour of my medical history there. You know how these things go, set out to write about a great base coat, end up telling everyone about the time you got Whooping Cough! That old chestnut.</p>
+<p style="text-align: left;">Besides the great grip this base coat had on my polish, it also kept the color from staining my nails way better than my old base coat did. The black I was wearing stains like crazy, but it didn&#8217;t touch my nails. The skin around my nails was a mess when I took the polish off, but my nails were pretty clean.</p>
+<p style="text-align: left;">Since I removed the black polish, I&#8217;ve been wearing the base coat alone. It dries really shiny, and it has a light pink color that looks pretty without anything else.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/12/nails-inc-base-coat-swatch-984x1024.jpg.webp 984w, /wp-content/uploads/2013/12/nails-inc-base-coat-swatch-288x300.jpg.webp 288w, /wp-content/uploads/2013/12/nails-inc-base-coat-swatch-1272x1323.jpg.webp 1272w, /wp-content/uploads/2013/12/nails-inc-base-coat-swatch.jpg.webp 1968w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-811" alt="nails inc base coat swatch" src="/wp-content/uploads/2013/12/nails-inc-base-coat-swatch-984x1024.jpg" width="557" height="579" srcset="/wp-content/uploads/2013/12/nails-inc-base-coat-swatch-984x1024.jpg 984w, /wp-content/uploads/2013/12/nails-inc-base-coat-swatch-288x300.jpg 288w, /wp-content/uploads/2013/12/nails-inc-base-coat-swatch-1272x1323.jpg 1272w, /wp-content/uploads/2013/12/nails-inc-base-coat-swatch.jpg 1968w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>If there&#8217;s a way to photograph your fingers WITHOUT them looking like sausages, I haven&#8217;t found it. </em></p>
+<p style="text-align: left;">Lovely! As you can see, my nails are pretty long and strong right now. I&#8217;m chalking that up to this base coat too. The consistency of it is unlike other base coats. It isn&#8217;t thin, it&#8217;s sort of thick and almost gelatinous. I like that! It makes me feel like my nails are getting a good treatment. After making sure my nails were good and clean, I used two coats of base coat, and put it underneath the tips of my nails, too. I don&#8217;t know if it&#8217;s the caviar element, or what, but my nails aren&#8217;t splitting on the sides like they usually do when they get this long. I keep accidentally jabbing them into things, and I feel them bend, and I think they&#8217;ll for sure have a tear on the side, but I&#8217;m always wrong! It&#8217;s great! Despite the relative thickness of the formula, it goes on easily without any dragging or unevenness. It dries quickly to a super smooth finish that really makes a great, even base for your manicures.</p>
+<p style="text-align: left;">Base coats are important if you want to maintain your at home mani. Don&#8217;t skip this step! If you don&#8217;t use a base coat, start using one. You&#8217;ll see a difference!</p>
+<p style="text-align: left;">I love this base coat. I think you&#8217;ll love it too, especially if you have problems with nail breakage. I&#8217;m totally going to buy it again!</p>
+<p style="text-align: left;"><a href="http://www.sephora.com/kensington-caviar-base-coat-P292006?skuId=1354786">Buy Nails Inc. Kensington Caviar Base Coat HERE.</a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-787" class="clear post-787 post type-post status-publish format-standard hentry category-beauty-tools category-clarisonic category-cleansers category-friday-im-in-love category-maintenance category-skincare">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/beauty-tools/" rel="category tag">Beauty Tools</a>, <a href="/category/clarisonic/" rel="category tag">Clarisonic</a>, <a href="/category/cleansers/" rel="category tag">Cleansers</a>, <a href="/category/friday-im-in-love/" rel="category tag">Friday I'm in Love</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/skincare/" rel="category tag">Skincare</a></span><h1 class="entry-title"><a href="/worth-clarisonic-brush/" rel="bookmark">Worth it! Clarisonic Brush</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/worth-clarisonic-brush/" title="3:19 pm" rel="bookmark"><time datetime="2013-11-22T15:19:02-08:00">November 22, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/worth-clarisonic-brush/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/clarisonic.jpg.webp 640w, /wp-content/uploads/2013/11/clarisonic-218x300.jpg.webp 218w" sizes="(max-width: 512px) 100vw, 512px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-788" alt="clarisonic" src="/wp-content/uploads/2013/11/clarisonic.jpg" width="512" height="704" srcset="/wp-content/uploads/2013/11/clarisonic.jpg 640w, /wp-content/uploads/2013/11/clarisonic-218x300.jpg 218w" sizes="(max-width: 512px) 100vw, 512px" data-eio="p"></picture></p>
+<p style="text-align: left;">That&#8217;s my Clarisonic up thurr. It&#8217;s a beloved member of our household.</p>
+<p style="text-align: left;">I&#8217;ve been putting off doing a post about these because they&#8217;re pretty expensive, but today is the day! This is why&#8230;</p>
+<p style="text-align: left;">Last night, for funsies/research, I sat down and did a full face of makeup. I&#8217;m talking FACE BEAT. Foundation, contouring powder, concealer, blush, two different kinds of highlighter, three shadows, my waterproof liquid liner, several coats of mascara, lip liner, lipstick, and a finishing powder. I don&#8217;t need to tell you it was fucking beautiful. But, I will. It was fucking beautiful. Later, in the shower, I used a cleanser whose <em>specific job </em>is makeup removal. That&#8217;s its whole schtick. After I rinsed my face, I was suspicious of the results, my face just didn&#8217;t feel clean, so I took another pass at my skin with my Clarisonic. Would you like to guess what I found?</p>
+<p style="text-align: left;">Tons of makeup on my brush!!! The bristles were tan!</p>
+<p style="text-align: left;">I was properly horrified. I even shook my head in disgust.</p>
+<p style="text-align: left;">BECAUSE I WAS DISGUSTED!</p>
+<p style="text-align: left;">It was at that moment that I decided it was time to do my civic duty, and write my post. So, today, Friday I&#8217;m in Love with my Clarisonic!</p>
+<p style="text-align: left;">Like most people probably do, I initially balked at the price. They&#8217;re costly, there&#8217;s no way around that. But, last night&#8217;s experiment was all the validation I needed that mine was worth the money.</p>
+<p style="text-align: left;">I bought my brush after The Great Kiehl&#8217;s Disaster of 2010. My skin had been destroyed by a beauty experiment gone awry, and I was desperate for answers. I was breaking out a lot, and my face was dull and rough. My cheeks, specifically, were a mess. They felt thick, like scars, and I was afraid I&#8217;d done long term damage. I&#8217;d gone back to my old skincare routine, and I was exploring more drastic options, treatments, masks, etc. I did some research on the Clarisonic, convinced Jason it was practically a medical necessity, and bought one.</p>
+<p style="text-align: left;">After my first use, there was a difference; my skin was softer and brighter even using my usual cleanser. A week after I got it, my skin showed a lot of improvement. My makeup went on smoother, my moisturizer absorbed better, and my breakouts stopped. It was the first sign of hope that there could be a turnaround on my skin. I can&#8217;t even begin to describe my relief. I was <em>thisclose</em> to adopting a veil over my face when I left the house like I was Blanket Jackson.</p>
+<p style="text-align: left;">Since then, I&#8217;ve taken on a routine with my Clarisonic. They say it&#8217;s gentle enough to use twice a day, I think that&#8217;s overkill. I think using it every day is overkill. I suppose this varies by face, but all my education and real world experience has taught me that it&#8217;s very rare for anybody to really need to exfoliate every single day. If you decide to get one, you can easily figure out what&#8217;s too much; just pay attention to your skin. Be careful of any redness or soreness, and adjust accordingly. Someone who wears makeup every day should probably use it more often than someone who doesn&#8217;t. I don&#8217;t wear makeup every day, and I know my face doesn&#8217;t like to be exfoliated every night, so I use my Clarisonic 2-3 times a week. Unless I&#8217;m reviewing a product for the site, I always use it before I do masks or treatments. It gets your skin very, very clean, and I always include it when I&#8217;m wearing A LOT of makeup.</p>
+<p style="text-align: left;">I don&#8217;t know how you can justify the price to yourself. If you never get the chance to indulge in spa facials, maybe indulge in a Clarisonic. If you struggle with chronic or frequent skin problems, maybe tell yourself you&#8217;re upping the game! To be fair, you for sure would be, so it wouldn&#8217;t be a lie. Or, how about maybe you just want one, you are a GROWN WOMAN, and you deserve it! TREAT YO SELF.</p>
+<p style="text-align: left;"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-790" alt="treat yo self gif" src="/wp-content/uploads/2013/11/treat-yo-self-gif.gif" width="470" height="264"></p>
+<p style="text-align: left;">HEY! It&#8217;s time for people to give you presents, riiiiiiiight? Put it on your list! If you write it there, under &#8220;pony,&#8221; it looks totally reasonable!</p>
+<p style="text-align: left;"><a href="http://www.sephora.com/cleansing-brushes-tools-brushes">Buy your Clarisonic from Sephora <strong>HERE</strong>.</a></p>
+<p style="text-align: left;"><a href="http://www.clarisonic.com/shop-our-products/clarisonic-cleansing-devices">Or, buy it directly from Clarisonic HERE.</a></p>
+<p style="text-align: left;">Be wary about buying it from anywhere else, there are a lot of fakes out there. Don&#8217;t want to spend all that money on a knock off!</p>
+<p style="text-align: left;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-762" class="clear post-762 post type-post status-publish format-standard hentry category-beauty-tools category-cleansers category-education category-maintenance category-skincare">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/beauty-tools/" rel="category tag">Beauty Tools</a>, <a href="/category/cleansers/" rel="category tag">Cleansers</a>, <a href="/category/education/" rel="category tag">Education</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/skincare/" rel="category tag">Skincare</a></span><h1 class="entry-title"><a href="/cleaning-brushes-bacteria/" rel="bookmark">Cleaning Your Brushes: Bacteria and YOU!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/cleaning-brushes-bacteria/" title="1:57 pm" rel="bookmark"><time datetime="2013-11-18T13:57:00-08:00">November 18, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/cleaning-brushes-bacteria/#comments">4 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>When was the last time you washed your makeup brushes? A month ago? Last year? Never?</p>
+<p>NEVER?!</p>
+<p>DID YOU JUST SAY NEVER?!</p>
+<p>I just&#8230;</p>
+<p>I mean&#8230;</p>
+<p>I can&#8217;t even&#8230;</p>
+<p>That&#8217;s not ok.</p>
+<p>It&#8217;s not like I&#8217;ve never been guilty of letting my brushes get dirty. For a long time, it didn&#8217;t even occur to me to wash them. I think I thought since I was the only one using them, it wasn&#8217;t necessary.</p>
+<p>WRONG. JUST SUPER, SUPER WRONG.</p>
+<p>Oils, dust, dirt, makeup, bacteria&#8230;these are the things that live on your dirty brushes. So then you use them, and you smear all that gross stuff around your skin. Doesn&#8217;t that sound awful? Keeping your brushes clean is good for the life of your tools, and it&#8217;s good for the life of your skin. Plus, it&#8217;s really easy and super satisfying.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/photo-2-967x1024.jpg.webp 967w, /wp-content/uploads/2013/11/photo-2-283x300.jpg.webp 283w, /wp-content/uploads/2013/11/photo-2-1272x1345.jpg.webp 1272w, /wp-content/uploads/2013/11/photo-2.jpg.webp 1933w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-764" alt="photo-2" src="/wp-content/uploads/2013/11/photo-2-967x1024.jpg" width="557" height="590" srcset="/wp-content/uploads/2013/11/photo-2-967x1024.jpg 967w, /wp-content/uploads/2013/11/photo-2-283x300.jpg 283w, /wp-content/uploads/2013/11/photo-2-1272x1345.jpg 1272w, /wp-content/uploads/2013/11/photo-2.jpg 1933w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: left;">These are my dirty brushes. It&#8217;s been way too long since the last time I washed them. I&#8217;m really trying to get my skin in tip top shape, and I figured getting my brushes clean was a good idea. I&#8217;m not really acne prone, but I get those little white bumps. You can&#8217;t really see them unless you&#8217;re really looking, but I know they&#8217;re there, and I know what they are. Tiny little underground bacteria rocks. Gross. Have you ever tried to squeeze one of those out? That&#8217;s how I end up with a big hole in my face.</p>
+<p style="text-align: left;">First, you&#8217;re going to need a cleanser. You can use a mild shampoo, like a baby shampoo, but I prefer to use a cleanser specifically for brushes. Those usually have the added benefit of being antibacterial.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/11/sephora-brush-shampoo.jpg.webp 450w, /wp-content/uploads/2013/11/sephora-brush-shampoo-150x150.jpg.webp 150w, /wp-content/uploads/2013/11/sephora-brush-shampoo-300x300.jpg.webp 300w" sizes="(max-width: 450px) 100vw, 450px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-765" alt="sephora brush shampoo" src="/wp-content/uploads/2013/11/sephora-brush-shampoo.jpg" width="450" height="450" srcset="/wp-content/uploads/2013/11/sephora-brush-shampoo.jpg 450w, /wp-content/uploads/2013/11/sephora-brush-shampoo-150x150.jpg 150w, /wp-content/uploads/2013/11/sephora-brush-shampoo-300x300.jpg 300w" sizes="(max-width: 450px) 100vw, 450px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.sephora.com/purifying-brush-shampoo-P208012?skuId=1069954"><em>Sephora, 2 oz., $7</em></a></p>
+<p style="text-align: left;">I use this brush shampoo from Sephora. It does a great job of pulling even the most pigmented colors out of my brushes, and a little bit goes a long way.</p>
+<p style="text-align: left;">After you&#8217;ve decided on a shampoo, and you&#8217;ve washed all the dirty dishes in your sink, you&#8217;re ready to get started!</p>
+<p style="text-align: left;">First, thoroughly saturate your brush with lukewarm water.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/photo-21-768x1024.jpg.webp 768w, /wp-content/uploads/2013/11/photo-21-225x300.jpg.webp 225w, /wp-content/uploads/2013/11/photo-21-1272x1696.jpg.webp 1272w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-766" alt="photo 2" src="/wp-content/uploads/2013/11/photo-21-768x1024.jpg" width="557" height="742" srcset="/wp-content/uploads/2013/11/photo-21-768x1024.jpg 768w, /wp-content/uploads/2013/11/photo-21-225x300.jpg 225w, /wp-content/uploads/2013/11/photo-21-1272x1696.jpg 1272w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: left;">DO NOT drop it down the garage disposal. This was a dangerous game I was playing here. If any of those suckers had slipped down into that disgusting pit, that brush would have been dead to me. Like, might as well flip the switch and chop it into a million pieces because I never want to see it again. So, yeah, get your bristles good and wet, being careful not to lose it forever.</p>
+<p style="text-align: left;">Next, squirt a small amount of brush shampoo into the palm of your hand.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/photo-3-768x1024.jpg.webp 768w, /wp-content/uploads/2013/11/photo-3-225x300.jpg.webp 225w, /wp-content/uploads/2013/11/photo-3-1272x1696.jpg.webp 1272w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-767" alt="photo 3" src="/wp-content/uploads/2013/11/photo-3-768x1024.jpg" width="557" height="742" srcset="/wp-content/uploads/2013/11/photo-3-768x1024.jpg 768w, /wp-content/uploads/2013/11/photo-3-225x300.jpg 225w, /wp-content/uploads/2013/11/photo-3-1272x1696.jpg 1272w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: left;">Don&#8217;t skimp, but don&#8217;t go crazy either. You want enough to break everything up, but not so much that you can never rinse it out, or you waste a bunch.</p>
+<p style="text-align: left;">Then, swirl that brush around in the palm of your hand. You can go crazy here.</p>
+<p style="text-align: left;"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-768" alt="clean brush gif" src="/wp-content/uploads/2013/11/clean-brush-gif.gif" width="320" height="427"></p>
+<p style="text-align: left;">Really scrub it good! You&#8217;ll start to see all the makeup coming out of the bristles, it&#8217;s pretty gnarly. Add more shampoo if you feel like it&#8217;s running short. Sometimes, I do this part twice. Especially on my foundation brush. That&#8217;s the one in all the pictures, as you can see, it was really dirty.</p>
+<p style="text-align: left;">After you&#8217;re satisfied the shampoo has lifted out all the makeup and debris, give it a good, thorough rinse in the lukewarm water.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/photo-2-copy-878x1024.jpg.webp 878w, /wp-content/uploads/2013/11/photo-2-copy-257x300.jpg.webp 257w, /wp-content/uploads/2013/11/photo-2-copy-1272x1482.jpg.webp 1272w, /wp-content/uploads/2013/11/photo-2-copy.jpg.webp 1756w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-769" alt="photo-2 copy" src="/wp-content/uploads/2013/11/photo-2-copy-878x1024.jpg" width="557" height="649" srcset="/wp-content/uploads/2013/11/photo-2-copy-878x1024.jpg 878w, /wp-content/uploads/2013/11/photo-2-copy-257x300.jpg 257w, /wp-content/uploads/2013/11/photo-2-copy-1272x1482.jpg 1272w, /wp-content/uploads/2013/11/photo-2-copy.jpg 1756w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: left;">I see that this photo is sort of redundant. But, I&#8217;m trying to be as detailed as possible! Rinse, rinse, rinse the brush. Rinse it so good. Rinse it until the water is clear, and the bristles feel clean. You DO NOT want any extra shampoo or makeup left behind. That would make this whole thing totally pointless.</p>
+<p style="text-align: left;">After your brush has been fully rinsed, gently squeeze out any excess water, and then reshape your bristles and lay your brush flat, to dry.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/photo-2-copy-2-768x1024.jpg.webp 768w, /wp-content/uploads/2013/11/photo-2-copy-2-225x300.jpg.webp 225w, /wp-content/uploads/2013/11/photo-2-copy-2-1272x1696.jpg.webp 1272w" sizes="(max-width: 557px) 100vw, 557px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-770" alt="photo-2 copy 2" src="/wp-content/uploads/2013/11/photo-2-copy-2-768x1024.jpg" width="557" height="742" srcset="/wp-content/uploads/2013/11/photo-2-copy-2-768x1024.jpg 768w, /wp-content/uploads/2013/11/photo-2-copy-2-225x300.jpg 225w, /wp-content/uploads/2013/11/photo-2-copy-2-1272x1696.jpg 1272w" sizes="(max-width: 557px) 100vw, 557px" data-eio="p"></picture></p>
+<p style="text-align: left;">I like to put mine on a towel so they don&#8217;t go anywhere, and water doesn&#8217;t collect underneath the handles. I also like to let the bristles hang over the edge. That way, they dry evenly and you don&#8217;t have to come in and flip them. I wash my brushes when I know they&#8217;ll have plenty of time to dry, preferably overnight.</p>
+<p style="text-align: left;">When everything is dry, just get the bristles fluffed back the way they need to be, and you&#8217;re all set! No more gross tools of cross contamination!</p>
+<p style="text-align: left;">How often you clean your brushes is up to you. If you use your brushes on anyone else, you have to wash them after every time you use them. If yours is the only face they touch, then once is a week is the gold standard. If you never ever clean your brushes, try to get into the habit at least once a month, and work up from there. It&#8217;s a good thing to do for your tools and your complexion. My brushes are an investment, and they&#8217;ve been pretty carefully curated. I&#8217;d like them to last as long as possible.</p>
+<p style="text-align: left;">Keeping your brushes clean is the kind of thing that seems obvious, but I have a feeling that it&#8217;s the territory of people who are really serious about makeup. I know I sleep on cleaning my brushes more often than I should, and I&#8217;m a state licensed beauty professional. I should really know better! Let&#8217;s make it our Thanksgiving resolution to keep our brushes cleaner. Together, we can make the world a less bacteria laden place.</p>
+<p style="text-align: left;"><strong>P.S.</strong> I cleaned my BeautyBlender with Ivory soap. It took forever to rinse it clean, and I haven&#8217;t used it since then, so I don&#8217;t know if it was a complete success. It LOOKS like it&#8217;s clean, but the jury is still out. I&#8217;ll let you guys know.</p>
+<p style="text-align: left;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-593" class="clear post-593 post type-post status-publish format-standard hentry category-maintenance category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/hello-sarice/" rel="bookmark">Hello, Sarice</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/hello-sarice/" title="9:44 am" rel="bookmark"><time datetime="2013-08-30T09:44:22-07:00">August 30, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/hello-sarice/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I got totally good at not chewing or picking at my cuticles and the skin around my nails. I thought I broke a 20something years long habit. I was all proud of myself and feeling like I could accomplish anything. Like, I beat finger skin picking, it gets better and now I&#8217;m going to EGOT.</p>
+<p>PSYCH ON ME!</p>
+<p>Two of my fingers are bleeding right now, and the rest are mangled. That usually means I&#8217;m worried about something, but maybe I&#8217;m just hungry for my own delicious flavor. What the fuck? Sarah, you gross cannibal. I&#8217;m not even a fancy Hannibal Lecter type cannibal, I&#8217;m more the stick my own finger into a Ramen seasoning packet and then nibble on that type cannibal. ACK! So much sodium!</p>
+<p>For the record, I have never eaten my own Chicken seasoned finger. I&#8217;m just saying, I wouldn&#8217;t ever braise myself or anything.</p>
+<p>I promised myself a new full set of beautiful nails if I kicked the habit again, and I just got shipment notice on the <a title="Floss Gloss Fall 2013 Peep Show" href="/floss-gloss-fall-2013-peep-show/">FLOSS GLOSS Fall collection</a>. Time to put the <a title="TokyoMilk La Vie La Mort No. 90 Handcreme" href="/tokyomilk-la-vie-la-mort-no-90-handcreme/">smelly hand lotion</a> on the skin, and slap my own fingers away from myself again!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-376" class="clear post-376 post type-post status-publish format-standard hentry category-maintenance category-nails">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/nails/" rel="category tag">Nails</a></span><h1 class="entry-title"><a href="/asp-nail-wrap-kit/" rel="bookmark">ASP Nail Wrap Kit</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/asp-nail-wrap-kit/" title="7:30 am" rel="bookmark"><time datetime="2013-06-25T07:30:53-07:00">June 25, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/asp-nail-wrap-kit/#comments">7 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>Did you guys know you could patch a torn natural nail? I didn&#8217;t. All these years, I&#8217;ve been breaking one nail and then mournfully cutting off the other nine. Finding out now that things could have been different all along, well&#8230;.it smarts. Growing out your nails is hard work! You can&#8217;t open soda cans, umm, you have to wear rubber gloves when you wash dishes, you have to be careful opening doors and stuff. Like I said, hard work!</p>
+<p>Almost 2 weeks ago, I found a little tear in one of my nails. It was the kind that was up in the pink, so you know it&#8217;s bad. Not only are you going to lose your nail with one of those tears, but it&#8217;s going to hurt like a mother in the process. Then, you have to deal with that soft, pink, nail bed. It&#8217;s like a turtle without a shell! Just all exposed and sad. I&#8217;ve been growing out these nails since my <a title="White Noise" href="/white-noise/">white manicure</a>, and I was not going to let them go without a fight. After a little internet sleuthing, some television, maybe a nosh, I headed for the Sally Beauty closest to my house to see what I could work up.</p>
+<p>SIDE NOTE: Do you guys dislike going to Sally like I do? Maybe it&#8217;s because I usually beauty supply shop in the pro shops (ASSHOLE ALERT), but the Sally stores, and most of the girls working in them, are kinda tacky and dated. Am I just a snob?</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/8ball.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-378" alt="8ball" src="/wp-content/uploads/2013/06/8ball.jpg" width="240" height="197" data-eio="p"></picture></p>
+<p style="text-align: center;">Damn.</p>
+<p style="text-align: left;">During my investigative process, I found people saying  you could fix a nail with fiberglass nail wraps and nail glue. So, at the beauty supply, I ended up buying this ASP Nail Wrap Kit. I *think* it&#8217;s for doing at home acrylics, but it has everything in it, besides alcohol, you&#8217;d need to do a nail repair.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM.png.webp 336w, /wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM-201x300.png.webp 201w" sizes="(max-width: 336px) 100vw, 336px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-377" alt="Screen Shot 2013-06-24 at 9.47.15 AM" src="/wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM.png" width="336" height="500" srcset="/wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM.png 336w, /wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM-201x300.png 201w" sizes="(max-width: 336px) 100vw, 336px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.sallybeauty.com/nail-wrap-kit/SBS-156362,default,pd.html?cm_vc=SEARCH"><em>ASP Nail Wrap Kit, Sally Beauty, $14.99-$16.99</em></a></p>
+<p style="text-align: left;">This is so, so, so easy. Stupid easy. You&#8217;ll be shocked!</p>
+<p style="text-align: left;">First things first, gather up your supplies. Besides the kit, you&#8217;ll need little scissors, tweezers, rubbing alcohol, cotton balls, a paper towel, a plastic shopping bag, and a nail buffer. I use <a href="http://www.sallybeauty.com/Sand-Turtle-Files/LESMIR3,default,pd.html">this buffer</a>.</p>
+<p style="text-align: left;">This particular kit comes with &#8220;resin activator&#8221; whatever that is. I didn&#8217;t show you those steps, because I don&#8217;t think they&#8217;re necessary. You could just buy nail glue and fiberglass nail wraps to do this if you don&#8217;t want to get the kit.</p>
+<p style="text-align: left;">The only pre-steps warnings I have are these: DO NOT touch your nail with your other fingers after you&#8217;ve cleaned it. Be careful not to touch the wraps themselves too much too. You really don&#8217;t want any finger oils compromising your patch. AND, the paper towel is for under your work area. Come on, be responsible. Don&#8217;t flick nail glue all over your table.</p>
+<p style="text-align: left;">Last warning: pee first. That&#8217;s good advice for all nail work right thurr.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix1-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix1-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix1-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix1.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-379" alt="nailfix1" src="/wp-content/uploads/2013/06/nailfix1-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix1-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix1-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix1-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix1.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">This part is so important. You have to remove any oil from your nail, or the patch won&#8217;t take. Clean your nail in the direction of the tear, so you don&#8217;t make it worse.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix2-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix2-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix2-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix2.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-380" alt="nailfix2" src="/wp-content/uploads/2013/06/nailfix2-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix2-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix2-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix2-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix2.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Trim just enough to cover a little past the tear, and enough to wrap under if you can.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix3-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/nailfix3-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/nailfix3-1272x954.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix3.jpg.webp 2048w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-381" alt="nailfix3" src="/wp-content/uploads/2013/06/nailfix3-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/06/nailfix3-1024x768.jpg 1024w, /wp-content/uploads/2013/06/nailfix3-300x225.jpg 300w, /wp-content/uploads/2013/06/nailfix3-1272x954.jpg 1272w, /wp-content/uploads/2013/06/nailfix3.jpg 2048w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">I didn&#8217;t put it on my entire nail, just the area with the tear.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix4-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/nailfix4-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/nailfix4-1272x954.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix4.jpg.webp 2048w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-382" alt="nailfix4" src="/wp-content/uploads/2013/06/nailfix4-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/06/nailfix4-1024x768.jpg 1024w, /wp-content/uploads/2013/06/nailfix4-300x225.jpg 300w, /wp-content/uploads/2013/06/nailfix4-1272x954.jpg 1272w, /wp-content/uploads/2013/06/nailfix4.jpg 2048w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Use your tweezers to carefully place the wrap. Don&#8217;t use your fingers. Oils!</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix5-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix5-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix5-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix5.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-383" alt="nailfix5" src="/wp-content/uploads/2013/06/nailfix5-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix5-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix5-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix5-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix5.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Using your finger inside the plastic bag, or the round end of your tweezers, smooth out the wrap.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix6-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix6-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix6-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix6.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-384" alt="nailfix6" src="/wp-content/uploads/2013/06/nailfix6-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix6-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix6-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix6-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix6.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Don&#8217;t glob it on, but be sure the wrap is fully saturated and smooth on the nail.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix7-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix7-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix7-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix7.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-385" alt="nailfix7" src="/wp-content/uploads/2013/06/nailfix7-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix7-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix7-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix7-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix7.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">When the glue is dry, about 15 minutes, using a nail buffer, buff the nail until all the shiny spots are gone.</p>
+<p style="text-align: left;">And that&#8217;s it! It might seem like a lot of work, but once you get the hang of it, not counting drying time, it took me maybe 2 minutes per nail. Way less time than it takes me to trim and shape all ten nails, and way less time than it takes to grow out a new one. I&#8217;ve had 2 patches on for nearly two weeks, and they don&#8217;t show any signs of lifting, peeling, or failing. My patched nails are all still intact, and under polish, you can&#8217;t even tell they&#8217;re there. Even without polish, you can&#8217;t really see the wraps.</p>
+<p style="text-align: left;">Isn&#8217;t this so exciting? This is a whole new innovation for me. Nail repair! The way of the future!</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-309" class="clear post-309 post type-post status-publish format-standard hentry category-a-man-duhh category-maintenance">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/a-man-duhh/" rel="category tag">A man duhh</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a></span><h1 class="entry-title"><a href="/a-man-duh/" rel="bookmark">A man, duh</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/a-man-duh/" title="10:50 am" rel="bookmark"><time datetime="2013-06-11T10:50:05-07:00">June 11, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/a-man-duh/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/amanduhh.jpg.webp 630w, /wp-content/uploads/2013/06/amanduhh-300x168.jpg.webp 300w" sizes="(max-width: 630px) 100vw, 630px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-311" alt="amanduhh" src="/wp-content/uploads/2013/06/amanduhh.jpg" width="630" height="353" srcset="/wp-content/uploads/2013/06/amanduhh.jpg 630w, /wp-content/uploads/2013/06/amanduhh-300x168.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-eio="p"></picture>WAH.</p>
+<p style="text-align: left;">I burned Amanduhhh, you guys. That big crybaby.</p>
+<p style="text-align: left;">If you&#8217;re so sad about it, STAY HOME. Don&#8217;t bring your emotions to this cool party! Right?!</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/mike-dexter.jpg.webp 791w, /wp-content/uploads/2013/06/mike-dexter-300x182.jpg.webp 300w" sizes="(max-width: 633px) 100vw, 633px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-312" alt="mike dexter" src="/wp-content/uploads/2013/06/mike-dexter.jpg" width="633" height="384" srcset="/wp-content/uploads/2013/06/mike-dexter.jpg 791w, /wp-content/uploads/2013/06/mike-dexter-300x182.jpg 300w" sizes="(max-width: 633px) 100vw, 633px" data-eio="p"></picture></p>
+<p style="text-align: center;">You too, Mike Dexter. You animal.</p>
+<p style="text-align: left;">Annnyways, I&#8217;ve had a couple people ask me for product suggestions for their dudes, so I wanted to share some of the tried and true man maintainers that we have around here.</p>
+<p style="text-align: center;"><strong>Dr. Bronner&#8217;s Peppermint Castile Soap</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/drbronnerspeppermint-350x1024.jpg.webp 350w, /wp-content/uploads/2013/06/drbronnerspeppermint-102x300.jpg.webp 102w, /wp-content/uploads/2013/06/drbronnerspeppermint.jpg.webp 1132w" sizes="(max-width: 196px) 100vw, 196px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-313" alt="drbronnerspeppermint" src="/wp-content/uploads/2013/06/drbronnerspeppermint-350x1024.jpg" width="196" height="574" srcset="/wp-content/uploads/2013/06/drbronnerspeppermint-350x1024.jpg 350w, /wp-content/uploads/2013/06/drbronnerspeppermint-102x300.jpg 102w, /wp-content/uploads/2013/06/drbronnerspeppermint.jpg 1132w" sizes="(max-width: 196px) 100vw, 196px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.amazon.com/Dr-Bronners-Magic-Soaps-Pure-Castile/dp/B00120VWJ0"><em>Amazon, $15 for 32 oz.</em></a></p>
+<p style="text-align: left;"><em></em>The clean rinsing formula combined with the (alleged [but I think it&#8217;s true]) antibacterial properties of peppermint oil make Dr. Bronner&#8217;s Peppermint Soap a really great man wash. It almost works too well. When I first met Jason, he was an esthetician&#8217;s dream, covered in ingrown hairs and blackheads; then he started using this stuff, and he became less fun to pick at with tweezers. It&#8217;s good, I guess. If I&#8217;m not being selfish, it&#8217;s good.</p>
+<p style="text-align: left;">Supposedly, there are 18 different uses for this soap. As far as I know, we&#8217;ve only used it for the one, but you never know where life will take you!</p>
+<p style="text-align: left;">Another great thing about this soap is that since it&#8217;s covered in the rambling words of a 3 time mental hospital escapee, you&#8217;ve always got stuff to look at in the shower.</p>
+<p style="text-align: center;"><strong>Neutrogena Men Razor Defense Daily Face Scrub</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/menfacescrub.jpg.webp 500w, /wp-content/uploads/2013/06/menfacescrub-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/menfacescrub-300x300.jpg.webp 300w" sizes="(max-width: 500px) 100vw, 500px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-315" alt="menfacescrub" src="/wp-content/uploads/2013/06/menfacescrub.jpg" width="500" height="500" srcset="/wp-content/uploads/2013/06/menfacescrub.jpg 500w, /wp-content/uploads/2013/06/menfacescrub-150x150.jpg 150w, /wp-content/uploads/2013/06/menfacescrub-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.drugstore.com/products/prod.asp?pid=72467&amp;catid=182943&amp;aid=338666&amp;aparam=goobase_filler&amp;device=c&amp;network=g&amp;matchtype=">Drugstore.com, $5.09</a></em></p>
+<p>This exfoliating scrub softens and cleans the skin, while preparing the face for shaving. The exfoliating beads are good at getting dry and flaky skin, and all the gross crud dudes collect in their pores. Since Manimal started using this cleanser, his skin has been clearer and less zit prone.</p>
+<p style="text-align: left;">Over the last 7 years, I&#8217;ve bought Jason countless face cleansers, in all different price ranges. For whatever reason, this is the one he&#8217;ll actually use. Who knows how dudes&#8217; minds work? They&#8217;re so complicated! It&#8217;s like, whatever baby, I don&#8217;t have time to figure you out. Now, less talky, more <strong>cock</strong>y.</p>
+<p style="text-align: center;"><strong>Wild Man Beard Conditioner</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/beardoil.png.webp 228w, /wp-content/uploads/2013/06/beardoil-116x300.png.webp 116w" sizes="(max-width: 228px) 100vw, 228px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-317" alt="beardoil" src="/wp-content/uploads/2013/06/beardoil.png" width="228" height="589" srcset="/wp-content/uploads/2013/06/beardoil.png 228w, /wp-content/uploads/2013/06/beardoil-116x300.png 116w" sizes="(max-width: 228px) 100vw, 228px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.etsy.com/listing/84798470/beard-conditioner-oil-wild-man-beard?ref=shop_home_feat">Wild Rose Herbs, Etsy, $19.95</a></em></p>
+<p style="text-align: left;">Jason has a sort of legendary beard. People love it! I love it. He looks super sexual and scruffy, but sometimes, he smells like a wet dog. Also, I know his beard is getting out of control right now, because I saw corn chips, ice cream sandwich, cheese, croissant and lettuce all lodged in his beard at some point over the weekend. It&#8217;s time to clean that bad boy up!</p>
+<p style="text-align: left;">This product is sort of wishful thinking on my part, actually. Jason does own it, and it does work great. It cleans and softens his beard, makes it smell GOOD, and it moisturizes the often neglected skin under his beard.</p>
+<p style="text-align: left;">BUT. That&#8217;s just one daily step too many for &#8216;ol J-Bone. So, the beard conditioner is a very special occasion thing.</p>
+<p style="text-align: left;">I&#8217;d like to get that clean, soft beard on my neck on the reg, but, I guess I&#8217;ll settle for the one that has Del Taco in it. I like Del Taco!</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p style="text-align: left;">There you go! My first three manswers to your man prayers.</p>
+<p style="text-align: left;">These products are all recommended  if you want your guy to look like this:</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/06/jasonbeard-1024x685.jpg.webp 1024w, /wp-content/uploads/2013/06/jasonbeard-300x200.jpg.webp 300w, /wp-content/uploads/2013/06/jasonbeard-1272x851.jpg.webp 1272w, /wp-content/uploads/2013/06/jasonbeard.jpg.webp 1599w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-318" alt="jasonbeard" src="/wp-content/uploads/2013/06/jasonbeard-1024x685.jpg" width="696" height="465" srcset="/wp-content/uploads/2013/06/jasonbeard-1024x685.jpg 1024w, /wp-content/uploads/2013/06/jasonbeard-300x200.jpg 300w, /wp-content/uploads/2013/06/jasonbeard-1272x851.jpg 1272w, /wp-content/uploads/2013/06/jasonbeard.jpg 1599w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;">BIG WEIRDO I LOVE.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-271" class="clear post-271 post type-post status-publish format-standard hentry category-maintenance category-moisturizer category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/moisturizer/" rel="category tag">Moisturizer</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/i-dont-think-i-can-spare-the-moisture/" rel="bookmark">I Don&#8217;t Think I Can Spare the Moisture</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/i-dont-think-i-can-spare-the-moisture/" title="11:30 am" rel="bookmark"><time datetime="2013-06-10T11:30:43-07:00">June 10, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/jono/" title="View all posts by Jono Nelson" rel="author">Jono Nelson</a></span>
+						<span class="comments-link"><a href="/i-dont-think-i-can-spare-the-moisture/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><em>I&#8217;m super excited to be introducing you to my first guest writer!</em></p>
+<p><em>We used to be small town alterna-teens at a dark riverbed, and we turned out great. </em></p>
+<p><em>I don&#8217;t know about him, but I hardly ever go to dark riverbeds anymore&#8230; </em></p>
+<p><em>He always compliments me on the </em><em>way I do my corn&#8230;.</em></p>
+<p><em>I think he&#8217;s awfully good&#8230;.</em></p>
+<p><em>Jono Nelson, COME ON DOWN!!!!</em></p>
+<p><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p>&nbsp;</p>
+<p>I hesitate to reveal my deepest darkest secret because I know it’ll horrify the Editor-in-chief here at Lab Bunny, but I must be honest and admit my faults if I hope to grow as a writer and a person.</p>
+<p>I don’t moisturize.</p>
+<p>…</p>
+<p>It’s a commonly held belief that gay men hold the key to everything beautiful, glamorous and creative. Historically we have been innovators and taste-makers. Leonardo da Vinci, Oscar Wilde and Andy Warhol were all gay men that changed the course of human evolution in innumerable ways.</p>
+<p>While I may have possessed this key at one point, I lost it probably around the time I started buying drugs from a Mexican gangbanger that I was never allowed to talk to. Basically, I’m bad at being gay.</p>
+<p>Sure, in my youth I was running around southern California in skin-tight designer jeans and vintage band shirts worn to hell but then shit got real. In my mid-twenties, as a survival mechanism, I was forced to get sober. The good thing about early sobriety was that I was free of drugs and booze and no longer hurting the people I loved. The bad part was I realized how much I fucking hated my life, especially my day job.</p>
+<p>After being clean for about a year I decided to finish up my BA in journalism. The more I focused on school and other things, the less energy I had to put forth in the aesthetics department.</p>
+<p>Cut to today: I’ve relocated from Bakersfield to Los Angeles for school and academics have taken over my life. I pretty much wear the same four band shirts on a loop. My teenage, punk rock self would be happy to report that I couldn’t pinpoint the last time I washed my only pair of jeans that fit.This isn’t necessarily what I wanted, it’s just a byproduct of trying to make my dreams come true. I would love to be shopping for vintage leather but paying the bills and getting an internship are higher on the list at the moment.</p>
+<p>My beauty regimen has also deteriorated to almost nothing. I put on sunscreen before I go to work but that’s about it. If I’m feeling fancy or have the time and energy to spare, I might put on a squirt of Lush’s Dirty body spray or slather on one of the zillion Black Phoenix Alchemy Lab oils I own (another addiction I should go to rehab for).</p>
+<p>It’s not that I’m against moisturizing or even that I don’t own moisturizer (I have a pot of Lush’s Cosmetic Lad staring me in the face as I type this). My main problem is that I can never seem to make it a habit. I’ll apply it every morning for a few days and then forget about it or be too busy for it and then the cycle is broken. Cthulhu help us all if I don’t make coffee every morning but I can’t seem to find an extra thirty seconds to put something on my face to make it look better.</p>
+<p>The other problem I have with moisturizing is that my skin is insanely temperamental. I’m not talking the occasional blemish during finals week. My skin routinely breaks out when the weather changes, when I try a new product or any time I leave my apartment. This situation is understandable in your teens and maybe even early twenties but I just turned 30 and shit has gotten embarrassing. I’m always anxious that if I use the wrong moisturizer, it’ll somehow make my condition worse.</p>
+<p>I know that I’m not getting any younger. I’m also at a slight disadvantage seeing as how I spent a decade chain smoking. I need to start moisturizing and I need to start today, otherwise I’m going to end up with patchy skin and crow’s feet six inches deep.</p>
+<p>God, grant me the serenity to accept the genetics I cannot change, the courage to change the skin I can, and the wisdom to moisturize on the daily.</p>
+<p>Amen.</p>
+<p>…</p>
+<p>I’ll keep you posted on how it goes.</p>
+<p>&nbsp;</p>
+<p><em>(Ed. note: AMEN.)</em></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-219" class="clear post-219 post type-post status-publish format-standard hentry category-maintenance">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a></span><h1 class="entry-title"><a href="/what-gross-magic-is-this/" rel="bookmark">What gross magic is this?</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/what-gross-magic-is-this/" title="2:00 pm" rel="bookmark"><time datetime="2013-05-29T14:00:29-07:00">May 29, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/what-gross-magic-is-this/#comments">5 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/05/babyfootfront.jpg.webp 600w, /wp-content/uploads/2013/05/babyfootfront-150x150.jpg.webp 150w, /wp-content/uploads/2013/05/babyfootfront-300x300.jpg.webp 300w" sizes="(max-width: 600px) 100vw, 600px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-221" alt="babyfootfront" src="/wp-content/uploads/2013/05/babyfootfront.jpg" width="600" height="600" srcset="/wp-content/uploads/2013/05/babyfootfront.jpg 600w, /wp-content/uploads/2013/05/babyfootfront-150x150.jpg 150w, /wp-content/uploads/2013/05/babyfootfront-300x300.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" data-eio="p"></picture>I have the roughest little hooves. Thanks, Dad&#8217;s f&#8217;ed up foot genes and my 30 year barefoot lifestyle!</p>
+<p style="text-align: left;">I just ran across this disgusting foot peel, <a href="http://www.babyfootusa.com/">Baby Foot</a>, and I WANT IT!!</p>
+<p style="text-align: left;">I mean, look at this:</p>
+<p style="text-align: center;"><a href="http://www.beautysage.com/products/foot-exfoliate-peel"><picture><source srcset="/wp-content/uploads/2013/05/babyfoot-300x300.jpg.webp 300w, /wp-content/uploads/2013/05/babyfoot-150x150.jpg.webp 150w, /wp-content/uploads/2013/05/babyfoot.jpg.webp 600w" sizes="(max-width: 300px) 100vw, 300px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-medium wp-image-220" alt="babyfoot" src="/wp-content/uploads/2013/05/babyfoot-300x300.jpg" width="300" height="300" srcset="/wp-content/uploads/2013/05/babyfoot-300x300.jpg 300w, /wp-content/uploads/2013/05/babyfoot-150x150.jpg 150w, /wp-content/uploads/2013/05/babyfoot.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" data-eio="p"></picture></a></p>
+<p style="text-align: left;">THAT IS FUCKING SICK! I want to do that!! I know I&#8217;m a freak, but I didn&#8217;t become an esthetician because I like seeing strangers in their underwear. I became an esthetician because I like to pick zits and tweeze ingrown hairs. That whole strangers in their underwear thing was a lucky bonus.</p>
+<p style="text-align: left;">If it works, this peeling foot skin thing is a dream come true! Gross skin to pick and soft feet?! YES!! Sign me up forever!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-172" class="clear post-172 post type-post status-publish format-standard hentry category-cleansers category-fresh category-maintenance">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/cleansers/" rel="category tag">Cleansers</a>, <a href="/category/fresh/" rel="category tag">Fresh</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a></span><h1 class="entry-title"><a href="/fresh-soy-face-cleanser/" rel="bookmark">Fresh Soy Face Cleanser</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/fresh-soy-face-cleanser/" title="9:43 am" rel="bookmark"><time datetime="2013-05-22T09:43:45-07:00">May 22, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/fresh-soy-face-cleanser/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/05/fresh-soy-cleanser.jpg.webp 450w, /wp-content/uploads/2013/05/fresh-soy-cleanser-150x150.jpg.webp 150w, /wp-content/uploads/2013/05/fresh-soy-cleanser-300x300.jpg.webp 300w" sizes="(max-width: 450px) 100vw, 450px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-173" alt="fresh soy cleanser" src="/wp-content/uploads/2013/05/fresh-soy-cleanser.jpg" width="450" height="450" srcset="/wp-content/uploads/2013/05/fresh-soy-cleanser.jpg 450w, /wp-content/uploads/2013/05/fresh-soy-cleanser-150x150.jpg 150w, /wp-content/uploads/2013/05/fresh-soy-cleanser-300x300.jpg 300w" sizes="(max-width: 450px) 100vw, 450px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Fresh Soy Face Cleanser, $15-$38</em></p>
+<p style="text-align: left;">As I&#8217;ve previously bragged, I&#8217;ve never really had a lot of skin problems. When I was a kid, I had the usual smattering of hormone induced pimples and overall oiliness; the perfect compliment to my bushy eyebrows and &#8220;tree trunk thighs&#8221; (thanks, super clever kids on the bus). But, as an adult, I only ever had the occasional random zit (eyebrows are now so fly, tree trunk thighs are still in full effect).</p>
+<p style="text-align: left;">I was so used to basking in my beautiful, problem free skin, that when it went haywire in <a title="Faster Beauty School" href="/faster-beauty-school/">The Great Kiehl&#8217;s Disaster of 2010</a>, I was totally fucked. I frantically cycled through cleanser after cleanser, desperately trying to bring some order back to my skin. I mean, when you got dem tree trunk thighs, you gotta keep that face, right? I tried all my usual esthetician tricks; I was oiling and lotioning, lotioning and oiling, but nothing worked.</p>
+<p style="text-align: left;">This is a battle I&#8217;ve been fighting, with various degrees of success, up until two weeks ago.</p>
+<p style="text-align: left;">After yet another less than satisfying run with a piece of strange cleanser, I finally got around to giving Fresh Soy Face Cleanser a shot.</p>
+<p>From Sephora&#8217;s site:</p>
+<blockquote><p>&#8220;Rich in amino acids, soy proteins promote moisture retention, elasticity, and firmness. Rosewater balances and tones the skin. Fragrance-free and soap-free, calming cucumber extract and nourishing borage seed oil enriches its formula.&#8221;</p></blockquote>
+<p>This is a gel cleanser, and a little bit goes a very long way, which is great if the price tag is scaring you away. I&#8217;ve been using this cleanser, along with my Clarisonic brush and <a title="Sephora Precision Pore Cleansing Pad" href="/sephora-precision-pore-cleansing-pad/">Pore Cleansing Pad</a> (not at the same time, or in the same day. NEVER in the same day), and my skin was better, literally, overnight. Seriously. After the first time I used it, I was impressed, but skeptical. I&#8217;ve been through the old &#8220;first time using a new cleanser&#8221; song and dance a lot over the past few years, and nothing has held up past the the first few uses. Well, that was two weeks ago, and every time I wash my face, I&#8217;m still impressed. Even though it is a very gentle cleanser that is appropriate for all skin types, it effectively removes my full face of makeup, mascara and all, while clearing out my pores, without drying or irritating my very tender, usually dry cheeks. I&#8217;m not crazy about the cucumber/soy scent, but it&#8217;s a small hurdle to overcome.</p>
+<p><span style="text-align: left;">I could have had my nice skin back a long time ago. But no, I refused to buy into the hype of one of SEPHORA&#8217;S TOP RATED, BEST SELLING CLEANSERS (I&#8217;m so dumb)</span><span style="text-align: left;">, choosing instead to trek through the skincare wilderness all alone. See, kids? This is why peer pressure is a good thing. If you give into peer pressure, you&#8217;ll be smoking, and blow j&#8217;ing, and your skin will look great, and everyone will love you! You&#8217;ll be the coolest!</span></p>
+<p style="text-align: left;">Look at me! Since I started using this cleanser, my skin has become smoother, clearer, more hydrated, AND I got invited to all the best graduation pool parties. NO PARENTS, YOU GUYS.</p>
+<p style="text-align: left;">That last part was a lie. I&#8217;ve never in my life been invited to a cool, unchaperoned graduation party.</p>
+<p style="text-align: left;">The first part though? That part about how much better my skin is now that I&#8217;ve been using this cleanser? That part is the truth.</p>
+<p style="text-align: left;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				<nav role="navigation" id="nav-below" class="navigation-paging">
+		<div class="wrap clear">
+			<h1 class="screen-reader-text">Post navigation</h1>
+
+		
+			
+						<div class="previous"><a href="/category/maintenance/page/2/"><span class="meta-nav">&larr;</span> <span class="text-nav">Older posts</span></a></div>
+			
+		
+		</div>
+	</nav><!-- #nav-below -->
+	
+		
+		</div>
+<!-- #content -->
+	</section><!-- #primary -->
+
+
+	</div>
+<!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info wrap">
+						<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Ryu by <a href="http://automattic.com/" rel="designer">Automattic</a>.		</div>
+<!-- .site-info -->
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+<script type="text/javascript" src="/wp-content/themes/ryu/js/navigation.js?ver=20120206" id="ryu-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/skip-link-focus-fix.js?ver=20130115" id="ryu-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/ryu.js?ver=20130319" id="ryu-theme-js"></script>
+
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41236199-1']);
+  _gaq.push(['_trackPageview']);
+
+  setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+</body>
+</html>

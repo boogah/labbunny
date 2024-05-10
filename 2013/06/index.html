@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>June 2013 - The Lab Bunny</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://labbunny.com/wp-content/themes/ryu/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="noindex, follow">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>June 2013 - The Lab Bunny</title>
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="June 2013 - The Lab Bunny">
+	<meta property="og:url" content="/2013/06/">
+	<meta property="og:site_name" content="The Lab Bunny">
+	<meta property="og:image" content="/wp-content/uploads/2013/04/cropped-labbunny.jpg">
+	<meta property="og:image:width" content="328">
+	<meta property="og:image:height" content="328">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@labbunny">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"/2013/06/","url":"/2013/06/","name":"June 2013 - The Lab Bunny","isPartOf":{"@id":"/#website"},"breadcrumb":{"@id":"/2013/06/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"/2013/06/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Archives for June 2013"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"The Lab Bunny","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Comments Feed" href="/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/ryu/genericons/genericons.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-style-css" href="/wp-content/themes/ken/style.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-lato-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-playfair-display-css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('labbunny.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>	<style type="text/css">.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		.header-image {
+			margin-bottom: 0;
+		}</style>
+			<style type="text/css" id="wp-custom-css">.ch_poweredby {
+	display: none;
+}
+
+.social a, .social a:hover {
+	border: 0;
+}</style>
+		</head>
+
+<body class="archive date group-blog">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+
+
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="toppanel hide">
+		<div id="secondary" role="complementary" class="wrap clear four">
+		<div id="top-sidebar-one" class="widget-area" role="complementary">
+			</div>
+<!-- #first .widget-area -->
+	
+		<div id="top-sidebar-two" class="widget-area" role="complementary">
+		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">Gaby Love</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-8103">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">May</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-7932">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Zee</span> on <a href="/sephora-precision-pore-cleansing-pad/#comment-7655">Sephora Precision Pore Cleansing Pad</a>
+</li>
+</ul></aside>	</div>
+<!-- #second .widget-area -->
+	
+		<div id="top-sidebar-three" class="widget-area" role="complementary">
+			</div>
+<!-- #third .widget-area -->
+	
+		<div id="top-sidebar-four" class="widget-area" role="complementary">
+		<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>
+			<ul>
+					<li><a href="/2015/04/">April 2015</a></li>
+	<li><a href="/2015/01/">January 2015</a></li>
+	<li><a href="/2014/10/">October 2014</a></li>
+	<li><a href="/2014/09/">September 2014</a></li>
+	<li><a href="/2014/08/">August 2014</a></li>
+	<li><a href="/2014/07/">July 2014</a></li>
+	<li><a href="/2014/06/">June 2014</a></li>
+	<li><a href="/2014/05/">May 2014</a></li>
+	<li><a href="/2014/04/">April 2014</a></li>
+	<li><a href="/2014/03/">March 2014</a></li>
+	<li><a href="/2014/02/">February 2014</a></li>
+	<li><a href="/2014/01/">January 2014</a></li>
+	<li><a href="/2013/12/">December 2013</a></li>
+	<li><a href="/2013/11/">November 2013</a></li>
+	<li><a href="/2013/10/">October 2013</a></li>
+	<li><a href="/2013/09/">September 2013</a></li>
+	<li><a href="/2013/08/">August 2013</a></li>
+	<li><a href="/2013/07/">July 2013</a></li>
+	<li><a href="/2013/06/" aria-current="page">June 2013</a></li>
+	<li><a href="/2013/05/">May 2013</a></li>
+	<li><a href="/2013/04/">April 2013</a></li>
+			</ul>
+
+			</aside>	</div>
+<!-- #four .widget-area -->
+	</div>
+<!-- #secondary -->	</div>
+	
+	
+	<div id="search-wrapper" class="toppanel hide">
+		
+<form method="get" id="searchform" class="searchform" action="https://labbunny.com/" role="search">
+	<label for="s" class="screen-reader-text">Search</label>
+	<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;">
+	<input type="submit" class="submit" id="searchsubmit" value="Search">
+</form>	</div>
+
+	<div id="triggers-wrapper">
+		<ul class="triggers clear">
+						<li class="widgets-trigger">
+				<a href="#" class="genericon" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</a>
+			</li>
+			
+			
+			<li class="search-trigger">
+				<a href="#" class="genericon" title="Search">
+					<span class="screen-reader-text">Search</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="wrap">
+			
+							<a class="site-logo" href="/" title="The Lab Bunny" rel="home">
+					<picture><source srcset="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png.webp" type="image/webp"><img src="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png" width="1280" height="250" alt="" class="no-grav header-image" data-eio="p"></picture>
+				</a>
+			
+			<hgroup>
+				<h1 class="site-title"><a href="/" title="The Lab Bunny" rel="home">The Lab Bunny</a></h1>
+				<h2 class="site-description"></h2>
+			</hgroup>
+		</div>
+<!-- .wrap -->
+
+					<nav id="site-navigation" class="navigation-main clear" role="navigation">
+				<h1 class="menu-toggle">Menu</h1>
+				<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="wrap"><ul id="menu-menu" class="menu">
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="/about/">About</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="/contact/">Contact</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="https://www.facebook.com/TheLabBunny">Facebook</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://twitter.com/LabBunny">Twitter</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-272"><a href="http://instagram.com/thelabbunny">Instagram</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<section id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+			<header class="page-header">
+				<div class="wrap">
+					<h1 class="page-title">
+						Monthly Archives: <span>June 2013</span>					</h1>
+									</div>
+			</header><!-- .page-header -->
+
+						
+				
+<article id="post-425" class="clear post-425 post type-post status-publish format-standard hentry category-a-man-duhh category-no-poo">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/a-man-duhh/" rel="category tag">A man duhh</a>, <a href="/category/no-poo/" rel="category tag">No-Poo</a></span><h1 class="entry-title"><a href="/rad-hair-day/" rel="bookmark">Rad Hair Day</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/rad-hair-day/" title="12:15 pm" rel="bookmark"><time datetime="2013-06-30T12:15:15-07:00">June 30, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/rad-hair-day/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>When it comes to our tech and electronic stuff, Jason&#8217;s the boss, when it comes to our hair, skin and faces, I&#8217;m the final word.</p>
+<p>It works out pretty good for everyone. I have this beautiful site, and I don&#8217;t miss tv shows; Jason sometimes uses lotion on his face that I picked out, and I make him get haircuts. I guess. I guess that&#8217;s the trade.</p>
+<p>I&#8217;ve got Jason on the no-poo train too, but his system is a little different than mine. I thought I&#8217;d tell you guys about it since some of you are dudes, and some of you have dudes.</p>
+<p>Jason has super thick, really wavy (maybe even curly) hair, I have super thick hair. There&#8217;s no way our baby doesn&#8217;t come out on full Crystal Gayle status. I made us a baby, just to check, but the baby morpher didn&#8217;t have an option for &#8220;hairiness.&#8221;</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/baby3.jpg.webp 300w, /wp-content/uploads/2013/06/baby3-225x300.jpg.webp 225w" sizes="(max-width: 300px) 100vw, 300px" type="image/webp"><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-428" alt="baby3" src="/wp-content/uploads/2013/06/baby3.jpg" width="300" height="400" srcset="/wp-content/uploads/2013/06/baby3.jpg 300w, /wp-content/uploads/2013/06/baby3-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Precious baby, Xenadrine, got her mom&#8217;s lazy eye and her dad&#8217;s 5 o&#8217;clock shadow.</em></p>
+<p style="text-align: left;">Jason basically has the worst druff I&#8217;ve ever seen on an actual person, up close. I don&#8217;t know if the bad dandruff is something he had to adopt, back in the day, to get into a D&amp;D guild or something, but it&#8217;s a problem now.  I mean, he would NEVER survive in Gattaca.</p>
+<p style="text-align: left;">So, after doing more research, I&#8217;ve got him washing his hair with <a href="http://www.amazon.com/gp/product/B0006NH946/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0006NH946&amp;linkCode=as2&amp;tag=thlabu-20">Dr Bronner&#8217;s Tea Tree Oil Castile Soap</a><img decoding="async" style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=thlabu-20&amp;l=as2&amp;o=1&amp;a=B0006NH946" width="1" height="1" border="0">, and then using the same <a title="ShamBOOOOO" href="/shambooooo/">vinegar rinse</a> I am. Both the tea tree oil and the apple cider vinegar are supposed to help with dandruff, and the castile soap is a much gentler cleanser than any dandruff shampoo he was using before. I think the castile soap still technically falls under the no-poo banner, since it doesn&#8217;t have the surfactants and chemicals we&#8217;re trying to avoid.</p>
+<p style="text-align: left;">After a couple washes, he&#8217;s definitely got less dandruff and shedding, so this is already a success. Plus, the vinegar is making his hair look really shiny (I especially noticed that on his sexy, sparkling grays), and his curls are much better looking, and not all fluffy. I think this is a keeper for him.</p>
+<p style="text-align: left;">I promise this will be the last no-poo or co-wash post for a little bit. I know it&#8217;s been a lot lately! I&#8217;m just like, super into doing beauty experiments, so I get excited. I get even more excited when they work! I&#8217;ll update you guys on how things are going next week, and we&#8217;ll see if I&#8217;ve gone back to regular shampoo by then.</p>
+<p style="text-align: left;">Oh. I also made a baby for me and my very first true love, Edward Furlong. I had to use a mugshot because it was the only photo I could find where he was looking directly at the camera.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/06/sarahandeddie.jpg.webp 300w, /wp-content/uploads/2013/06/sarahandeddie-225x300.jpg.webp 225w" sizes="(max-width: 300px) 100vw, 300px" type="image/webp"><img decoding="async" class="aligncenter size-full wp-image-430" alt="sarahandeddie" src="/wp-content/uploads/2013/06/sarahandeddie.jpg" width="300" height="400" srcset="/wp-content/uploads/2013/06/sarahandeddie.jpg 300w, /wp-content/uploads/2013/06/sarahandeddie-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Look at our lil Mexican baby! I&#8217;m gonna pierce her ears!</em></p>
+<p style="text-align: left;">I wonder if he got my letter all those years ago? My chances are probably better now! I&#8217;m going to write him another one and say, &#8220;Look. Neither one of us looks as good as they did at 14. What&#8217;s up?&#8221;</p>
+<p style="text-align: left;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-420" class="clear post-420 post type-post status-publish format-standard hentry category-face category-how-to category-links category-video">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/face/" rel="category tag">Face</a>, <a href="/category/how-to/" rel="category tag">How-To</a>, <a href="/category/links/" rel="category tag">Links</a>, <a href="/category/video/" rel="category tag">Video</a></span><h1 class="entry-title"><a href="/makeup-color-wheel/" rel="bookmark">Makeup Color Wheel</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/makeup-color-wheel/" title="3:27 pm" rel="bookmark"><time datetime="2013-06-28T15:27:01-07:00">June 28, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><iframe loading="lazy" title="Makeup Color Wheel | What Colors Look BEST On You! | Learn Make Up Color Theory // Robert Jones" width="696" height="392" src="https://www.youtube.com/embed/63pogF_ZiQk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>It&#8217;s the end of the day on Friday, blow off 15 minutes to watch this brilliant video and learn nearly everything you need to know to pick makeup colors that will beautifully complement your eye and skin colors.</p>
+<p>This video is so informative, and the visuals make everything really easy to understand. Pleeeeease watch it! Trust me, you&#8217;ll be so glad you did.</p>
+<p><a href="http://intothegloss.com/2013/06/robert-jones-learn-make-up-color-theory-how-to-tutorial-video/">Into The Gloss has a time marked summary of the video</a> if you already know color theory, or want to get a quick idea of what you&#8217;ll be learning.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-416" class="clear post-416 post type-post status-publish format-standard hentry category-co-wash category-hair category-no-poo">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/co-wash/" rel="category tag">Co-Wash</a>, <a href="/category/hair/" rel="category tag">Hair</a>, <a href="/category/no-poo/" rel="category tag">No-Poo</a></span><h1 class="entry-title"><a href="/hair-today/" rel="bookmark">Hair Today</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/hair-today/" title="9:32 am" rel="bookmark"><time datetime="2013-06-28T09:32:09-07:00">June 28, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/hair-today/#comments">3 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I pulled the trigger on <a title="ShamBOOOOO" href="/shambooooo/">my new co-wash hair system</a> last night, and it went pretty good!</p>
+<p>First, before I even got in the shower, I, like, thoroughly brushed my hair with a big paddle brush. I always do this before I wash my hair. It&#8217;s my desperate attempt to cut down on the amount of hair I have to feel creepily sliding down my body in the shower. Judging by the Andre the Giant sized merkin in my drain right now, it might not work, but I do it anyways.</p>
+<p>After I got my hair as wet as I could, I glopped a big puddle of my Suave Coconut Conditioner in my hand, and went to work on my roots. Working in sections, I scrubbed and scrubbed my scalp with the pads of my fingers, stopping to add more conditioner when I needed it. I tried to use as much conditioner as I felt was necessary to really clean my thick, longish hair. It was a lot, but what do I care? <strong>The family sized bottle of Suave cost $1.88.</strong> The need for so much product was one of <a title="Wen" href="/wen/">my biggest problems with the Wen system</a>. There was no way the bottle they sent was going to last me a month, and it cost $30. I&#8217;m sorry, but one of the reasons I went to <a title="Faster Beauty School" href="/faster-beauty-school/">beauty school</a> was so I&#8217;d never have to pay $30 for a bottle of shampoo again.</p>
+<p>When I felt like my scalp was good and clean, I added a little more conditioner and worked it through the length of my hair. I let it sit for a minute, then I rinsed my hair really well. From what I&#8217;ve read, the rinsing part is really important because you need the motion of the water to pick up the dirt and grime and carry it away since it doesn&#8217;t get stripped out by shampoo. Or something like that. I don&#8217;t know. I rinsed the shit outta my hair!</p>
+<p>Then, I sprayed the apple cider vinegar/water mixture onto my hair, pulled it through with a wide toothed comb*, let it sit for a minute, and rinsed it really well.</p>
+<p>I went to bed with my hair wet, and when I woke up this morning, it looked pretty good!</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/cowash-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/cowash-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/cowash-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/cowash-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/cowash.jpg.webp 1632w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-417" alt="cowash" src="/wp-content/uploads/2013/06/cowash-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/cowash-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/cowash-150x150.jpg 150w, /wp-content/uploads/2013/06/cowash-300x300.jpg 300w, /wp-content/uploads/2013/06/cowash-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/cowash.jpg 1632w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Please excuse my new mystery bruise and my, once again, makeup free face.</em></p>
+<p>My waves were really wavy and defined, my hair has lots of volume, and everything is pretty shiny.</p>
+<p>UM. I just remembered I didn&#8217;t put any moroccan oil on my hair last night, and that makes this morning&#8217;s outcome even better! I was going to say it looks like it usually does when my hair dries on a really good day. But, my hair drying like this with no additional product is pretty amazing! That&#8217;s the dream, right? Hair that looks good all by itself. Like, you could walk out of any situation and look fucking gorgeous because your hair just IS fucking gorgeous.</p>
+<p>Honestly, you guys, even if today is a fluke, and I ultimately end up with a disgusting greasy head and a jones for shampoo, I won&#8217;t care. I love doing stuff like this. It&#8217;s so much fun. And besides, I&#8217;ll never know if it works if I don&#8217;t try it! That&#8217;s my motto. Worked out for me with Weight Watchers and vodka, why not co-washing?!</p>
+<p>&nbsp;</p>
+<p>*You really shouldn&#8217;t put any combs or brushes in your hair when they&#8217;re wet. I was just checking to see if the vinegar was really detangling like the internet said it should. It was.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-407" class="clear post-407 post type-post status-publish format-standard hentry category-hair">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/hair/" rel="category tag">Hair</a></span><h1 class="entry-title"><a href="/shambooooo/" rel="bookmark">ShamBOOOOO</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/shambooooo/" title="11:07 am" rel="bookmark"><time datetime="2013-06-27T11:07:00-07:00">June 27, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/shambooooo/#comments">6 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>When it comes to my beauty regimen, I&#8217;m never satisfied, and I&#8217;m always trying new products. But for my hair, I&#8217;ve sort of been stuck using Head &amp; Shoulders not matter what. I don&#8217;t know if I really have dandruff, because the H&amp;S never completely clears anything up. Any other shampoos I&#8217;ve tried have definitely made things worse though.</p>
+<p><strong><picture><source srcset="/wp-content/uploads/2013/06/druffqueen1-1024x576.jpg.webp 1024w, /wp-content/uploads/2013/06/druffqueen1-300x168.jpg.webp 300w, /wp-content/uploads/2013/06/druffqueen1-1272x715.jpg.webp 1272w, /wp-content/uploads/2013/06/druffqueen1.jpg.webp 1600w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-411" alt="druffqueen" src="/wp-content/uploads/2013/06/druffqueen1-1024x576.jpg" width="696" height="391" srcset="/wp-content/uploads/2013/06/druffqueen1-1024x576.jpg 1024w, /wp-content/uploads/2013/06/druffqueen1-300x168.jpg 300w, /wp-content/uploads/2013/06/druffqueen1-1272x715.jpg 1272w, /wp-content/uploads/2013/06/druffqueen1.jpg 1600w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></strong></p>
+<p style="text-align: center;"><em>That&#8217;s me. Weirdo dandruff queen/compulsive liar.</em></p>
+<p>So. I&#8217;m going to stop using shampoo altogether.</p>
+<p>I&#8217;ve been hearing for years that adopting the &#8220;no-poo&#8221; method will do amazing things for your hair. Supposedly, cutting harsh surfactants and detergents out of your haircare regimen can clear up dandruff, make your hair shinier, smoother and stronger, and can make curly/kinky hair more defined and manageable. That all sounds too good to be true, but when you start looking into it, it makes sense! So, I figured I should just go for it. If my hair turns greasy and/or disgusting, I can just say it&#8217;s for science and people will have to MIND THEIR OWN BUSINESS.</p>
+<p>Here&#8217;s what I&#8217;m going to use if you want to try it with me:</p>
+<p>I&#8217;m going to start washing my hair with <a href="http://www.amazon.com/gp/product/B000GCWBTA/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000GCWBTA&amp;linkCode=as2&amp;tag=thlabu-20">Suave Naturals Tropical Coconut Conditioner</a><img loading="lazy" decoding="async" style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=thlabu-20&amp;l=as2&amp;o=1&amp;a=B000GCWBTA" width="1" height="1" border="0">. While I was researching the no-poo  method, this conditioner kept coming up. It&#8217;s supposed to be great for cleaning your hair without stripping away necessary oils. I got my bottle at the grocery store, it was practically free it was so inexpensive.</p>
+<p>In the shower, I&#8217;m going to wash my hair with this conditioner, really thoroughly scrubbing my scalp with my finger pads to break up any dirt or grease, before rinsing like normal.</p>
+<p>Then, I&#8217;m going to condition my hair with an apple cider vinegar rinse. The apple cider vinegar is supposed to detangle, and seal the cuticle, making your hair really shiny. It&#8217;s also supposed to help with the dandruff issue.</p>
+<p>You&#8217;re supposed to use a raw, organic apple cider vinegar; I bought <a href="http://www.vitaminshoppe.com/store/en/browse/sku_detail.jsp?id=GG-7001&amp;sourceType=sc&amp;source=FG&amp;adGroup=40-60&amp;keyword=GG-7001&amp;cm_mmc=Google+Shopping-_-Product+Listing+Ads-_-40-60-_-GG-7001&amp;gclid=COOo6ZDihLgCFUfhQgod3S8A_Q#.Ucx2-pWgnzI">Bragg Organic Apple Cider Vinegar</a> at one of my local health food stores. Then, I mixed up a 1:1 ratio of vinegar to water and put it in a spray bottle.</p>
+<p>After co-washing (co-washing means &#8220;conditioner washing,&#8221; and it doesn&#8217;t make me cringe with embarrassment like the words, &#8220;no-poo&#8221;), I&#8217;m going to spray the vinegar rinse on my hair, let it sit for a minute, then rinse rinse rinse so I don&#8217;t smell like a delicious salad dressing.</p>
+<p>I like that both of these products were cheap and easy to find. As much as I love having things other people don&#8217;t, I really hate having to search all over for something simple I&#8217;m trying to buy. I get resentful of products that make me do a lot of work just to fork over money.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p>It&#8217;s supposed to take a few weeks for your hair to adjust to having to overcompensate for the oils being regularly stripped out of it, so you might be greasier than usual. I plan on putting my rubber bands, claws and hair ties to work on keeping it looking decent.</p>
+<p style="text-align: center;">OR</p>
+<p style="text-align: center;">This look is due for a comeback!</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/addicted-to-love.jpg.webp 788w, /wp-content/uploads/2013/06/addicted-to-love-300x228.jpg.webp 300w" sizes="(max-width: 552px) 100vw, 552px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-409" alt="addicted to love" src="/wp-content/uploads/2013/06/addicted-to-love.jpg" width="552" height="420" srcset="/wp-content/uploads/2013/06/addicted-to-love.jpg 788w, /wp-content/uploads/2013/06/addicted-to-love-300x228.jpg 300w" sizes="(max-width: 552px) 100vw, 552px" data-eio="p"></picture></p>
+<p>Anybody else want to do this with me? It might be cool to get a few other different hair types, lengths and styles in on this! FOR SCIENCE.</p>
+<p>&nbsp;</p>
+<p>You can read a lot more about the co-washing method  <a href="http://dormroomcurly.blogspot.com/2008/12/style-definitions-table.html">HERE</a>. That post has the answers to pretty much any question you might have.</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-394" class="clear post-394 post type-post status-publish format-video hentry category-birchbox category-video post_format-post-format-video">
+	<div class="band"></div>
+
+	<div class="entry-wrap wrap clear">
+		<div class="entry-info">
+			<header class="entry-header">
+				<span class="categories-links"><a href="/category/birchbox/" rel="category tag">Birchbox</a>, <a href="/category/video/" rel="category tag">Video</a></span><h1 class="entry-title"><a href="/birchbox-unboxing-june-2013/" rel="bookmark">Birchbox Unboxing June 2013</a></h1>			</header><!-- .entry-header -->
+
+			<footer class="entry-meta">
+				<span class="entry-date"><a href="/birchbox-unboxing-june-2013/" title="2:46 pm" rel="bookmark"><time datetime="2013-06-26T14:46:02-07:00">June 26, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+								<span class="comments-link"><a href="/birchbox-unboxing-june-2013/#comments">1 Comment</a></span>
+				
+				<span class="entry-format"><a href="/type/video/" title="All Video posts">Video</a></span>
+
+							</footer><!-- .entry-meta -->
+
+			<a class="entry-format-badge theme-genericon" href="/type/video/" title="All Video posts"><span class="screen-reader-text">Video</span></a>
+		</div>
+<!-- .entry-info -->
+
+		<div class="entry-content clear">
+			<div style="width: 640px;" class="wp-video">
+<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-394-1" width="640" height="360" preload="metadata" controls="controls" data-poster-webp="http://labbunny.com/wp-content/uploads/2013/06/poster_frame.png.webp" data-poster-image="http://labbunny.com/wp-content/uploads/2013/06/poster_frame.png"><source type="video/mp4" src="/wp-content/uploads/2013/06/birchbox.mp4?_=1"><source type="video/webm" src="/wp-content/uploads/2013/06/birchbox.webm?_=1"><a href="/wp-content/uploads/2013/06/birchbox.mp4">http://labbunny.com/wp-content/uploads/2013/06/birchbox.mp4</a></video>
+</div>
+<p>My <a href="http://birch.ly/1aAhoAx">Birchbox</a> came! I made a quick video to show you what was inside.</p>
+<p>*DIRECTOR&#8217;S COMMENTARY* Be on the lookout for the moment where my brain loses the word, &#8220;reviews.&#8221; I can&#8217;t stop laughing at the dumb face I make while I&#8217;m frantically trying to pull it up!</p>
+					</div>
+<!-- .entry-content -->
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-386" class="clear post-386 post type-post status-publish format-standard hentry category-floss-gloss category-nails">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/floss-gloss/" rel="category tag">Floss Gloss</a>, <a href="/category/nails/" rel="category tag">Nails</a></span><h1 class="entry-title"><a href="/floss-gloss-lacquer-in-pony/" rel="bookmark">Floss Gloss Lacquer in Pony</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/floss-gloss-lacquer-in-pony/" title="11:30 am" rel="bookmark"><time datetime="2013-06-26T11:30:30-07:00">June 26, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/floss-gloss-lacquer-in-pony/#comments">5 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/flossglosspony-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/flossglosspony-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/flossglosspony-1272x954.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-387" alt="flossglosspony" src="/wp-content/uploads/2013/06/flossglosspony-1024x768.jpg" width="696" height="522" srcset="/wp-content/uploads/2013/06/flossglosspony-1024x768.jpg 1024w, /wp-content/uploads/2013/06/flossglosspony-300x225.jpg 300w, /wp-content/uploads/2013/06/flossglosspony-1272x954.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://flossgloss.com/collections/lacquers/products/pony">Pony, Floss Gloss, $8</a></em></p>
+<p><a href="http://flossgloss.com/">Floss Gloss</a> is really good at introducing colors I didn&#8217;t know I desperately needed. Neon peach is not a color I would have considered for myself before I got Pony, but I&#8217;ve fallen in love with it.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/flossglosspony2-e1372100263960-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/flossglosspony2-e1372100263960-225x300.jpg.webp 225w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-388" alt="flossglosspony2" src="/wp-content/uploads/2013/06/flossglosspony2-e1372100263960-768x1024.jpg" width="696" height="928" srcset="/wp-content/uploads/2013/06/flossglosspony2-e1372100263960-768x1024.jpg 768w, /wp-content/uploads/2013/06/flossglosspony2-e1372100263960-225x300.jpg 225w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p>What are you, kidding me? How hot is this?! It&#8217;s apt the color is called Pony because it&#8217;s amazingly sexy and it reminds me of one of the horniest songs of all time, &#8220;Pony&#8221; by Ginuwine. A hot thing to do, would be to dance a sexy striptease to &#8220;Pony&#8221; while you run your Pony tipped fingers all over your sexxxay boddday. BAM. Unstoppable.</p>
+<p>This color make me look super tan, and it gives me, what I like to call, DIVA HANDS or LADY HANDS. Like Babs.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/babsnails-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/babsnails-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/babsnails-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/babsnails-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/babsnails.jpg.webp 1632w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-389" alt="babsnails" src="/wp-content/uploads/2013/06/babsnails-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/babsnails-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/babsnails-150x150.jpg 150w, /wp-content/uploads/2013/06/babsnails-300x300.jpg 300w, /wp-content/uploads/2013/06/babsnails-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/babsnails.jpg 1632w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;">OG DIVA NAILS</p>
+<p>This is my third bottle of Floss Gloss polish. I&#8217;ve been wearing their colors, exclusively, for almost a month, and they&#8217;re all great. Combined with my base and top coats, I&#8217;ve gotten at least a week&#8217;s wear, without chipping, from each bottle. I really appreciate that, especially since chips are so much more obvious on bright colors. I&#8217;ve also noticed that, during all three manicures, I thought I messed up the wet polish enough to warrant removal and re-polishing, but by the time I&#8217;d finish the top coat on the rest of my fingers, that bumped, smeared, or otherwise gooped up nail would have leveled itself out to the point that I could just put on top coat and everything was perfect.</p>
+<p>My camera couldn&#8217;t do this color justice. In some light it was brighter and orangey, in some light it was a soft pink, in photos, it was more nude. All week, I&#8217;ve been wracking my brain, trying to remember where I&#8217;d seen this color before.</p>
+<p>Last night, it finally hit me.</p>
+<p><a title="Conch by zanzibar, on Flickr" href="http://www.flickr.com/photos/zanzibar123/416716802/"><img loading="lazy" decoding="async" class="aligncenter" alt="Conch" src="http://farm1.staticflickr.com/168/416716802_3142fc09c9.jpg" width="500" height="375"></a></p>
+<p>All the shades I&#8217;ve seen in Pony, you can see here.</p>
+<p>WHEW! THANK GAWD I was able to nail it down. It was driving me crazy!</p>
+<p>Besides being dope as hell, Pony is just flat out pretty. I actually had the thought to myself that I wished I could go back in time and wear it at my wedding.</p>
+<p>I&#8217;m legitimately sad to have to take this polish off to swatch another color.</p>
+<p><a href="http://flossgloss.com/collections/lacquers/products/pony">Buy it <strong>HERE</strong>.</a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-393" class="clear post-393 post type-post status-publish format-standard hentry category-face category-links">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/face/" rel="category tag">Face</a>, <a href="/category/links/" rel="category tag">Links</a></span><h1 class="entry-title"><a href="/the-right-way-to-apply-skin-cream/" rel="bookmark">The Right Way to Apply Skin Cream</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/the-right-way-to-apply-skin-cream/" title="7:45 am" rel="bookmark"><time datetime="2013-06-26T07:45:05-07:00">June 26, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><a title="beauty ~ only skin deep? by sunshinecity, on Flickr" href="http://www.flickr.com/photos/sunshinecity/786584004/"><img loading="lazy" decoding="async" class="aligncenter" alt="beauty ~ only skin deep?" src="http://farm2.staticflickr.com/1059/786584004_be4c5d74e0.jpg" width="500" height="375"></a></p>
+<p><a href="http://www.refinery29.com/2013/06/48958/skin-care-tips">This article</a> about the right product order for your skincare routine is really informative! If we&#8217;re going to pin all our hopes on these serums and potions, we should at least put them on in a way that will let them work to their best potential. Otherwise, what? Just staple cash to my wrinkles and call it the same thing?</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-391" class="clear post-391 post type-post status-publish format-standard hentry category-hair">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/hair/" rel="category tag">Hair</a></span><h1 class="entry-title"><a href="/star-search/" rel="bookmark">Star Search</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/star-search/" title="11:00 am" rel="bookmark"><time datetime="2013-06-25T11:00:22-07:00">June 25, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/khloehairstars.jpg.webp 580w, /wp-content/uploads/2013/06/khloehairstars-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/khloehairstars-300x300.jpg.webp 300w" sizes="(max-width: 580px) 100vw, 580px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-392" alt="khloehairstars" src="/wp-content/uploads/2013/06/khloehairstars.jpg" width="580" height="580" srcset="/wp-content/uploads/2013/06/khloehairstars.jpg 580w, /wp-content/uploads/2013/06/khloehairstars-150x150.jpg 150w, /wp-content/uploads/2013/06/khloehairstars-300x300.jpg 300w" sizes="(max-width: 580px) 100vw, 580px" data-eio="p"></picture></p>
+<p>I saw <a href="http://khloekardashian.celebuzz.com/guest-blog-seeing-stars-by-jen-atkin-04-2013">Khloe&#8217;s hair</a> on KUWTK this week, and I was like, WHAAAAT?! This would look awesome on me!</p>
+<p>I gotta find that ribbon!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-376" class="clear post-376 post type-post status-publish format-standard hentry category-maintenance category-nails">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/nails/" rel="category tag">Nails</a></span><h1 class="entry-title"><a href="/asp-nail-wrap-kit/" rel="bookmark">ASP Nail Wrap Kit</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/asp-nail-wrap-kit/" title="7:30 am" rel="bookmark"><time datetime="2013-06-25T07:30:53-07:00">June 25, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/asp-nail-wrap-kit/#comments">7 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>Did you guys know you could patch a torn natural nail? I didn&#8217;t. All these years, I&#8217;ve been breaking one nail and then mournfully cutting off the other nine. Finding out now that things could have been different all along, well&#8230;.it smarts. Growing out your nails is hard work! You can&#8217;t open soda cans, umm, you have to wear rubber gloves when you wash dishes, you have to be careful opening doors and stuff. Like I said, hard work!</p>
+<p>Almost 2 weeks ago, I found a little tear in one of my nails. It was the kind that was up in the pink, so you know it&#8217;s bad. Not only are you going to lose your nail with one of those tears, but it&#8217;s going to hurt like a mother in the process. Then, you have to deal with that soft, pink, nail bed. It&#8217;s like a turtle without a shell! Just all exposed and sad. I&#8217;ve been growing out these nails since my <a title="White Noise" href="/white-noise/">white manicure</a>, and I was not going to let them go without a fight. After a little internet sleuthing, some television, maybe a nosh, I headed for the Sally Beauty closest to my house to see what I could work up.</p>
+<p>SIDE NOTE: Do you guys dislike going to Sally like I do? Maybe it&#8217;s because I usually beauty supply shop in the pro shops (ASSHOLE ALERT), but the Sally stores, and most of the girls working in them, are kinda tacky and dated. Am I just a snob?</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/8ball.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-378" alt="8ball" src="/wp-content/uploads/2013/06/8ball.jpg" width="240" height="197" data-eio="p"></picture></p>
+<p style="text-align: center;">Damn.</p>
+<p style="text-align: left;">During my investigative process, I found people saying  you could fix a nail with fiberglass nail wraps and nail glue. So, at the beauty supply, I ended up buying this ASP Nail Wrap Kit. I *think* it&#8217;s for doing at home acrylics, but it has everything in it, besides alcohol, you&#8217;d need to do a nail repair.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM.png.webp 336w, /wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM-201x300.png.webp 201w" sizes="(max-width: 336px) 100vw, 336px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-377" alt="Screen Shot 2013-06-24 at 9.47.15 AM" src="/wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM.png" width="336" height="500" srcset="/wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM.png 336w, /wp-content/uploads/2013/06/Screen-Shot-2013-06-24-at-9.47.15-AM-201x300.png 201w" sizes="(max-width: 336px) 100vw, 336px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.sallybeauty.com/nail-wrap-kit/SBS-156362,default,pd.html?cm_vc=SEARCH"><em>ASP Nail Wrap Kit, Sally Beauty, $14.99-$16.99</em></a></p>
+<p style="text-align: left;">This is so, so, so easy. Stupid easy. You&#8217;ll be shocked!</p>
+<p style="text-align: left;">First things first, gather up your supplies. Besides the kit, you&#8217;ll need little scissors, tweezers, rubbing alcohol, cotton balls, a paper towel, a plastic shopping bag, and a nail buffer. I use <a href="http://www.sallybeauty.com/Sand-Turtle-Files/LESMIR3,default,pd.html">this buffer</a>.</p>
+<p style="text-align: left;">This particular kit comes with &#8220;resin activator&#8221; whatever that is. I didn&#8217;t show you those steps, because I don&#8217;t think they&#8217;re necessary. You could just buy nail glue and fiberglass nail wraps to do this if you don&#8217;t want to get the kit.</p>
+<p style="text-align: left;">The only pre-steps warnings I have are these: DO NOT touch your nail with your other fingers after you&#8217;ve cleaned it. Be careful not to touch the wraps themselves too much too. You really don&#8217;t want any finger oils compromising your patch. AND, the paper towel is for under your work area. Come on, be responsible. Don&#8217;t flick nail glue all over your table.</p>
+<p style="text-align: left;">Last warning: pee first. That&#8217;s good advice for all nail work right thurr.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix1-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix1-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix1-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix1.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-379" alt="nailfix1" src="/wp-content/uploads/2013/06/nailfix1-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix1-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix1-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix1-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix1.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">This part is so important. You have to remove any oil from your nail, or the patch won&#8217;t take. Clean your nail in the direction of the tear, so you don&#8217;t make it worse.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix2-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix2-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix2-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix2.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-380" alt="nailfix2" src="/wp-content/uploads/2013/06/nailfix2-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix2-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix2-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix2-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix2.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Trim just enough to cover a little past the tear, and enough to wrap under if you can.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix3-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/nailfix3-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/nailfix3-1272x954.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix3.jpg.webp 2048w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-381" alt="nailfix3" src="/wp-content/uploads/2013/06/nailfix3-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/06/nailfix3-1024x768.jpg 1024w, /wp-content/uploads/2013/06/nailfix3-300x225.jpg 300w, /wp-content/uploads/2013/06/nailfix3-1272x954.jpg 1272w, /wp-content/uploads/2013/06/nailfix3.jpg 2048w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">I didn&#8217;t put it on my entire nail, just the area with the tear.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix4-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/nailfix4-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/nailfix4-1272x954.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix4.jpg.webp 2048w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-382" alt="nailfix4" src="/wp-content/uploads/2013/06/nailfix4-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/06/nailfix4-1024x768.jpg 1024w, /wp-content/uploads/2013/06/nailfix4-300x225.jpg 300w, /wp-content/uploads/2013/06/nailfix4-1272x954.jpg 1272w, /wp-content/uploads/2013/06/nailfix4.jpg 2048w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Use your tweezers to carefully place the wrap. Don&#8217;t use your fingers. Oils!</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix5-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix5-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix5-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix5.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-383" alt="nailfix5" src="/wp-content/uploads/2013/06/nailfix5-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix5-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix5-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix5-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix5.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Using your finger inside the plastic bag, or the round end of your tweezers, smooth out the wrap.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix6-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix6-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix6-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix6.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-384" alt="nailfix6" src="/wp-content/uploads/2013/06/nailfix6-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix6-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix6-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix6-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix6.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">Don&#8217;t glob it on, but be sure the wrap is fully saturated and smooth on the nail.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/nailfix7-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/nailfix7-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/nailfix7-1272x1696.jpg.webp 1272w, /wp-content/uploads/2013/06/nailfix7.jpg.webp 1536w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-385" alt="nailfix7" src="/wp-content/uploads/2013/06/nailfix7-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/nailfix7-768x1024.jpg 768w, /wp-content/uploads/2013/06/nailfix7-225x300.jpg 225w, /wp-content/uploads/2013/06/nailfix7-1272x1696.jpg 1272w, /wp-content/uploads/2013/06/nailfix7.jpg 1536w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">When the glue is dry, about 15 minutes, using a nail buffer, buff the nail until all the shiny spots are gone.</p>
+<p style="text-align: left;">And that&#8217;s it! It might seem like a lot of work, but once you get the hang of it, not counting drying time, it took me maybe 2 minutes per nail. Way less time than it takes me to trim and shape all ten nails, and way less time than it takes to grow out a new one. I&#8217;ve had 2 patches on for nearly two weeks, and they don&#8217;t show any signs of lifting, peeling, or failing. My patched nails are all still intact, and under polish, you can&#8217;t even tell they&#8217;re there. Even without polish, you can&#8217;t really see the wraps.</p>
+<p style="text-align: left;">Isn&#8217;t this so exciting? This is a whole new innovation for me. Nail repair! The way of the future!</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-371" class="clear post-371 post type-post status-publish format-standard hentry category-beauty-tools category-face">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/beauty-tools/" rel="category tag">Beauty Tools</a>, <a href="/category/face/" rel="category tag">Face</a></span><h1 class="entry-title"><a href="/brush-up-part-3/" rel="bookmark">Brush Up, Part 3</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/brush-up-part-3/" title="11:30 am" rel="bookmark"><time datetime="2013-06-24T11:30:37-07:00">June 24, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/brush-up-part-3/#comments">3 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>AKA THE BRUSHENING.</p>
+<p>Ok. We&#8217;ve covered all the basic brush essentials, and now we&#8217;re going to get into some brushes that aren&#8217;t necessary if you&#8217;re a meat and potatoes kind of makeup person. If you are, I don&#8217;t know what you&#8217;re doing here. I deal in excess, honey. Always, always, por vida.</p>
+<p>These last three tools don&#8217;t come out for every face, but they always make an appearance for a going out face, or a photo face. I don&#8217;t highlight and contour to go to Target, I can barely manage to convince myself to put a bra on.</p>
+<p>RELATED: Yesterday, I went to Starbucks at 7:00 AM without a bra on, but nobody could tell because I kept my arms crossed over my nips. Pretty smart, huh? Nobody every knew what I had under there.</p>
+<p>Yuck. I can&#8217;t stop thinking about meat and potatoes makeup.</p>
+<p>Let&#8217;s go.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/brushhighlight-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/brushhighlight-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/brushhighlight-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/brushhighlight-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/brushhighlight.jpg.webp 1632w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-372" alt="brushhighlight" src="/wp-content/uploads/2013/06/brushhighlight-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/brushhighlight-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/brushhighlight-150x150.jpg 150w, /wp-content/uploads/2013/06/brushhighlight-300x300.jpg 300w, /wp-content/uploads/2013/06/brushhighlight-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/brushhighlight.jpg 1632w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Sonia Kashuk Concealer Brush, Target</em></p>
+<p>I love this brush for precision concealing and highlighting. The pointed tip makes it so much easier to get in the small areas under eyes, and the nose.</p>
+<p>Like I said, I don&#8217;t always use highlighting, but when I do, working with product off the back of my hand, I highlight around the eyes, down the center of the nose, chin, and sometimes above the mouth. You use highlighter on and around the things you want to accentuate, to bring attention to them and make them more prominent.</p>
+<p>This brush also came out of a set, but <a href="http://www.target.com/p/sonia-kashuk-core-tools-synthetic-pointed-foundation-brush-no-121/-/A-13340037#prodSlot=medium_1_28&amp;term=Sonia+Kashuk">this Sonia Kashuk foundation brush</a> would do the same job.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/brushhighlightpowder-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/brushhighlightpowder-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/brushhighlightpowder-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/brushhighlightpowder-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/brushhighlightpowder.jpg.webp 1632w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-373" alt="brushhighlightpowder" src="/wp-content/uploads/2013/06/brushhighlightpowder-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/brushhighlightpowder-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/brushhighlightpowder-150x150.jpg 150w, /wp-content/uploads/2013/06/brushhighlightpowder-300x300.jpg 300w, /wp-content/uploads/2013/06/brushhighlightpowder-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/brushhighlightpowder.jpg 1632w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.sigmabeauty.com/product_p/e50.htm">Sigma Beauty, Large Fluff E50, $12</a></em></p>
+<p style="text-align: left;">Never  walk away from your makeup without dusting powder over concealer or highlighter colors. It&#8217;s the law. And you, my friend, are not above the law. What do you want? Dusted or busted? Don&#8217;t get busted or you&#8217;ll get thrown in beauty jail. You and other beauty offenders (eyebrow manglers, hair crunchers, felony non-moisturizers, and repeat dick wagglers [regular jail was full, beauty jail is coed]) will be behind bars, and don&#8217;t bother having someone bake a cake with a file in it, they know all about that.</p>
+<p style="text-align: left;">I use this brush to stay out of beauty jail. A light brush of translucent finishing powder makes your concealer smoother and keeps it in place.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/06/brushbeautyblender-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/brushbeautyblender-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/brushbeautyblender-1272x954.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-374" alt="brushbeautyblender" src="/wp-content/uploads/2013/06/brushbeautyblender-1024x768.jpg" width="696" height="522" srcset="/wp-content/uploads/2013/06/brushbeautyblender-1024x768.jpg 1024w, /wp-content/uploads/2013/06/brushbeautyblender-300x225.jpg 300w, /wp-content/uploads/2013/06/brushbeautyblender-1272x954.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.amazon.com/gp/product/B000I5HJ2Y/ref=as_li_tf_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000I5HJ2Y&amp;linkCode=as2&amp;tag=thlabu-20">Beautyblender, Amazon, 2 for $21.47</a><img loading="lazy" decoding="async" style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=thlabu-20&amp;l=as2&amp;o=1&amp;a=B000I5HJ2Y" width="1" height="1" border="0"></em></p>
+<p style="text-align: left;"><a style="text-align: left;">I love everything about this little tool. It&#8217;s adorable, it feels good in my hand, and it works beautifully. You can use it dry or damp to apply foundation or blend, I prefer to use it damp. Using it to apply foundation</a><a style="text-align: left;"> give</a><a style="text-align: left;">s</a><a style="text-align: left;"> a soft, smooth, and almost airbrushed finish; while the dampness of the sponge stretches your cosmetics and gives great build-able coverage. I sometimes use it damp, with no makeup, to press over my finished face and blend any edges or lines that may still be present from contouring and give everything a seamless look.</a></p>
+<p style="text-align: left;">The name brand BeautyBlenders are kind of expensive, and they do sell similar sponges at <a href="http://www.sephora.com/precision-sponge-P243309?skuId=1171750">Sephora</a> and <a href="http://www.target.com/p/sonia-kashuk-blending-sponge/-/A-10806931#prodSlot=medium_1_1&amp;term=makeup+sponge">Target</a>, but I can&#8217;t vouch for them. They&#8217;re just sponges, right? What&#8217;s going to happen? They blow up?</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p style="text-align: left;">I hope everyone found this series helpful! Good brushes can come from all kinds of different places. I have and use brushes that came from makeup counters, drugstores, and art supply stores, just keep an eye out and you&#8217;ll curate a great collection too.</p>
+<p style="text-align: left;">Are there any brushes or tools you&#8217;re curious about or any problems you&#8217;re having with current brushes? Does everyone know about washing their brushes, or would that be helpful too? Let me know!</p>
+<p style="text-align: left;">And hey, don&#8217;t forget about God&#8217;s makeup brushes: your fingers. Just keep those washed too, ok? Maybe more frequently than your actual brushes.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				<nav role="navigation" id="nav-below" class="navigation-paging">
+		<div class="wrap clear">
+			<h1 class="screen-reader-text">Post navigation</h1>
+
+		
+			
+						<div class="previous"><a href="/2013/06/page/2/"><span class="meta-nav">&larr;</span> <span class="text-nav">Older posts</span></a></div>
+			
+		
+		</div>
+	</nav><!-- #nav-below -->
+	
+		
+		</div>
+<!-- #content -->
+	</section><!-- #primary -->
+
+
+	</div>
+<!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info wrap">
+						<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Ryu by <a href="http://automattic.com/" rel="designer">Automattic</a>.		</div>
+<!-- .site-info -->
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+<link rel="stylesheet" id="mediaelement-css" href="/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.5.3" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/themes/ryu/js/navigation.js?ver=20120206" id="ryu-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/skip-link-focus-fix.js?ver=20130115" id="ryu-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/ryu.js?ver=20130319" id="ryu-theme-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.5.3" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.5.3" id="wp-mediaelement-js"></script>
+<script type="text/javascript" src="/wp-includes/js/mediaelement/renderers/vimeo.min.js?ver=4.2.17" id="mediaelement-vimeo-js"></script>
+
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41236199-1']);
+  _gaq.push(['_trackPageview']);
+
+  setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+</body>
+</html>

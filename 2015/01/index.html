@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>January 2015 - The Lab Bunny</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://labbunny.com/wp-content/themes/ryu/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="noindex, follow">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>January 2015 - The Lab Bunny</title>
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="January 2015 - The Lab Bunny">
+	<meta property="og:url" content="/2015/01/">
+	<meta property="og:site_name" content="The Lab Bunny">
+	<meta property="og:image" content="/wp-content/uploads/2013/04/cropped-labbunny.jpg">
+	<meta property="og:image:width" content="328">
+	<meta property="og:image:height" content="328">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@labbunny">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"/2015/01/","url":"/2015/01/","name":"January 2015 - The Lab Bunny","isPartOf":{"@id":"/#website"},"breadcrumb":{"@id":"/2015/01/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"/2015/01/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Archives for January 2015"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"The Lab Bunny","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Comments Feed" href="/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/ryu/genericons/genericons.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-style-css" href="/wp-content/themes/ken/style.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-lato-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-playfair-display-css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('labbunny.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>	<style type="text/css">.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		.header-image {
+			margin-bottom: 0;
+		}</style>
+			<style type="text/css" id="wp-custom-css">.ch_poweredby {
+	display: none;
+}
+
+.social a, .social a:hover {
+	border: 0;
+}</style>
+		</head>
+
+<body class="archive date group-blog">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+
+
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="toppanel hide">
+		<div id="secondary" role="complementary" class="wrap clear four">
+		<div id="top-sidebar-one" class="widget-area" role="complementary">
+			</div>
+<!-- #first .widget-area -->
+	
+		<div id="top-sidebar-two" class="widget-area" role="complementary">
+		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">Gaby Love</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-8103">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">May</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-7932">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Zee</span> on <a href="/sephora-precision-pore-cleansing-pad/#comment-7655">Sephora Precision Pore Cleansing Pad</a>
+</li>
+</ul></aside>	</div>
+<!-- #second .widget-area -->
+	
+		<div id="top-sidebar-three" class="widget-area" role="complementary">
+			</div>
+<!-- #third .widget-area -->
+	
+		<div id="top-sidebar-four" class="widget-area" role="complementary">
+		<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>
+			<ul>
+					<li><a href="/2015/04/">April 2015</a></li>
+	<li><a href="/2015/01/" aria-current="page">January 2015</a></li>
+	<li><a href="/2014/10/">October 2014</a></li>
+	<li><a href="/2014/09/">September 2014</a></li>
+	<li><a href="/2014/08/">August 2014</a></li>
+	<li><a href="/2014/07/">July 2014</a></li>
+	<li><a href="/2014/06/">June 2014</a></li>
+	<li><a href="/2014/05/">May 2014</a></li>
+	<li><a href="/2014/04/">April 2014</a></li>
+	<li><a href="/2014/03/">March 2014</a></li>
+	<li><a href="/2014/02/">February 2014</a></li>
+	<li><a href="/2014/01/">January 2014</a></li>
+	<li><a href="/2013/12/">December 2013</a></li>
+	<li><a href="/2013/11/">November 2013</a></li>
+	<li><a href="/2013/10/">October 2013</a></li>
+	<li><a href="/2013/09/">September 2013</a></li>
+	<li><a href="/2013/08/">August 2013</a></li>
+	<li><a href="/2013/07/">July 2013</a></li>
+	<li><a href="/2013/06/">June 2013</a></li>
+	<li><a href="/2013/05/">May 2013</a></li>
+	<li><a href="/2013/04/">April 2013</a></li>
+			</ul>
+
+			</aside>	</div>
+<!-- #four .widget-area -->
+	</div>
+<!-- #secondary -->	</div>
+	
+	
+	<div id="search-wrapper" class="toppanel hide">
+		
+<form method="get" id="searchform" class="searchform" action="https://labbunny.com/" role="search">
+	<label for="s" class="screen-reader-text">Search</label>
+	<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;">
+	<input type="submit" class="submit" id="searchsubmit" value="Search">
+</form>	</div>
+
+	<div id="triggers-wrapper">
+		<ul class="triggers clear">
+						<li class="widgets-trigger">
+				<a href="#" class="genericon" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</a>
+			</li>
+			
+			
+			<li class="search-trigger">
+				<a href="#" class="genericon" title="Search">
+					<span class="screen-reader-text">Search</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="wrap">
+			
+							<a class="site-logo" href="/" title="The Lab Bunny" rel="home">
+					<picture><source srcset="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png.webp" type="image/webp"><img src="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png" width="1280" height="250" alt="" class="no-grav header-image" data-eio="p"></picture>
+				</a>
+			
+			<hgroup>
+				<h1 class="site-title"><a href="/" title="The Lab Bunny" rel="home">The Lab Bunny</a></h1>
+				<h2 class="site-description"></h2>
+			</hgroup>
+		</div>
+<!-- .wrap -->
+
+					<nav id="site-navigation" class="navigation-main clear" role="navigation">
+				<h1 class="menu-toggle">Menu</h1>
+				<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="wrap"><ul id="menu-menu" class="menu">
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="/about/">About</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="/contact/">Contact</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="https://www.facebook.com/TheLabBunny">Facebook</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://twitter.com/LabBunny">Twitter</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-272"><a href="http://instagram.com/thelabbunny">Instagram</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<section id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+			<header class="page-header">
+				<div class="wrap">
+					<h1 class="page-title">
+						Monthly Archives: <span>January 2015</span>					</h1>
+									</div>
+			</header><!-- .page-header -->
+
+						
+				
+<article id="post-1121" class="clear post-1121 post type-post status-publish format-standard hentry category-lips category-lipstick category-melt-cosmetics category-upcoming">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/lips/" rel="category tag">Lips</a>, <a href="/category/lipstick/" rel="category tag">Lipstick</a>, <a href="/category/melt-cosmetics/" rel="category tag">Melt Cosmetics</a>, <a href="/category/upcoming/" rel="category tag">Upcoming</a></span><h1 class="entry-title"><a href="/melts-dark-room-returns/" rel="bookmark">Melt&#8217;s Dark Room Returns!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/melts-dark-room-returns/" title="10:57 am" rel="bookmark"><time datetime="2015-01-29T10:57:29-08:00">January 29, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/melts-dark-room-returns/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2015/01/melt-dark-room-873x1024.png.webp 873w, /wp-content/uploads/2015/01/melt-dark-room-256x300.png.webp 256w, /wp-content/uploads/2015/01/melt-dark-room.png.webp 888w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img fetchpriority="high" decoding="async" class="aligncenter wp-image-1122 size-large" src="/wp-content/uploads/2015/01/melt-dark-room-873x1024.png" alt="melt dark room" width="696" height="816" srcset="/wp-content/uploads/2015/01/melt-dark-room-873x1024.png 873w, /wp-content/uploads/2015/01/melt-dark-room-256x300.png 256w, /wp-content/uploads/2015/01/melt-dark-room.png 888w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p>Back in November, Melt Cosmetics released their newest shade, a juicy, plummy color named Dark Room. When the site went live with the product drop, it was a madhouse. Luckily, having survived the great Missoni for Target Frenzy of 2011, I was prepared. When the dust settled and the lipsticks were sold out, I had my tube, and all was right in my world. Kind of dumb to not buy two, but, I was really in the zone and I had my eyes on the prize.</p>
+<p>If you missed the chance to jump on this color in November, it&#8217;s coming back in stock, and it&#8217;s going to be permanent.</p>
+<p><picture><source srcset="/wp-content/uploads/2015/01/Melt-Dark-Room-collage-1024x1024.jpg.webp 1024w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage-150x150.jpg.webp 150w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage-300x300.jpg.webp 300w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage-1272x1272.jpg.webp 1272w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage.jpg.webp 1280w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img decoding="async" class="aligncenter wp-image-1123 size-large" src="/wp-content/uploads/2015/01/Melt-Dark-Room-collage-1024x1024.jpg" alt="Melt Dark Room collage" width="696" height="696" srcset="/wp-content/uploads/2015/01/Melt-Dark-Room-collage-1024x1024.jpg 1024w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage-150x150.jpg 150w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage-300x300.jpg 300w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage-1272x1272.jpg 1272w, /wp-content/uploads/2015/01/Melt-Dark-Room-collage.jpg 1280w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Miss you, nails.</em></p>
+<p style="text-align: left;">Melt described this lipstick color as the inside of a beet, and that&#8217;s pretty accurate. It&#8217;s a really rich, sumptuous shade. I liked it best with multiple layers blotted down. It&#8217;s matte, and it wears really well. I did a friend&#8217;s makeup for her wedding, and we used it to give her a dramatic lip for the reception.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/Melt-Dark-Room-pics-1024x1024.jpg.webp 1024w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics-150x150.jpg.webp 150w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics-300x300.jpg.webp 300w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics-1272x1272.jpg.webp 1272w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics.jpg.webp 1280w" sizes="(max-width: 647px) 100vw, 647px" type="image/webp"><img decoding="async" class="aligncenter wp-image-1124 " src="/wp-content/uploads/2015/01/Melt-Dark-Room-pics-1024x1024.jpg" alt="Melt Dark Room pics" width="647" height="647" srcset="/wp-content/uploads/2015/01/Melt-Dark-Room-pics-1024x1024.jpg 1024w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics-150x150.jpg 150w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics-300x300.jpg 300w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics-1272x1272.jpg 1272w, /wp-content/uploads/2015/01/Melt-Dark-Room-pics.jpg 1280w" sizes="(max-width: 647px) 100vw, 647px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>The babely bride and yours truly, wearing Dark Room. </em></p>
+<p style="text-align: left;">Dark Room will be back in stock on February 4th, so if you want it, get your credit card all cleaned, sharpened, and ready to go. From what I can tell, when Melt restocks, the supply doesn&#8217;t last long. Get out there and chase that lipstick! Have you ever experienced the rush of successfully snagging your coveted product during one of these madhouse cosmetics releases? It&#8217;s a very triumphant feeling. AND, 7-10 days later, there&#8217;s lipstick at your door! BONUS.</p>
+<p style="text-align: left;"><a href="http://www.meltcosmetics.com/products/dark-room">Buy Dark Room by Melt Cosmetics <strong>HERE</strong>!</a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-1118" class="clear post-1118 post type-post status-publish format-standard hentry category-diy category-links category-nails">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/diy/" rel="category tag">DIY</a>, <a href="/category/links/" rel="category tag">Links</a>, <a href="/category/nails/" rel="category tag">Nails</a></span><h1 class="entry-title"><a href="/diy-try-watercolor-mug/" rel="bookmark">DIY Try: Watercolor Mug</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/diy-try-watercolor-mug/" title="9:00 am" rel="bookmark"><time datetime="2015-01-27T09:00:09-08:00">January 27, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/diy-try-watercolor-mug/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I&#8217;m always on the lookout for new projects to start and abandon. I can&#8217;t help it, I&#8217;m just really passionate about half knitted scarves! Unfinished crafts are my life&#8217;s work.</p>
+<p>Every once in a while, I screw up, and one gets done. Like these DIY watercolor mugs I found from <a href="http://www.poppytalk.com/2014/07/diy-watercolor-mug.html">Poppytalk</a>.</p>
+<p><img loading="lazy" decoding="async" class=" aligncenter" src="http://4.bp.blogspot.com/-EYB0c4IUXB4/U9XppeMC00I/AAAAAAABN_U/HE-jW40bx7Y/s1600/Final2.jpg" alt="" width="700" height="464"></p>
+<p style="text-align: center;"><em>photo via Poppytalk</em></p>
+<p>Gorgeous, right? I had the idea to put that lovely splash of color on a white ceramic pot as a birthday gift for a green thumbed friend! In my mind, she opens the box, pulls out the pot, and gets a tear in her eye from my beautiful, and very expensive looking, gift that was made all the more special by the fact that I did it with my own little hands. It was a very, very good plan.</p>
+<p>Would the owner of this one of a kind piece of functional artwork please raise her hand?</p>
+<p>&#8230;</p>
+<p>&#8230;</p>
+<p>Ok. I never sent it.</p>
+<p>I have a good reason though! It came out, umm, not so good. She would have cried a little tear, but not from being overwhelmed by beauty and friendship.</p>
+<p>Sorry, Missy.</p>
+<p>Happy birthday?</p>
+<p>This was extremely perplexing because my trial run came out pretty nice!</p>
+<p><picture><source srcset="/wp-content/uploads/2015/01/watercolor-mug.jpg.webp 640w, /wp-content/uploads/2015/01/watercolor-mug-150x150.jpg.webp 150w, /wp-content/uploads/2015/01/watercolor-mug-300x300.jpg.webp 300w" sizes="(max-width: 640px) 100vw, 640px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1119" src="/wp-content/uploads/2015/01/watercolor-mug.jpg" alt="watercolor mug" width="640" height="640" srcset="/wp-content/uploads/2015/01/watercolor-mug.jpg 640w, /wp-content/uploads/2015/01/watercolor-mug-150x150.jpg 150w, /wp-content/uploads/2015/01/watercolor-mug-300x300.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" data-eio="p"></picture></p>
+<p>Before I did the pot, I tried the process on a mug. It&#8217;s cool! I would have been happy if the pot had come out like this! I&#8217;m really sad it didn&#8217;t. I kind of feel like I know what I did wrong though, and I want to try it again. I&#8217;ve got nail polish <a title="Pretty Ladies All In a Row" href="/pretty-ladies-row/">out the yang</a>, and a lot of free time. Missy&#8217;s birthday might not be licked yet!</p>
+<p>I bet you&#8217;re waiting to see the fucked up pot. Well, too bad. It&#8217;s too crusty looking, and it would bring great shame to our household. I&#8217;ll show it off when I get it right! Fingers crossed!</p>
+<p><a href="http://www.poppytalk.com/2014/07/diy-watercolor-mug.html">See Poppytalk&#8217;s Watercolor Mug tutorial HERE.</a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-1111" class="clear post-1111 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/dog-stuff-blog-stuff/" rel="bookmark">Dog stuff and blog stuff</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/dog-stuff-blog-stuff/" title="11:25 am" rel="bookmark"><time datetime="2015-01-21T11:25:59-08:00">January 21, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I greatly prefer winter weather to summer weather. Like, maybe I have reverse SAD. Days upon days of cloudy weather doesn&#8217;t bother me, but, day after day of blistering sun makes me feel crazy and desolate. Stepping outside first thing in the morning to a full blast sun puts me in a cranky mood. Some summer stuff, like spending a day with a friend alternating between dozing on floating rafts and working out a synchronized swimming routine to &#8220;Man, I Feel Like a Woman,&#8221; is quite divine. Other stuff, like, oh, everything else, is awful. What&#8217;s good? Kids are out of school, it&#8217;s a thousand degrees, people keep trying to stuff me full of BBQ and then put me in a bathing suit &#8211; it&#8217;s a nightmare. Winter isn&#8217;t totally awesome, I&#8217;m not going to pretend I&#8217;m not freezing my balls off. I get cold all the way to the bone, I just don&#8217;t care because that&#8217;s why I have chi dogs and big blankets.</p>
+<p>Speaking of chi dogs, someone would like to make his big blog debut today.</p>
+<p>Weighing in at 2.3 pounds!</p>
+<p>One half of the Tiny Twin Titans of Terror!</p>
+<p>I may or may not have been in the grips of a fever delirium when I bought him from a couple standing outside Target with puppies in a laundry basket!</p>
+<p>Ladies and gentlemen, allow me to introduce the hardest playing boy in chi business, Mr. Please, Please Don&#8217;t Pee There&#8230;</p>
+<p style="text-align: center;"><strong>Gomez &#8220;Dr. Teeth&#8221; Cosper!</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2015/01/Gomez-e1421862041964.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1112" src="/wp-content/uploads/2015/01/Gomez-e1421862041964.jpg" alt="Gomez" width="640" height="640" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>&#8220;Dr. Teeth&#8221; isn&#8217;t his middle name, it&#8217;s just his most apropos nickname. </em></p>
+<p style="text-align: center;"><strong>Isn&#8217;t he a ladykiller?!</strong></p>
+<p style="text-align: left;"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1114" src="/wp-content/uploads/2015/01/acquitted-gif.gif" alt="acquitted gif" width="480" height="360"></p>
+<p style="text-align: left;">He&#8217;s a teeny baby, barely three months old, and he&#8217;s just disgustingly cute. Wrinkly neck, ears too big to hold up, curly whiskers! He&#8217;s the total package! Even Rowdy came around and now she&#8217;s a big sister.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/Rowdy-and-Gomez-e1421863356325.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1113" src="/wp-content/uploads/2015/01/Rowdy-and-Gomez-e1421863356325.jpg" alt="Rowdy and Gomez" width="640" height="640" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>just big sister things</em></p>
+<p style="text-align: left;">He&#8217;s a baby genius, he&#8217;s a big chicken, and we love the crap out of him. He&#8217;s kind of a willful prick sometimes, and not a day goes by where he doesn&#8217;t try to eat my hair, but, nobody&#8217;s perfect!</p>
+<p style="text-align: left;">¯\_(ツ)_/¯</p>
+<p style="text-align: left;">In other news, when was the last time you watched this?</p>
+<p><iframe loading="lazy" title="David Lee Roth - Just A Gigolo / I Ain&#039;t Got Nobody (1985) (Music Video - Dave TV Version)" width="696" height="392" src="https://www.youtube.com/embed/ui-zBq-f5XA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>This song and its video are one of my go-to cures for the blahs. I was feeling kind of blah this morning because of my cold toes and my poor, poor frozen succulents (RIP), but Diamond Dave turned it all around. It&#8217;s impossible not to laugh, and dance, and sing along! I mean, I fucking dare you to not AT LEAST do some jazz hands. You can&#8217;t do it. This is why we were only meant to have him for so long; if he had stayed on top forever we&#8217;d all be dead from high kicks.</p>
+<p>What song always cheers you up? Do you agree with Jason that we missed an opportunity to name Gomez &#8220;David Chi Roth?&#8221;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-1105" class="clear post-1105 post type-post status-publish format-standard hentry category-floss-gloss category-how-to category-instagram category-nail-art category-nails category-nicole-by-opi">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/floss-gloss/" rel="category tag">Floss Gloss</a>, <a href="/category/how-to/" rel="category tag">How-To</a>, <a href="/category/instagram/" rel="category tag">Instagram</a>, <a href="/category/nail-art/" rel="category tag">Nail Art</a>, <a href="/category/nails/" rel="category tag">Nails</a>, <a href="/category/nicole-by-opi/" rel="category tag">Nicole by OPI</a></span><h1 class="entry-title"><a href="/easy-peasy-manikreezy/" rel="bookmark">Easy Peasy Manikreezy</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/easy-peasy-manikreezy/" title="9:00 am" rel="bookmark"><time datetime="2015-01-20T09:00:14-08:00">January 20, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I was, like, not made to live without a beauty team. I guess I can do my own nails, but it&#8217;s really better if someone else does them. I&#8217;m a Real Housewife, not a real housewife. Know what I mean?</p>
+<p>It&#8217;s not like I&#8217;m particularly bad at doing my nails. I used to be pretty good at it until several months of fills and fresh sets ruined me. I don&#8217;t know! I&#8217;m so bad at the edges now! This entire mani was invented around avoiding my GD cuticle edges.</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/xiWzLDLEk-/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+<div style="padding:16px;"> <a href="https://www.instagram.com/p/xiWzLDLEk-/?utm_source=ig_embed&amp;utm_campaign=loading" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> 
+<div style="display: flex; flex-direction: row; align-items: center;">
+<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+<div style="background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+<div style="background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+</div>
+</div>
+<div style="padding: 19% 0;"></div>
+<div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewbox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+<div style="padding-top: 8px;">
+<div style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div>
+</div>
+<div style="padding: 12.5% 0;"></div>
+<div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+<div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+<div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+</div>
+<div style="margin-left: 8px;">
+<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+<div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+</div>
+<div style="margin-left: auto;">
+<div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+<div style="background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+<div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+</div>
+</div>
+<p></p></a> 
+<p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/xiWzLDLEk-/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">I like to think up manicures that don&#39;t require precision. At first I wasn&#39;t sure about this one, but now I REALLY like it. Once I cleaned up the splash zone, it looks pretty good! Details!!! ????Bottom layer &#8211; DONATELLA and MOON BABY by @flossgloss ???? top color &#8211; GIVE ME THE 1ST DANCE by @nicolebyopi ???? #beauty #nails #flossgloss #moonbaby #donatella #nicolebyopi #liveinthecolor #nailswag #nailsofinstagram</a></p>
+<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/thelabbunny/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Sarah Cosper</a> (@thelabbunny) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-01-07T02:58:44+00:00">Jan 6, 2015 at 6:58pm PST</time></p>
+</div>
+</blockquote>
+<p><script async src="//platform.instagram.com/en_US/embeds.js"></script></p>
+<p style="text-align: left;">Allll the areas around my actual nails are the splash zone. Mani specifically designed around avoiding this situation, and I&#8217;m still &#8220;cleaning up&#8221; my nails in the shower. ACK!</p>
+<p>OH WELL. This nail art(?) is great because it doesn&#8217;t need tape, a steady hand, or, extra brushes. I didn&#8217;t even need to sit at the kitchen table to get a level work surface. I did the whole thing kicked all the way back on the couch. I&#8217;ll tell you how!</p>
+<p>You&#8217;re going to need three colors; two for the base, and one for on top. I used two Floss Gloss colors, DONATELLA and MOON BABY, for the base, and GIVE ME THE 1ST DANCE by Nicole by OPI for the top.</p>
+<p><a href="/wp-content/uploads/2015/01/IMG_2710.jpg"><picture><source srcset="/wp-content/uploads/2015/01/IMG_2698.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="  aligncenter" src="/wp-content/uploads/2015/01/IMG_2698.jpg" alt="IMG_2698.JPG" width="600" height="600" data-eio="p"></picture></a></p>
+<p style="text-align: center;"><i>L &#8211; R: <a href="http://flossgloss.com/collections/lacquers/products/moon-baby">MOON BABY</a>, <a href="http://flossgloss.com/collections/lacquers/products/donatella">DONATELLA</a>, GIVE ME THE 1ST DANCE</i></p>
+<p style="text-align: left;">First, make haphazard swipes of your base colors on the bottom 3/4 of your nails. Do all ten fingers.</p>
+<p style="text-align: left;">Then, working one nail at a time, dab some of your top color on the tip, sort of lightly pulling the color upwards.</p>
+<p style="text-align: left;">Wipe all the polish off the brush, onto the lip of the bottle.</p>
+<p style="text-align: left;">Drag the brush from the tip to the top of your nail. I liked the silver color for this because it gave everything an antique looking finish. You might need to dab more polish here and there, depending on where you want the coverage. Just make sure you wipe all the excess off the brush for the thinly layered areas. If at any point, your coverage with this color gets too solid, take a q-tip soaked in polish remover, and gently roll it over the areas you want to thin out.</p>
+<p style="text-align: left;">Cover it all with a top coat, and you&#8217;re done!</p>
+<p><a href="/wp-content/uploads/2015/01/IMG_2710.jpg"><picture><source srcset="/wp-content/uploads/2015/01/IMG_2710.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="  aligncenter" src="/wp-content/uploads/2015/01/IMG_2710.jpg" alt="IMG_2710.JPG" width="673" height="673" data-eio="p"></picture></a></p>
+<p style="text-align: center;"><em>OF COURSE I got polish on my finger here.</em></p>
+<p style="text-align: left;">You sort of can&#8217;t fuck this up. I mean, you can, but, it&#8217;s hard. My first finger looked like garbage compared to the rest of them. But, by the time I got to the end, they were looking exactly how I&#8217;d hoped. I was even able to go back and fix the ugly one with my q-tip trick! Just be patient with yourself, work with the dabbing and brushing, and you&#8217;ll get the hang of it!<span style="line-height: 1.5;"> </span></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-1106" class="clear post-1106 post type-post status-publish format-standard hentry category-bargain-beauty category-dupes category-instagram category-links">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/bargain-beauty/" rel="category tag">Bargain Beauty</a>, <a href="/category/dupes/" rel="category tag">Dupes</a>, <a href="/category/instagram/" rel="category tag">Instagram</a>, <a href="/category/links/" rel="category tag">Links</a></span><h1 class="entry-title"><a href="/peep-dupe/" rel="bookmark">Peep this! DUPE THAT</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/peep-dupe/" title="9:48 am" rel="bookmark"><time datetime="2015-01-18T09:48:04-08:00">January 18, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/peep-dupe/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I love makeup and spending money (and chihuahuas, and pizza, and Jane the Virgin, and big d). I really hate being broke (and bell peppers, and Monty Python, and mansplainers).</p>
+<p>Thankfully, the diligent swatchers over at one of my favorite Instagram accounts, DUPE THAT, are all over the buying lots of makeup/still having money dichotomy. They&#8217;re in there every day, showing us how often we&#8217;re paying extra for luxury brand names. When you collect lipsticks like I do, this is some valuable information.</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+<div style="padding:8px;">
+<div style="background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;">
+<div style="background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+</div>
+<p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/x2G_ESieCu/" style="color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">It only took some playing in our collection to realize that we had a dupe for Lime Crime&#39;s Airborne Unicorn! @nyxcosmetics macaron lippie in Violet looks just like Airborne Unicorn, and even more vivid if possible! We love this bright lip color! </a></p>
+<p>&nbsp;</p>
+<p>Look at that! Every post is this good. They&#8217;re doing the Lord&#8217;s work over there.</p>
+<p><a href="http://www.dupethat.com/">DUPE THAT recently launched a full site.</a> The site is searchable for brands and color names, thereby fixing the one issue I had with their IG only operation. It&#8217;s very exciting!!</p>
+<p>Are you off today? Maybe spend some time browsing their site and making lists. Are you working today? My suggestion still stands. Your boss says it&#8217;s cool!</p>
+<p><a href="http://www.dupethat.com/">Check out DUPE THAT&#8217;s full site, HERE!</a></p>
+<p><a href="http://instagram.com/dupethat">See their Instagram page, HERE!</a></p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</blockquote>
+</div>
+<!-- .entry-wrap -->
+<!-- #post-## -->
+			
+				
+<article id="post-1099" class="clear post-1099 post type-post status-publish format-standard hentry category-bargain-beauty category-blemish-control category-cetaphil category-cleansers category-face category-maintenance category-skincare">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/bargain-beauty/" rel="category tag">Bargain Beauty</a>, <a href="/category/blemish-control/" rel="category tag">Blemish Control</a>, <a href="/category/cetaphil/" rel="category tag">Cetaphil</a>, <a href="/category/cleansers/" rel="category tag">Cleansers</a>, <a href="/category/face/" rel="category tag">Face</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/skincare/" rel="category tag">Skincare</a></span><h1 class="entry-title"><a href="/worlds-easiest-resolution/" rel="bookmark">The World&#8217;s Easiest Resolution</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/worlds-easiest-resolution/" title="8:00 am" rel="bookmark"><time datetime="2015-01-16T08:00:42-08:00">January 16, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/worlds-easiest-resolution/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I&#8217;m not a resolutions person. Obviously. I mean, here I am, knocking the dust off this blog well into the second (technically third) week of January. A resolutions person would have been here that first Monday. To me, New Year&#8217;s resolutions are amateur hour. I&#8217;m making and breaking promises to myself 365, BAYBAY!!</p>
+<p>My problem is, I always go too big. Lose weight, save money, find my life&#8217;s purpose, blah blah. That stuff is a lot of work! You know what&#8217;s probably way better for our mental well-being? Starting small. Make your bed every day! Kick your panties into the hamper instead of leaving them sunny-side up in the bathroom! Mop!<br>
+No. Don&#8217;t mop. I&#8217;m sorry I said that. FUCK mopping.</p>
+<p>How about, instead, you could resolve to have cleaner skin? You don&#8217;t even have to buy a new face wash, or an expensive cleansing brush. Are you all ready for my ONE WEIRD TRICK?</p>
+<p>Here it is:</p>
+<p>Wash your face longer. For 60 whole seconds. That&#8217;s it.</p>
+<p>Real talk, you guys; I know what you&#8217;re doing. I see how quickly you wash your face. I SEE YOU. But, it&#8217;s ok! I used to do the same thing! In fact, I considered myself a pretty accomplished face washer. I washed my face every night and most mornings, I used my Clarisonic. I would even wash my face when I was three sheets to an ill wind! Some of the mascara might be left behind, but, I&#8217;d AT LEAST use a cleansing wipe. So, pretty good, right? Pretty good, but could be better. Like, maybe better if I didn&#8217;t rush through it in just a few seconds. You know, like how washing a fork with soap real fast is good, but making sure you get all the crud off is preferable?</p>
+<p>Still not convinced? (Pretend you&#8217;re not convinced.) Will a little bit of Beauty School Confidential help? Consider this; a big reason for the effectiveness of a spa facial is the extensive time spent on cleansing. Most estheticians will cleanse your skin twice during a facial. When all is said and done, you&#8217;re going to get, probably, a combined five minutes of solid cleanser on skin action. It&#8217;s not an accident that your skin is so bright after that! I mean, the <em>default</em> time on my Clarisonic is 60 seconds, and that thing is using sonic vibrations, or whatever, AND bristles. If the Clarisonic needs 60 seconds to get your face clean with all that technology behind it, your sweet lil fingers need at least that long. It&#8217;s so easy though! A big part of this cleaner face resolution is the simplicity, because hopefully, you&#8217;re already washing your face. So, you don&#8217;t have to do a whole new thing, you just have to a regular thing differently.</p>
+<p>&#8220;But, Sarah,&#8221; you might be thinking, &#8220;60 seconds is a long time to count! What if I get bored or lose my place? What if I count too fast or too slow? How am I supposed to keep track of the time when I&#8217;m in the shower in all my nudely glory?!&#8221; It&#8217;s easy! Zones, guys. It&#8217;s all about zones. Your forehead? ZONE. Nose down to your chin? ZONE. Those precious cheeks? ZONE(S). Three zones, 20 seconds each. That&#8217;s all you need to do to get cleaner skin. It&#8217;s free, it&#8217;s easy, it works!</p>
+<p>Since I&#8217;ve been making an effort to wash my face more thoroughly, I&#8217;ve seen a visible improvement in my skin. I have a lot less tiny white heads around my eye/cheek area, and, I haven&#8217;t been getting random, underground, throbbing, volcanic breakouts on my jaw and chin. I even managed to avoid the inevitable eruptions I deal with whenever I get sick, and those are usually really gross, and really hard to kill.</p>
+<p><picture><source srcset="/wp-content/uploads/2015/01/clean-skin-e1421386030944.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter wp-image-1101 size-full" src="/wp-content/uploads/2015/01/clean-skin-e1421386030944.jpg" alt="clean skin" width="540" height="540" data-eio="p"></picture></p>
+<p style="text-align: center;">HASHTAG NO FILTER</p>
+<p style="text-align: left;">HASHTAG NO FOUNDATION, too. That&#8217;s right. No foundation. I have on a little concealer around my nose to cover some tissue related redness, and, I have on a little under eye brightener. But, that&#8217;s it. No foundation, no powder. No filter! Just my clean, moisturized skin. For comparison, here&#8217;s an unedited photo from the end of last summer.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/clean-face-comparison-e1421387573768.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter wp-image-1102 size-full" src="/wp-content/uploads/2015/01/clean-face-comparison-e1421387573768.jpg" alt="clean face comparison" width="540" height="540" data-eio="p"></picture></p>
+<p style="text-align: left;">I think you can tell a difference. In the first picture my skin looks brighter, clearer, and smoother. I&#8217;m wearing a full face in this photo, and my skin still doesn&#8217;t look as good. See what I&#8217;m saying? I&#8217;m not making it up!</p>
+<p style="text-align: left;">I don&#8217;t even use an expensive cleanser.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/cetaphil-cleanser.jpg.webp 300w, /wp-content/uploads/2015/01/cetaphil-cleanser-225x300.jpg.webp 225w" sizes="(max-width: 300px) 100vw, 300px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1104" src="/wp-content/uploads/2015/01/cetaphil-cleanser.jpg" alt="cetaphil cleanser" width="300" height="400" srcset="/wp-content/uploads/2015/01/cetaphil-cleanser.jpg 300w, /wp-content/uploads/2015/01/cetaphil-cleanser-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.walgreens.com/store/c/cetaphil-daily-facial-cleanser-lotion/ID=prod351435-product">Cetaphil Daily Facial Cleanser, $7.49, Walgreens</a></em></p>
+<p style="text-align: left;">Bet you didn&#8217;t think it was going to be THAT cheap. A cheap cleanser and your free fingers. That&#8217;s all you need. It&#8217;s really so easy! Easier than losing weight, easier than kicking your underwear into the hamper, easier than pretty much most things, and you get nicer skin. Happy freaking New Year! So fresh and so clean in 2015!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+			
+		
+		</div>
+<!-- #content -->
+	<!-- #primary -->
+
+
+	</article>
+</div>
+<!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info wrap">
+						<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Ryu by <a href="http://automattic.com/" rel="designer">Automattic</a>.		</div>
+<!-- .site-info -->
+	</footer><!-- #colophon -->
+</section>
+</div>
+<!-- #page -->
+
+<script type="text/javascript" src="/wp-content/themes/ryu/js/navigation.js?ver=20120206" id="ryu-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/skip-link-focus-fix.js?ver=20130115" id="ryu-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/ryu.js?ver=20130319" id="ryu-theme-js"></script>
+
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41236199-1']);
+  _gaq.push(['_trackPageview']);
+
+  setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+</div>
+</body>
+</html>

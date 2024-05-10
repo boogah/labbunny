@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>The Lab Bunny</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://labbunny.com/wp-content/themes/ryu/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>The Lab Bunny</title>
+	<link rel="canonical" href="/page/18/">
+	<link rel="prev" href="/page/17/">
+	<link rel="next" href="/page/19/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="The Lab Bunny">
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="The Lab Bunny">
+	<meta property="og:image" content="/wp-content/uploads/2013/04/cropped-labbunny.jpg">
+	<meta property="og:image:width" content="328">
+	<meta property="og:image:height" content="328">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@labbunny">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"/","url":"/page/18/","name":"The Lab Bunny","isPartOf":{"@id":"/#website"},"breadcrumb":{"@id":"/page/18/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"/page/18/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"The Lab Bunny","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Comments Feed" href="/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/ryu/genericons/genericons.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-style-css" href="/wp-content/themes/ken/style.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-lato-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-playfair-display-css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('labbunny.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>	<style type="text/css">.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		.header-image {
+			margin-bottom: 0;
+		}</style>
+			<style type="text/css" id="wp-custom-css">.ch_poweredby {
+	display: none;
+}
+
+.social a, .social a:hover {
+	border: 0;
+}</style>
+		</head>
+
+<body class="home blog paged paged-18 group-blog">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+
+
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="toppanel hide">
+		<div id="secondary" role="complementary" class="wrap clear four">
+		<div id="top-sidebar-one" class="widget-area" role="complementary">
+			</div>
+<!-- #first .widget-area -->
+	
+		<div id="top-sidebar-two" class="widget-area" role="complementary">
+		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">Gaby Love</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-8103">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">May</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-7932">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Zee</span> on <a href="/sephora-precision-pore-cleansing-pad/#comment-7655">Sephora Precision Pore Cleansing Pad</a>
+</li>
+</ul></aside>	</div>
+<!-- #second .widget-area -->
+	
+		<div id="top-sidebar-three" class="widget-area" role="complementary">
+			</div>
+<!-- #third .widget-area -->
+	
+		<div id="top-sidebar-four" class="widget-area" role="complementary">
+		<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>
+			<ul>
+					<li><a href="/2015/04/">April 2015</a></li>
+	<li><a href="/2015/01/">January 2015</a></li>
+	<li><a href="/2014/10/">October 2014</a></li>
+	<li><a href="/2014/09/">September 2014</a></li>
+	<li><a href="/2014/08/">August 2014</a></li>
+	<li><a href="/2014/07/">July 2014</a></li>
+	<li><a href="/2014/06/">June 2014</a></li>
+	<li><a href="/2014/05/">May 2014</a></li>
+	<li><a href="/2014/04/">April 2014</a></li>
+	<li><a href="/2014/03/">March 2014</a></li>
+	<li><a href="/2014/02/">February 2014</a></li>
+	<li><a href="/2014/01/">January 2014</a></li>
+	<li><a href="/2013/12/">December 2013</a></li>
+	<li><a href="/2013/11/">November 2013</a></li>
+	<li><a href="/2013/10/">October 2013</a></li>
+	<li><a href="/2013/09/">September 2013</a></li>
+	<li><a href="/2013/08/">August 2013</a></li>
+	<li><a href="/2013/07/">July 2013</a></li>
+	<li><a href="/2013/06/">June 2013</a></li>
+	<li><a href="/2013/05/">May 2013</a></li>
+	<li><a href="/2013/04/">April 2013</a></li>
+			</ul>
+
+			</aside>	</div>
+<!-- #four .widget-area -->
+	</div>
+<!-- #secondary -->	</div>
+	
+	
+	<div id="search-wrapper" class="toppanel hide">
+		
+<form method="get" id="searchform" class="searchform" action="https://labbunny.com/" role="search">
+	<label for="s" class="screen-reader-text">Search</label>
+	<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;">
+	<input type="submit" class="submit" id="searchsubmit" value="Search">
+</form>	</div>
+
+	<div id="triggers-wrapper">
+		<ul class="triggers clear">
+						<li class="widgets-trigger">
+				<a href="#" class="genericon" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</a>
+			</li>
+			
+			
+			<li class="search-trigger">
+				<a href="#" class="genericon" title="Search">
+					<span class="screen-reader-text">Search</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="wrap">
+			
+							<a class="site-logo" href="/" title="The Lab Bunny" rel="home">
+					<picture><source srcset="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png.webp" type="image/webp"><img src="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png" width="1280" height="250" alt="" class="no-grav header-image" data-eio="p"></picture>
+				</a>
+			
+			<hgroup>
+				<h1 class="site-title"><a href="/" title="The Lab Bunny" rel="home">The Lab Bunny</a></h1>
+				<h2 class="site-description"></h2>
+			</hgroup>
+		</div>
+<!-- .wrap -->
+
+					<nav id="site-navigation" class="navigation-main clear" role="navigation">
+				<h1 class="menu-toggle">Menu</h1>
+				<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="wrap"><ul id="menu-menu" class="menu">
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="/about/">About</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="/contact/">Contact</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="https://www.facebook.com/TheLabBunny">Facebook</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://twitter.com/LabBunny">Twitter</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-272"><a href="http://instagram.com/thelabbunny">Instagram</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+						
+				
+<article id="post-342" class="clear post-342 post type-post status-publish format-standard hentry category-giveaways category-mac">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/giveaways/" rel="category tag">Giveaways</a>, <a href="/category/mac/" rel="category tag">MAC</a></span><h1 class="entry-title"><a href="/riri-hearts-mac-news/" rel="bookmark">RiRi Hearts MAC News</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/riri-hearts-mac-news/" title="9:57 am" rel="bookmark"><time datetime="2013-06-20T09:57:59-07:00">June 20, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/ririmac.jpg.webp 610w, /wp-content/uploads/2013/06/ririmac-300x200.jpg.webp 300w" sizes="(max-width: 610px) 100vw, 610px" type="image/webp"><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-343" alt="ririmac" src="/wp-content/uploads/2013/06/ririmac.jpg" width="610" height="407" srcset="/wp-content/uploads/2013/06/ririmac.jpg 610w, /wp-content/uploads/2013/06/ririmac-300x200.jpg 300w" sizes="(max-width: 610px) 100vw, 610px" data-eio="p"></picture></p>
+<p>I got shipping notices today on my RiRi Hearts MAC lipsticks. That is AWESOME NEWS! For me.</p>
+<p>Even MORE AWESOME NEWS?</p>
+<p>I bought extras for a giveaway!! FOR YOU!!</p>
+<p>Check back for updates and rules.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-339" class="clear post-339 post type-post status-publish format-standard hentry category-moisturizer category-shopping">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/moisturizer/" rel="category tag">Moisturizer</a>, <a href="/category/shopping/" rel="category tag">Shopping</a></span><h1 class="entry-title"><a href="/tokyomilk-la-vie-la-mort-no-90-handcreme/" rel="bookmark">TokyoMilk La Vie La Mort No. 90 Handcreme</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/tokyomilk-la-vie-la-mort-no-90-handcreme/" title="11:28 am" rel="bookmark"><time datetime="2013-06-19T11:28:20-07:00">June 19, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/tokyomilk-la-vie-la-mort-no-90-handcreme/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/tokyomilkhandcreme-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/tokyomilkhandcreme-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/tokyomilkhandcreme-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/tokyomilkhandcreme-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/tokyomilkhandcreme.jpg.webp 1600w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img decoding="async" class="aligncenter size-large wp-image-340" alt="tokyomilkhandcreme" src="/wp-content/uploads/2013/06/tokyomilkhandcreme-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/tokyomilkhandcreme-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/tokyomilkhandcreme-150x150.jpg 150w, /wp-content/uploads/2013/06/tokyomilkhandcreme-300x300.jpg 300w, /wp-content/uploads/2013/06/tokyomilkhandcreme-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/tokyomilkhandcreme.jpg 1600w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.tokyo-milk.com/products/la-vie-la-mort-no-90-shea-butter-handcreme"><em>TokyoMilk, $22</em></a></p>
+<p style="text-align: left;">I&#8217;m such a sucker for packaging. Look at that little black tube! Isn&#8217;t that the sexiest looking hand cream you&#8217;ve ever seen?</p>
+<p style="text-align: left;">The circumstances that led to my purchasing this hand cream were kind of a perfect storm. I&#8217;ve been working really hard to stop chewing and picking at my cuticles and the skin around my fingers, part of that is keeping my hands lotioned up; I just ran out of my Love + Toast hand lotion, and I got an email notifying me of some credits sitting in some random account on some random shopping site, that I&#8217;d immediately forgotten about as soon as I&#8217;d signed up.</p>
+<p style="text-align: left;">I went to the site, <a href="http://www.luvocracy.com/">luvocracy.com</a>, to see what I could buy, and I found sort of a shoppable Pinterest. It&#8217;s cool! I searched for &#8220;hand cream&#8221; and a bunch of options popped up. You buy directly through them, and then they search the internet for a cheaper price or lower shipping on the same product, and if they find one, you pay that reduced price. I&#8217;d long been curious about this brand, so I bought it, and a couple days later I got an email letting me know they&#8217;d found it for $5 cheaper than what I was originally going to pay. I&#8217;m ALWAYS into that.</p>
+<p style="text-align: left;">My delivery was fast, and it came in a pretty black box, all tied up with black ribbon from Barney&#8217;s. The lotion itself is totally gorgeous. Silky, lush, and heavily scented with white tuberose, cardamom, hibiscus leaf and jasmine, it&#8217;s such a fancy little luxury! I love it! Little beautiful things like that make me so happy.</p>
+<p style="text-align: left;">Go to <a href="http://www.luvocracy.com/">the site</a> to sign up, or leave a comment and I&#8217;ll send you an invite, you&#8217;ll get a $10 credit, and you can try it for yourself!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-335" class="clear post-335 post type-post status-publish format-standard hentry category-lips category-mac">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/lips/" rel="category tag">Lips</a>, <a href="/category/mac/" rel="category tag">MAC</a></span><h1 class="entry-title"><a href="/mac-feel-my-pulse/" rel="bookmark">MAC Feel My Pulse</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/mac-feel-my-pulse/" title="11:52 am" rel="bookmark"><time datetime="2013-06-18T11:52:52-07:00">June 18, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/macfeelmypulse-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/macfeelmypulse-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/macfeelmypulse-1272x954.jpg.webp 1272w, /wp-content/uploads/2013/06/macfeelmypulse.jpg.webp 1600w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img decoding="async" class="aligncenter size-large wp-image-336" alt="macfeelmypulse" src="/wp-content/uploads/2013/06/macfeelmypulse-1024x768.jpg" width="696" height="522" srcset="/wp-content/uploads/2013/06/macfeelmypulse-1024x768.jpg 1024w, /wp-content/uploads/2013/06/macfeelmypulse-300x225.jpg 300w, /wp-content/uploads/2013/06/macfeelmypulse-1272x954.jpg 1272w, /wp-content/uploads/2013/06/macfeelmypulse.jpg 1600w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>MAC, $16.50</em></p>
+<p style="text-align: left;">I just spent over 2 hours, sitting in front of my laptop, trying to buy some of the RiRi lipsticks from MAC. I think I got mine! It was frustrating as hell though.</p>
+<p style="text-align: left;">I don&#8217;t know why I do these things to myself, I actually cried the night of the Missoni for Target launch because the site kept crashing, things kept popping in and out of my cart, and I felt like I was losing my mind. Like, I legit have shopping PTSD from that launch. Anyone else who was in the online trenches that night knows what I&#8217;m talking about. I still wake up some nights, drenched in sweat, dreaming of the matching washcloths I lost in the battle&#8230;.</p>
+<p style="text-align: left;">Feel My Pulse didn&#8217;t put me through all kinds of madness to get it. I just walked up to the MAC counter, saw the pretty purple color, and said, &#8220;I&#8217;ll have that one.&#8221; That was it.</p>
+<p style="text-align: left;">I loved this color on; the magenta violet color was pinker on the lip than the color looked in the tube, and the Cremesheen finish makes application an easy process, without drying your lips while you wear it. I would have been happy with a color that was more purple, but it was cool.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/feelmypulseface2-e1371580987947-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/feelmypulseface2-e1371580987947-225x300.jpg.webp 225w, /wp-content/uploads/2013/06/feelmypulseface2-e1371580987947.jpg.webp 960w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-337" alt="feelmypulseface2" src="/wp-content/uploads/2013/06/feelmypulseface2-e1371580987947-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/feelmypulseface2-e1371580987947-768x1024.jpg 768w, /wp-content/uploads/2013/06/feelmypulseface2-e1371580987947-225x300.jpg 225w, /wp-content/uploads/2013/06/feelmypulseface2-e1371580987947.jpg 960w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>lips: Feel My Pulse, eyes: Urban Decay&#8217;s Half Baked</em></p>
+<p style="text-align: left;">Feel My Pulse is part of the limited edition <a href="https://www.maccosmetics.com/whats_new/10984/New-Collections/Temperature-Rising-Colour/index.tmpl">&#8220;Temperature Rising&#8221;</a> collection. It&#8217;s an awesome summer color, but it&#8217;s rich enough to pull double duty in the winter too.</p>
+<p style="text-align: left;">I JUST WENT TO THE MAC SITE TO LINK TO THIS LIPSTICK AND IT&#8217;S SOLD OUT ONLINE! BAH!</p>
+<p style="text-align: left;">What a rip.</p>
+<p style="text-align: left;">Well, I found it at my local MAC counter without any trouble, so hopefully you can too.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-332" class="clear post-332 post type-post status-publish format-standard hentry category-general">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/general/" rel="category tag">General</a></span><h1 class="entry-title"><a href="/countdown-to-birchbox/" rel="bookmark">Countdown to Birchbox</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/countdown-to-birchbox/" title="10:30 am" rel="bookmark"><time datetime="2013-06-18T10:30:41-07:00">June 18, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/countdown-to-birchbox/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I just ordered my first <a href="https://www.birchbox.com/">Birchbox</a>, and I am really freaking excited! When the email came telling me it was finally my turn to order, I gasped and said, &#8220;YES!&#8221; like Kip Dynamite.</p>
+<p>I wonder what will be inside my first box&#8230;</p>
+<p>WHAT A FUN SURPRISE, RIGHT?!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-329" class="clear post-329 post type-post status-publish format-standard hentry category-all-skate">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/all-skate/" rel="category tag">All Skate!</a></span><h1 class="entry-title"><a href="/weekly-all-skate/" rel="bookmark">Weekly All Skate</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/weekly-all-skate/" title="2:00 pm" rel="bookmark"><time datetime="2013-06-14T14:00:24-07:00">June 14, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/greaseslumberparty.jpg.webp 750w, /wp-content/uploads/2013/06/greaseslumberparty-300x140.jpg.webp 300w" sizes="(max-width: 750px) 100vw, 750px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-331" alt="greaseslumberparty" src="/wp-content/uploads/2013/06/greaseslumberparty.jpg" width="750" height="351" srcset="/wp-content/uploads/2013/06/greaseslumberparty.jpg 750w, /wp-content/uploads/2013/06/greaseslumberparty-300x140.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" data-eio="p"></picture></p>
+<p>I&#8217;m thinking of opening up All Skate on Fridays to topics that aren&#8217;t beauty related. I think it would be fun to chat about different things sometimes. What do you guys think? What kind of questions should we do? Slumber party stuff, right?! First kisses and things!</p>
+<p>Thoughts? Ideas? Don&#8217;t fall asleep, I&#8217;ll put your bra in the freezer for some reason!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-324" class="clear post-324 post type-post status-publish format-standard hentry category-tgif">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/tgif/" rel="category tag">TGIF</a></span><h1 class="entry-title"><a href="/weak-week/" rel="bookmark">Weak Week</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/weak-week/" title="11:27 am" rel="bookmark"><time datetime="2013-06-14T11:27:49-07:00">June 14, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/weak-week/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>It&#8217;s finally the freakin&#8217; weekend. Here&#8217;s a cute picture of my lab assistant in her natural environment.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/rowdycostamesa-e1371233720771-768x1024.jpg.webp 768w, /wp-content/uploads/2013/06/rowdycostamesa-e1371233720771-225x300.jpg.webp 225w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-328" alt="rowdycostamesa" src="/wp-content/uploads/2013/06/rowdycostamesa-e1371233720771-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/06/rowdycostamesa-e1371233720771-768x1024.jpg 768w, /wp-content/uploads/2013/06/rowdycostamesa-e1371233720771-225x300.jpg 225w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">WHAT!? STOP. SO CUTE!</p>
+<p>Blerg, you guys. I feel like I&#8217;ve been dealing with random beauty mishaps all week. You know how stupid little things just build up and get annoying? That&#8217;s where I am right now. Just&#8230;annoyed.</p>
+<p>On Monday, I went to get my eyebrows done, and my girl wasn&#8217;t there. Because it was an emergency (my eyebrows looked bad), I let one of the other ladies do it, and she did them too thin but still managed to leave a bunch of hair that needed to be removed.</p>
+<p>Then, I had to make the decision to dump my new conditioner because I thought it was making my hair look dull and feel like a matted pile of old, shitty hay. I washed my hair that night, didn&#8217;t condition it in the shower, and then I used my <a href="http://www.ulta.com/ulta/browse/productDetail.jsp?productId=xlsImpprod2530175">Fekkai Pot de Creme</a> to try and condition it when I got out. That worked ok, except for WHOOPS, I gave myself a couple of giant chin zits from having the leave-in conditioner on my hair in the night.</p>
+<p>After that happened with the zits, I went to the beauty supply to get a new, regular conditioner. I bought my new conditioner, some cuticle nippers, and a few other things I needed. Later that evening, I got the nippers out of their little pouch to clean them and they had nail dust and cuticle bits stuck to the point, and exfoliating lotion on the handle. Fucking gross Outbreak nippers! I had to take them back to the beauty supply, and the girl was trying to tell me that&#8217;s just how some of them are, and I was like, WHATEVER. I am not trying to catch Outbreak from some dirty ass tools.</p>
+<p>I was going to run this really gorgeous gold polish, but it&#8217;s sold out now. I really wanted you guys to see it. I guess I can still show you.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/06/filthyrichdiptych-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/filthyrichdiptych-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/filthyrichdiptych-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/filthyrichdiptych-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/filthyrichdiptych.jpg.webp 1632w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-325" alt="filthyrichdiptych" src="/wp-content/uploads/2013/06/filthyrichdiptych-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/filthyrichdiptych-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/filthyrichdiptych-150x150.jpg 150w, /wp-content/uploads/2013/06/filthyrichdiptych-300x300.jpg 300w, /wp-content/uploads/2013/06/filthyrichdiptych-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/filthyrichdiptych.jpg 1632w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p>I sent an email trying to find out if the color was coming back, but I haven&#8217;t been able to find out. Hopefully, I&#8217;ll hear something and I can post the full review. Because what&#8217;s the point if you guys can&#8217;t buy it, right?</p>
+<p>Oh. I&#8217;ve also been trying that Clear Scalp and Hair Therapy Shampoo. It promises stronger, more beautiful hair and a healthier scalp in 7 days. Based on how my experience has gone so far, I&#8217;m hoping you get that awesome hair and scalp when you grow a new scalp and hair after your old scalp completely flakes off and all your old hair falls out; because that&#8217;s where I am right now. So, things with that shampoo are either going really great or really terrible.</p>
+<p>I&#8217;m listening to RuPaul right now, and trying to center myself. I&#8217;m going to do some Zen breathing and remind myself I&#8217;m the SUPERMODEL OF THE WORLD and all this other shit is just lame and ordinary.</p>
+<p>In conclusion, this week can eat it.</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-319" class="clear post-319 post type-post status-publish format-standard hentry category-benefit category-mascara">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/benefit/" rel="category tag">Benefit</a>, <a href="/category/mascara/" rel="category tag">Mascara</a></span><h1 class="entry-title"><a href="/benefit-theyre-real-mascara/" rel="bookmark">Benefit They&#8217;re Real Mascara</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/benefit-theyre-real-mascara/" title="10:45 am" rel="bookmark"><time datetime="2013-06-13T10:45:36-07:00">June 13, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/benefit-theyre-real-mascara/#comments">4 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>&nbsp;</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/theyrerealdiptich-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/theyrerealdiptich-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/theyrerealdiptich-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/theyrerealdiptich-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/theyrerealdiptich.jpg.webp 1632w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-321" alt="they'rerealdiptich" src="/wp-content/uploads/2013/06/theyrerealdiptich-1024x1024.jpg" width="696" height="696" srcset="/wp-content/uploads/2013/06/theyrerealdiptich-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/theyrerealdiptich-150x150.jpg 150w, /wp-content/uploads/2013/06/theyrerealdiptich-300x300.jpg 300w, /wp-content/uploads/2013/06/theyrerealdiptich-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/theyrerealdiptich.jpg 1632w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture><em>No mascara vs. mascara</em></p>
+<p style="text-align: left;">I need to be up front about my mascara predilections.</p>
+<p style="text-align: left;">The honest truth is, Lord help me, I love a good set of spider eyelashes.</p>
+<p style="text-align: left;">So, maybe I&#8217;m not the best person to come to if you want a nice natural look. If you want some good tear stainers though? I&#8217;m your gal.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/theyrereal2-1024x1024.jpg.webp 1024w, /wp-content/uploads/2013/06/theyrereal2-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/theyrereal2-300x300.jpg.webp 300w, /wp-content/uploads/2013/06/theyrereal2-1272x1272.jpg.webp 1272w, /wp-content/uploads/2013/06/theyrereal2.jpg.webp 1280w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-322" alt="theyrereal2" src="/wp-content/uploads/2013/06/theyrereal2-1024x1024.jpg" width="487" height="487" srcset="/wp-content/uploads/2013/06/theyrereal2-1024x1024.jpg 1024w, /wp-content/uploads/2013/06/theyrereal2-150x150.jpg 150w, /wp-content/uploads/2013/06/theyrereal2-300x300.jpg 300w, /wp-content/uploads/2013/06/theyrereal2-1272x1272.jpg 1272w, /wp-content/uploads/2013/06/theyrereal2.jpg 1280w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture><em>Someone learned how to make diptychs!</em></p>
+<p style="text-align: left;">I have really long eyelashes, but there are like, 4 of them. So, I require a fair amount of lash fattening in my mascaras. Benefit&#8217;s They&#8217;re Real mascara sailed right past my MINIMUM PLUMPING LINE and kept on going. The weird/cool little brush was awesome for grabbing all my tiny hiding lashes, and the rounded tip was perfect for coating every corner lash. The formula is nice with great one coat application, and amazing layering capabilities.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/theyrereal3-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/06/theyrereal3-300x225.jpg.webp 300w, /wp-content/uploads/2013/06/theyrereal3-1272x954.jpg.webp 1272w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-323" alt="theyrereal3" src="/wp-content/uploads/2013/06/theyrereal3-1024x768.jpg" width="696" height="522" srcset="/wp-content/uploads/2013/06/theyrereal3-1024x768.jpg 1024w, /wp-content/uploads/2013/06/theyrereal3-300x225.jpg 300w, /wp-content/uploads/2013/06/theyrereal3-1272x954.jpg 1272w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture><em>$10-$23</em></p>
+<p style="text-align: left;">The brush/formula combo is so effective, it&#8217;s hard to stop building lashes. I&#8217;m a bad beauty blogger right now because I lost count of how many coats of mascara I used for these pictures. I guess it depends on what your definition of &#8220;one&#8221; coat is? I&#8217;m going to say three. Three very heavy coats of product.</p>
+<p style="text-align: left;">Benefit&#8217;s They&#8217;re Real is a really excellent mascara. It has good coverage like the mighty Diorshow, but it doesn&#8217;t dry out quickly like that one does. It&#8217;s become my makeup bag mascara, and it hasn&#8217;t failed me yet.</p>
+<p style="text-align: center;"> <em>Dear Tammy Faye&#8217;s Eyelashes,</em></p>
+<p style="text-align: center;"><em>Please guide my thoughts, my pen, and my mascara wand today.</em></p>
+<p style="text-align: center;"><em>AMEN.</em></p>
+<p style="text-align: left;"><a href="http://www.benefitcosmetics.com/product/view/theyre-real">Buy Benefit&#8217;s They&#8217;re Real HERE.</a></p>
+<p style="text-align: left;">P.S. I was at Sephora last week, and I got a small They&#8217;re Real for 100 Beauty Insider points.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-254" class="clear post-254 post type-post status-publish format-standard hentry category-masks category-origins">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/masks/" rel="category tag">Masks</a>, <a href="/category/origins/" rel="category tag">Origins</a></span><h1 class="entry-title"><a href="/origins-clear-improvements-active-charcoal-mask/" rel="bookmark">Origins Clear Improvements Active Charcoal Mask</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/origins-clear-improvements-active-charcoal-mask/" title="9:13 am" rel="bookmark"><time datetime="2013-06-12T09:13:55-07:00">June 12, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/origins-clear-improvements-active-charcoal-mask/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/06/charcoalmask.jpg.webp 450w, /wp-content/uploads/2013/06/charcoalmask-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/charcoalmask-300x300.jpg.webp 300w" sizes="(max-width: 450px) 100vw, 450px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-255" alt="charcoalmask" src="/wp-content/uploads/2013/06/charcoalmask.jpg" width="450" height="450" srcset="/wp-content/uploads/2013/06/charcoalmask.jpg 450w, /wp-content/uploads/2013/06/charcoalmask-150x150.jpg 150w, /wp-content/uploads/2013/06/charcoalmask-300x300.jpg 300w" sizes="(max-width: 450px) 100vw, 450px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.sephora.com/clear-improvement-active-charcoal-mask-to-clear-pores-P297524"><em>Sephora, $23</em></a></p>
+<p>When Biore strips came out, my sisters and I were sticking them on everything. We hit the clogged pore gold mine one afternoon when we happened upon our dad, snoozing/watching TV, in the living room. The removal of his Biore strip was so disgustingly successful, it has become the stuff of family legend. We never even talk about how the strips went for us, all we remember is that dad had a forest of blackheads on his nose. And that&#8217;s how we describe it to each other, &#8220;They were like little trees,&#8221; we muse, still so impressed after nearly 20 years.</p>
+<p>In the genetic lottery, I won my dad&#8217;s giant nose and cheek pores. Keeping those bad boys cleaned out is high on my list of skin care priorities. If one of them gets too noticeable, I&#8217;ll fuck up my face trying to dig it out. It&#8217;s better to take a less violent approach. I&#8217;m real delicate, you know?</p>
+<p>Since I&#8217;ve been using that <a title="Fresh Soy Face Cleanser" href="/fresh-soy-face-cleanser/">Fresh Soy Face Cleanser</a> and my <a title="Sephora Precision Pore Cleansing Pad" href="/sephora-precision-pore-cleansing-pad/">Sephora Pore Pad</a>, my skin has actually been really nice. But, although they are far less noticeable, I still have those blackhead creepers hanging out on my nose.</p>
+<p>My sick nose. The true test of any product that dares to claim to &#8220;clean out pores.&#8221;</p>
+<p>It&#8217;s been my experience that mask like this can be drying, and since I&#8217;ve been burned bad before, I hesitated to use it on my entire face. I settled for forehead, nose, chin, and selective spots on my cheeks.</p>
+<p>The consistency was really nice. I was expecting something clay-like, similar to that of the <a title="Pretty Cheap, Vol. 1" href="/pretty-cheap-vol-1/">Queen Helene Mint Julep Mask</a>. What I got was a product much smoother and creamier than that. It made application very quick and easy. I let it dry for 15 minutes, washed it off, and&#8230;&#8230;it worked great! The pores on my nose were much clearer. Some of them were even empty! That NEVER happens. The skin under the other application areas reached similar levels of success; clear, clean, tightened, but not dry.</p>
+<p>Several people have told me that they get scared to use masks like this because it gives them more pimples. I can&#8217;t guarantee I can stop that, but I can give you some tips that might help.</p>
+<ul>
+<li>I always apply my masks after a long shower. The steam in the shower opens your pores and softens all that gross stuff inside them; making it easier for the product to work.</li>
+<li>Wash your face with cleanser before and <strong>AFTER</strong> you remove the mask! That way you take off any remaining traces of product residue, and you wash away any of the bacteria or debris that may not have been pulled completely away. I can&#8217;t stress this enough. Just wiping, or rinsing off clarifying masks can leave those products in your pores, where they&#8217;re still kind of doing their thing, bringing junk up to the skin&#8217;s surface but not pulling it out completely. That equals eruptions. We don&#8217;t want that. We want that opposite of that.</li>
+<li>When you&#8217;re done, keep those filthy paws off your silky pores. Don&#8217;t make me come over there and spank your hands.</li>
+</ul>
+<p>After what happened <a title="Testing Origins Drink Up Mask" href="/testing-origins-drink-up-mask/">last time</a> I used an Origins mask, I was a little apprehensive, but this one was great! I really liked it a lot. It did what I was hoping it would do, and it didn&#8217;t wreak havoc on the more sensitive parts of my face.</p>
+<p>Thanks to smart cookie and independent woman, Jaime S. for the killer recommendation.</p>
+<p><a href="http://www.sephora.com/clear-improvement-active-charcoal-mask-to-clear-pores-P297524">Buy it <strong>HERE</strong>. </a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-309" class="clear post-309 post type-post status-publish format-standard hentry category-a-man-duhh category-maintenance">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/a-man-duhh/" rel="category tag">A man duhh</a>, <a href="/category/maintenance/" rel="category tag">Maintenance</a></span><h1 class="entry-title"><a href="/a-man-duh/" rel="bookmark">A man, duh</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/a-man-duh/" title="10:50 am" rel="bookmark"><time datetime="2013-06-11T10:50:05-07:00">June 11, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/a-man-duh/#comments">2 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/amanduhh.jpg.webp 630w, /wp-content/uploads/2013/06/amanduhh-300x168.jpg.webp 300w" sizes="(max-width: 630px) 100vw, 630px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-311" alt="amanduhh" src="/wp-content/uploads/2013/06/amanduhh.jpg" width="630" height="353" srcset="/wp-content/uploads/2013/06/amanduhh.jpg 630w, /wp-content/uploads/2013/06/amanduhh-300x168.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-eio="p"></picture>WAH.</p>
+<p style="text-align: left;">I burned Amanduhhh, you guys. That big crybaby.</p>
+<p style="text-align: left;">If you&#8217;re so sad about it, STAY HOME. Don&#8217;t bring your emotions to this cool party! Right?!</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/mike-dexter.jpg.webp 791w, /wp-content/uploads/2013/06/mike-dexter-300x182.jpg.webp 300w" sizes="(max-width: 633px) 100vw, 633px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-312" alt="mike dexter" src="/wp-content/uploads/2013/06/mike-dexter.jpg" width="633" height="384" srcset="/wp-content/uploads/2013/06/mike-dexter.jpg 791w, /wp-content/uploads/2013/06/mike-dexter-300x182.jpg 300w" sizes="(max-width: 633px) 100vw, 633px" data-eio="p"></picture></p>
+<p style="text-align: center;">You too, Mike Dexter. You animal.</p>
+<p style="text-align: left;">Annnyways, I&#8217;ve had a couple people ask me for product suggestions for their dudes, so I wanted to share some of the tried and true man maintainers that we have around here.</p>
+<p style="text-align: center;"><strong>Dr. Bronner&#8217;s Peppermint Castile Soap</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/drbronnerspeppermint-350x1024.jpg.webp 350w, /wp-content/uploads/2013/06/drbronnerspeppermint-102x300.jpg.webp 102w, /wp-content/uploads/2013/06/drbronnerspeppermint.jpg.webp 1132w" sizes="(max-width: 196px) 100vw, 196px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-313" alt="drbronnerspeppermint" src="/wp-content/uploads/2013/06/drbronnerspeppermint-350x1024.jpg" width="196" height="574" srcset="/wp-content/uploads/2013/06/drbronnerspeppermint-350x1024.jpg 350w, /wp-content/uploads/2013/06/drbronnerspeppermint-102x300.jpg 102w, /wp-content/uploads/2013/06/drbronnerspeppermint.jpg 1132w" sizes="(max-width: 196px) 100vw, 196px" data-eio="p"></picture></p>
+<p style="text-align: center;"><a href="http://www.amazon.com/Dr-Bronners-Magic-Soaps-Pure-Castile/dp/B00120VWJ0"><em>Amazon, $15 for 32 oz.</em></a></p>
+<p style="text-align: left;"><em></em>The clean rinsing formula combined with the (alleged [but I think it&#8217;s true]) antibacterial properties of peppermint oil make Dr. Bronner&#8217;s Peppermint Soap a really great man wash. It almost works too well. When I first met Jason, he was an esthetician&#8217;s dream, covered in ingrown hairs and blackheads; then he started using this stuff, and he became less fun to pick at with tweezers. It&#8217;s good, I guess. If I&#8217;m not being selfish, it&#8217;s good.</p>
+<p style="text-align: left;">Supposedly, there are 18 different uses for this soap. As far as I know, we&#8217;ve only used it for the one, but you never know where life will take you!</p>
+<p style="text-align: left;">Another great thing about this soap is that since it&#8217;s covered in the rambling words of a 3 time mental hospital escapee, you&#8217;ve always got stuff to look at in the shower.</p>
+<p style="text-align: center;"><strong>Neutrogena Men Razor Defense Daily Face Scrub</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/menfacescrub.jpg.webp 500w, /wp-content/uploads/2013/06/menfacescrub-150x150.jpg.webp 150w, /wp-content/uploads/2013/06/menfacescrub-300x300.jpg.webp 300w" sizes="(max-width: 500px) 100vw, 500px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-315" alt="menfacescrub" src="/wp-content/uploads/2013/06/menfacescrub.jpg" width="500" height="500" srcset="/wp-content/uploads/2013/06/menfacescrub.jpg 500w, /wp-content/uploads/2013/06/menfacescrub-150x150.jpg 150w, /wp-content/uploads/2013/06/menfacescrub-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.drugstore.com/products/prod.asp?pid=72467&amp;catid=182943&amp;aid=338666&amp;aparam=goobase_filler&amp;device=c&amp;network=g&amp;matchtype=">Drugstore.com, $5.09</a></em></p>
+<p>This exfoliating scrub softens and cleans the skin, while preparing the face for shaving. The exfoliating beads are good at getting dry and flaky skin, and all the gross crud dudes collect in their pores. Since Manimal started using this cleanser, his skin has been clearer and less zit prone.</p>
+<p style="text-align: left;">Over the last 7 years, I&#8217;ve bought Jason countless face cleansers, in all different price ranges. For whatever reason, this is the one he&#8217;ll actually use. Who knows how dudes&#8217; minds work? They&#8217;re so complicated! It&#8217;s like, whatever baby, I don&#8217;t have time to figure you out. Now, less talky, more <strong>cock</strong>y.</p>
+<p style="text-align: center;"><strong>Wild Man Beard Conditioner</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/06/beardoil.png.webp 228w, /wp-content/uploads/2013/06/beardoil-116x300.png.webp 116w" sizes="(max-width: 228px) 100vw, 228px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-317" alt="beardoil" src="/wp-content/uploads/2013/06/beardoil.png" width="228" height="589" srcset="/wp-content/uploads/2013/06/beardoil.png 228w, /wp-content/uploads/2013/06/beardoil-116x300.png 116w" sizes="(max-width: 228px) 100vw, 228px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em><a href="http://www.etsy.com/listing/84798470/beard-conditioner-oil-wild-man-beard?ref=shop_home_feat">Wild Rose Herbs, Etsy, $19.95</a></em></p>
+<p style="text-align: left;">Jason has a sort of legendary beard. People love it! I love it. He looks super sexual and scruffy, but sometimes, he smells like a wet dog. Also, I know his beard is getting out of control right now, because I saw corn chips, ice cream sandwich, cheese, croissant and lettuce all lodged in his beard at some point over the weekend. It&#8217;s time to clean that bad boy up!</p>
+<p style="text-align: left;">This product is sort of wishful thinking on my part, actually. Jason does own it, and it does work great. It cleans and softens his beard, makes it smell GOOD, and it moisturizes the often neglected skin under his beard.</p>
+<p style="text-align: left;">BUT. That&#8217;s just one daily step too many for &#8216;ol J-Bone. So, the beard conditioner is a very special occasion thing.</p>
+<p style="text-align: left;">I&#8217;d like to get that clean, soft beard on my neck on the reg, but, I guess I&#8217;ll settle for the one that has Del Taco in it. I like Del Taco!</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p style="text-align: left;">There you go! My first three manswers to your man prayers.</p>
+<p style="text-align: left;">These products are all recommended  if you want your guy to look like this:</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/06/jasonbeard-1024x685.jpg.webp 1024w, /wp-content/uploads/2013/06/jasonbeard-300x200.jpg.webp 300w, /wp-content/uploads/2013/06/jasonbeard-1272x851.jpg.webp 1272w, /wp-content/uploads/2013/06/jasonbeard.jpg.webp 1599w" sizes="(max-width: 696px) 100vw, 696px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-318" alt="jasonbeard" src="/wp-content/uploads/2013/06/jasonbeard-1024x685.jpg" width="696" height="465" srcset="/wp-content/uploads/2013/06/jasonbeard-1024x685.jpg 1024w, /wp-content/uploads/2013/06/jasonbeard-300x200.jpg 300w, /wp-content/uploads/2013/06/jasonbeard-1272x851.jpg 1272w, /wp-content/uploads/2013/06/jasonbeard.jpg 1599w" sizes="(max-width: 696px) 100vw, 696px" data-eio="p"></picture></p>
+<p style="text-align: center;">BIG WEIRDO I LOVE.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-271" class="clear post-271 post type-post status-publish format-standard hentry category-maintenance category-moisturizer category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/maintenance/" rel="category tag">Maintenance</a>, <a href="/category/moisturizer/" rel="category tag">Moisturizer</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/i-dont-think-i-can-spare-the-moisture/" rel="bookmark">I Don&#8217;t Think I Can Spare the Moisture</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/i-dont-think-i-can-spare-the-moisture/" title="11:30 am" rel="bookmark"><time datetime="2013-06-10T11:30:43-07:00">June 10, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/jono/" title="View all posts by Jono Nelson" rel="author">Jono Nelson</a></span>
+						<span class="comments-link"><a href="/i-dont-think-i-can-spare-the-moisture/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><em>I&#8217;m super excited to be introducing you to my first guest writer!</em></p>
+<p><em>We used to be small town alterna-teens at a dark riverbed, and we turned out great. </em></p>
+<p><em>I don&#8217;t know about him, but I hardly ever go to dark riverbeds anymore&#8230; </em></p>
+<p><em>He always compliments me on the </em><em>way I do my corn&#8230;.</em></p>
+<p><em>I think he&#8217;s awfully good&#8230;.</em></p>
+<p><em>Jono Nelson, COME ON DOWN!!!!</em></p>
+<p><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule.png.webp 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w" sizes="(max-width: 400px) 100vw, 400px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-91" alt="*****" src="/wp-content/uploads/2013/05/horizontal_rule.png" width="400" height="97" srcset="/wp-content/uploads/2013/05/horizontal_rule.png 400w, /wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w" sizes="(max-width: 400px) 100vw, 400px" data-eio="p"></picture></p>
+<p>&nbsp;</p>
+<p>I hesitate to reveal my deepest darkest secret because I know it’ll horrify the Editor-in-chief here at Lab Bunny, but I must be honest and admit my faults if I hope to grow as a writer and a person.</p>
+<p>I don’t moisturize.</p>
+<p>…</p>
+<p>It’s a commonly held belief that gay men hold the key to everything beautiful, glamorous and creative. Historically we have been innovators and taste-makers. Leonardo da Vinci, Oscar Wilde and Andy Warhol were all gay men that changed the course of human evolution in innumerable ways.</p>
+<p>While I may have possessed this key at one point, I lost it probably around the time I started buying drugs from a Mexican gangbanger that I was never allowed to talk to. Basically, I’m bad at being gay.</p>
+<p>Sure, in my youth I was running around southern California in skin-tight designer jeans and vintage band shirts worn to hell but then shit got real. In my mid-twenties, as a survival mechanism, I was forced to get sober. The good thing about early sobriety was that I was free of drugs and booze and no longer hurting the people I loved. The bad part was I realized how much I fucking hated my life, especially my day job.</p>
+<p>After being clean for about a year I decided to finish up my BA in journalism. The more I focused on school and other things, the less energy I had to put forth in the aesthetics department.</p>
+<p>Cut to today: I’ve relocated from Bakersfield to Los Angeles for school and academics have taken over my life. I pretty much wear the same four band shirts on a loop. My teenage, punk rock self would be happy to report that I couldn’t pinpoint the last time I washed my only pair of jeans that fit.This isn’t necessarily what I wanted, it’s just a byproduct of trying to make my dreams come true. I would love to be shopping for vintage leather but paying the bills and getting an internship are higher on the list at the moment.</p>
+<p>My beauty regimen has also deteriorated to almost nothing. I put on sunscreen before I go to work but that’s about it. If I’m feeling fancy or have the time and energy to spare, I might put on a squirt of Lush’s Dirty body spray or slather on one of the zillion Black Phoenix Alchemy Lab oils I own (another addiction I should go to rehab for).</p>
+<p>It’s not that I’m against moisturizing or even that I don’t own moisturizer (I have a pot of Lush’s Cosmetic Lad staring me in the face as I type this). My main problem is that I can never seem to make it a habit. I’ll apply it every morning for a few days and then forget about it or be too busy for it and then the cycle is broken. Cthulhu help us all if I don’t make coffee every morning but I can’t seem to find an extra thirty seconds to put something on my face to make it look better.</p>
+<p>The other problem I have with moisturizing is that my skin is insanely temperamental. I’m not talking the occasional blemish during finals week. My skin routinely breaks out when the weather changes, when I try a new product or any time I leave my apartment. This situation is understandable in your teens and maybe even early twenties but I just turned 30 and shit has gotten embarrassing. I’m always anxious that if I use the wrong moisturizer, it’ll somehow make my condition worse.</p>
+<p>I know that I’m not getting any younger. I’m also at a slight disadvantage seeing as how I spent a decade chain smoking. I need to start moisturizing and I need to start today, otherwise I’m going to end up with patchy skin and crow’s feet six inches deep.</p>
+<p>God, grant me the serenity to accept the genetics I cannot change, the courage to change the skin I can, and the wisdom to moisturize on the daily.</p>
+<p>Amen.</p>
+<p>…</p>
+<p>I’ll keep you posted on how it goes.</p>
+<p>&nbsp;</p>
+<p><em>(Ed. note: AMEN.)</em></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				<nav role="navigation" id="nav-below" class="navigation-paging double">
+		<div class="wrap clear">
+			<h1 class="screen-reader-text">Post navigation</h1>
+
+		
+						<div class="next"><a href="/page/17/"><span class="meta-nav">&rarr;</span> <span class="text-nav">Newer posts</span></a></div>
+			
+						<div class="previous"><a href="/page/19/"><span class="meta-nav">&larr;</span> <span class="text-nav">Older posts</span></a></div>
+			
+		
+		</div>
+	</nav><!-- #nav-below -->
+	
+		
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+
+
+	</div>
+<!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info wrap">
+						<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Ryu by <a href="http://automattic.com/" rel="designer">Automattic</a>.		</div>
+<!-- .site-info -->
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+<script type="text/javascript" src="/wp-content/themes/ryu/js/navigation.js?ver=20120206" id="ryu-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/skip-link-focus-fix.js?ver=20130115" id="ryu-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/ryu.js?ver=20130319" id="ryu-theme-js"></script>
+
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41236199-1']);
+  _gaq.push(['_trackPageview']);
+
+  setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+</body>
+</html>

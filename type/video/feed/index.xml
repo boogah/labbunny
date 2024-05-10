@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Video Archives - The Lab Bunny</title>
+	<atom:link href="/type/video/feed/" rel="self" type="application/rss+xml" />
+	<link>/type/video/</link>
+	<description></description>
+	<lastBuildDate>Thu, 27 Jun 2013 17:09:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>Birchbox Unboxing June 2013</title>
+		<link>/birchbox-unboxing-june-2013/</link>
+					<comments>/birchbox-unboxing-june-2013/#comments</comments>
+		
+		<dc:creator><![CDATA[Sarah Cosper]]></dc:creator>
+		<pubDate>Wed, 26 Jun 2013 21:46:02 +0000</pubDate>
+				<category><![CDATA[Birchbox]]></category>
+		<category><![CDATA[Video]]></category>
+		<guid isPermaLink="false">https://labbunny.zbucaao2-liquidwebsites.com/?p=394</guid>
+
+					<description><![CDATA[<p>My Birchbox came! I made a quick video to show you what was inside. *DIRECTOR&#8217;S COMMENTARY* Be on the lookout for the moment where my brain loses the word, &#8220;reviews.&#8221; I can&#8217;t stop laughing at the dumb face I make while I&#8217;m frantically trying to pull it up!</p>
+<p>The post <a href="/birchbox-unboxing-june-2013/">Birchbox Unboxing June 2013</a> appeared first on <a href="/">The Lab Bunny</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div style="width: 640px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-394-1" width="640" height="360" poster="/wp-content/uploads/2013/06/poster_frame.png" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/2013/06/birchbox.mp4?_=1" /><source type="video/webm" src="/wp-content/uploads/2013/06/birchbox.webm?_=1" /><a href="/wp-content/uploads/2013/06/birchbox.mp4">/wp-content/uploads/2013/06/birchbox.mp4</a></video></div>
+<p>My <a href="http://birch.ly/1aAhoAx">Birchbox</a> came! I made a quick video to show you what was inside.</p>
+<p>*DIRECTOR&#8217;S COMMENTARY* Be on the lookout for the moment where my brain loses the word, &#8220;reviews.&#8221; I can&#8217;t stop laughing at the dumb face I make while I&#8217;m frantically trying to pull it up!</p>
+<p>The post <a href="/birchbox-unboxing-june-2013/">Birchbox Unboxing June 2013</a> appeared first on <a href="/">The Lab Bunny</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/birchbox-unboxing-june-2013/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		<enclosure url="/wp-content/uploads/2013/06/birchbox.mp4" length="16276759" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2013/06/birchbox.webm" length="5518313" type="video/webm" />
+
+			</item>
+	</channel>
+</rss>

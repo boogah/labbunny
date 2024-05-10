@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: From the mailbag!	</title>
+	<atom:link href="/mailbag/feed/" rel="self" type="application/rss+xml" />
+	<link>/mailbag/</link>
+	<description></description>
+	<lastBuildDate>Wed, 06 Aug 2014 00:56:16 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>
+		By: Suzi		</title>
+		<link>/mailbag/#comment-1051</link>
+
+		<dc:creator><![CDATA[Suzi]]></dc:creator>
+		<pubDate>Wed, 06 Aug 2014 00:56:16 +0000</pubDate>
+		<guid isPermaLink="false">https://labbunny.zbucaao2-liquidwebsites.com/?p=1061#comment-1051</guid>
+
+					<description><![CDATA[Haters gonna hate...screw &#039;em!  I think you&#039;re the bees knees!]]></description>
+			<content:encoded><![CDATA[<p>Haters gonna hate&#8230;screw &#8217;em!  I think you&#8217;re the bees knees!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Denys		</title>
+		<link>/mailbag/#comment-1046</link>
+
+		<dc:creator><![CDATA[Denys]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2014 22:39:59 +0000</pubDate>
+		<guid isPermaLink="false">https://labbunny.zbucaao2-liquidwebsites.com/?p=1061#comment-1046</guid>
+
+					<description><![CDATA[Suck it, suckit!]]></description>
+			<content:encoded><![CDATA[<p>Suck it, suckit!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

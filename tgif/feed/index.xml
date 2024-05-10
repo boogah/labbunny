@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: TGIF	</title>
+	<atom:link href="/tgif/feed/" rel="self" type="application/rss+xml" />
+	<link>/tgif/</link>
+	<description></description>
+	<lastBuildDate>Sat, 11 May 2013 03:39:22 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>
+		By: Samantha smith		</title>
+		<link>/tgif/#comment-19</link>
+
+		<dc:creator><![CDATA[Samantha smith]]></dc:creator>
+		<pubDate>Sat, 11 May 2013 03:39:22 +0000</pubDate>
+		<guid isPermaLink="false">https://labbunny.zbucaao2-liquidwebsites.com/?p=107#comment-19</guid>
+
+					<description><![CDATA[Oh yes forever ! &quot;I&#039;d be so happy loving you !&quot; I will never forget this .It was a huge deal when it premiered on TGIF.]]></description>
+			<content:encoded><![CDATA[<p>Oh yes forever ! &#8220;I&#8217;d be so happy loving you !&#8221; I will never forget this .It was a huge deal when it premiered on TGIF.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

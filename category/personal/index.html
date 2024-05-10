@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Personal Archives - The Lab Bunny</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://labbunny.com/wp-content/themes/ryu/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Personal Archives - The Lab Bunny</title>
+	<link rel="canonical" href="/category/personal/">
+	<link rel="next" href="/category/personal/page/2/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Personal Archives - The Lab Bunny">
+	<meta property="og:url" content="/category/personal/">
+	<meta property="og:site_name" content="The Lab Bunny">
+	<meta property="og:image" content="/wp-content/uploads/2013/04/cropped-labbunny.jpg">
+	<meta property="og:image:width" content="328">
+	<meta property="og:image:height" content="328">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@labbunny">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"/category/personal/","url":"/category/personal/","name":"Personal Archives - The Lab Bunny","isPartOf":{"@id":"/#website"},"breadcrumb":{"@id":"/category/personal/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"/category/personal/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Personal"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"The Lab Bunny","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Lab Bunny &raquo; Personal Category Feed" href="/category/personal/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/ryu/genericons/genericons.css?ver=3.0.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-style-css" href="/wp-content/themes/ken/style.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-lato-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="ryu-playfair-display-css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&#038;subset=latin,latin-ext" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/37">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('labbunny.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>	<style type="text/css">.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		.header-image {
+			margin-bottom: 0;
+		}</style>
+			<style type="text/css" id="wp-custom-css">.ch_poweredby {
+	display: none;
+}
+
+.social a, .social a:hover {
+	border: 0;
+}</style>
+		</head>
+
+<body class="archive category category-personal category-37 group-blog">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+
+
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="toppanel hide">
+		<div id="secondary" role="complementary" class="wrap clear four">
+		<div id="top-sidebar-one" class="widget-area" role="complementary">
+			</div>
+<!-- #first .widget-area -->
+	
+		<div id="top-sidebar-two" class="widget-area" role="complementary">
+		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">Gaby Love</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-8103">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">May</span> on <a href="/coconut-oil-hair-mask-results-show/#comment-7932">Coconut Oil Hair Mask: The Results Show</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Zee</span> on <a href="/sephora-precision-pore-cleansing-pad/#comment-7655">Sephora Precision Pore Cleansing Pad</a>
+</li>
+</ul></aside>	</div>
+<!-- #second .widget-area -->
+	
+		<div id="top-sidebar-three" class="widget-area" role="complementary">
+			</div>
+<!-- #third .widget-area -->
+	
+		<div id="top-sidebar-four" class="widget-area" role="complementary">
+		<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>
+			<ul>
+					<li><a href="/2015/04/">April 2015</a></li>
+	<li><a href="/2015/01/">January 2015</a></li>
+	<li><a href="/2014/10/">October 2014</a></li>
+	<li><a href="/2014/09/">September 2014</a></li>
+	<li><a href="/2014/08/">August 2014</a></li>
+	<li><a href="/2014/07/">July 2014</a></li>
+	<li><a href="/2014/06/">June 2014</a></li>
+	<li><a href="/2014/05/">May 2014</a></li>
+	<li><a href="/2014/04/">April 2014</a></li>
+	<li><a href="/2014/03/">March 2014</a></li>
+	<li><a href="/2014/02/">February 2014</a></li>
+	<li><a href="/2014/01/">January 2014</a></li>
+	<li><a href="/2013/12/">December 2013</a></li>
+	<li><a href="/2013/11/">November 2013</a></li>
+	<li><a href="/2013/10/">October 2013</a></li>
+	<li><a href="/2013/09/">September 2013</a></li>
+	<li><a href="/2013/08/">August 2013</a></li>
+	<li><a href="/2013/07/">July 2013</a></li>
+	<li><a href="/2013/06/">June 2013</a></li>
+	<li><a href="/2013/05/">May 2013</a></li>
+	<li><a href="/2013/04/">April 2013</a></li>
+			</ul>
+
+			</aside>	</div>
+<!-- #four .widget-area -->
+	</div>
+<!-- #secondary -->	</div>
+	
+	
+	<div id="search-wrapper" class="toppanel hide">
+		
+<form method="get" id="searchform" class="searchform" action="https://labbunny.com/" role="search">
+	<label for="s" class="screen-reader-text">Search</label>
+	<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;">
+	<input type="submit" class="submit" id="searchsubmit" value="Search">
+</form>	</div>
+
+	<div id="triggers-wrapper">
+		<ul class="triggers clear">
+						<li class="widgets-trigger">
+				<a href="#" class="genericon" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</a>
+			</li>
+			
+			
+			<li class="search-trigger">
+				<a href="#" class="genericon" title="Search">
+					<span class="screen-reader-text">Search</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="wrap">
+			
+							<a class="site-logo" href="/" title="The Lab Bunny" rel="home">
+					<picture><source srcset="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png.webp" type="image/webp"><img src="/wp-content/uploads/2013/05/lab_bunny_banner_white_bg.png" width="1280" height="250" alt="" class="no-grav header-image" data-eio="p"></picture>
+				</a>
+			
+			<hgroup>
+				<h1 class="site-title"><a href="/" title="The Lab Bunny" rel="home">The Lab Bunny</a></h1>
+				<h2 class="site-description"></h2>
+			</hgroup>
+		</div>
+<!-- .wrap -->
+
+					<nav id="site-navigation" class="navigation-main clear" role="navigation">
+				<h1 class="menu-toggle">Menu</h1>
+				<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="wrap"><ul id="menu-menu" class="menu">
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="/about/">About</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="/contact/">Contact</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="https://www.facebook.com/TheLabBunny">Facebook</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://twitter.com/LabBunny">Twitter</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-272"><a href="http://instagram.com/thelabbunny">Instagram</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<section id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+			<header class="page-header">
+				<div class="wrap">
+					<h1 class="page-title">
+						Category Archives: <span>Personal</span>					</h1>
+									</div>
+			</header><!-- .page-header -->
+
+						
+				
+<article id="post-1111" class="clear post-1111 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/dog-stuff-blog-stuff/" rel="bookmark">Dog stuff and blog stuff</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/dog-stuff-blog-stuff/" title="11:25 am" rel="bookmark"><time datetime="2015-01-21T11:25:59-08:00">January 21, 2015</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I greatly prefer winter weather to summer weather. Like, maybe I have reverse SAD. Days upon days of cloudy weather doesn&#8217;t bother me, but, day after day of blistering sun makes me feel crazy and desolate. Stepping outside first thing in the morning to a full blast sun puts me in a cranky mood. Some summer stuff, like spending a day with a friend alternating between dozing on floating rafts and working out a synchronized swimming routine to &#8220;Man, I Feel Like a Woman,&#8221; is quite divine. Other stuff, like, oh, everything else, is awful. What&#8217;s good? Kids are out of school, it&#8217;s a thousand degrees, people keep trying to stuff me full of BBQ and then put me in a bathing suit &#8211; it&#8217;s a nightmare. Winter isn&#8217;t totally awesome, I&#8217;m not going to pretend I&#8217;m not freezing my balls off. I get cold all the way to the bone, I just don&#8217;t care because that&#8217;s why I have chi dogs and big blankets.</p>
+<p>Speaking of chi dogs, someone would like to make his big blog debut today.</p>
+<p>Weighing in at 2.3 pounds!</p>
+<p>One half of the Tiny Twin Titans of Terror!</p>
+<p>I may or may not have been in the grips of a fever delirium when I bought him from a couple standing outside Target with puppies in a laundry basket!</p>
+<p>Ladies and gentlemen, allow me to introduce the hardest playing boy in chi business, Mr. Please, Please Don&#8217;t Pee There&#8230;</p>
+<p style="text-align: center;"><strong>Gomez &#8220;Dr. Teeth&#8221; Cosper!</strong></p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2015/01/Gomez-e1421862041964.jpg.webp" type="image/webp"><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-1112" src="/wp-content/uploads/2015/01/Gomez-e1421862041964.jpg" alt="Gomez" width="640" height="640" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>&#8220;Dr. Teeth&#8221; isn&#8217;t his middle name, it&#8217;s just his most apropos nickname. </em></p>
+<p style="text-align: center;"><strong>Isn&#8217;t he a ladykiller?!</strong></p>
+<p style="text-align: left;"><img decoding="async" class="aligncenter size-full wp-image-1114" src="/wp-content/uploads/2015/01/acquitted-gif.gif" alt="acquitted gif" width="480" height="360"></p>
+<p style="text-align: left;">He&#8217;s a teeny baby, barely three months old, and he&#8217;s just disgustingly cute. Wrinkly neck, ears too big to hold up, curly whiskers! He&#8217;s the total package! Even Rowdy came around and now she&#8217;s a big sister.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2015/01/Rowdy-and-Gomez-e1421863356325.jpg.webp" type="image/webp"><img decoding="async" class="aligncenter size-full wp-image-1113" src="/wp-content/uploads/2015/01/Rowdy-and-Gomez-e1421863356325.jpg" alt="Rowdy and Gomez" width="640" height="640" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>just big sister things</em></p>
+<p style="text-align: left;">He&#8217;s a baby genius, he&#8217;s a big chicken, and we love the crap out of him. He&#8217;s kind of a willful prick sometimes, and not a day goes by where he doesn&#8217;t try to eat my hair, but, nobody&#8217;s perfect!</p>
+<p style="text-align: left;">¯\_(ツ)_/¯</p>
+<p style="text-align: left;">In other news, when was the last time you watched this?</p>
+<p><iframe loading="lazy" title="David Lee Roth - Just A Gigolo / I Ain&#039;t Got Nobody (1985) (Music Video - Dave TV Version)" width="696" height="392" src="https://www.youtube.com/embed/ui-zBq-f5XA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>This song and its video are one of my go-to cures for the blahs. I was feeling kind of blah this morning because of my cold toes and my poor, poor frozen succulents (RIP), but Diamond Dave turned it all around. It&#8217;s impossible not to laugh, and dance, and sing along! I mean, I fucking dare you to not AT LEAST do some jazz hands. You can&#8217;t do it. This is why we were only meant to have him for so long; if he had stayed on top forever we&#8217;d all be dead from high kicks.</p>
+<p>What song always cheers you up? Do you agree with Jason that we missed an opportunity to name Gomez &#8220;David Chi Roth?&#8221;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-1040" class="clear post-1040 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/catfish-thursday/" rel="bookmark">Catfish Thursday!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/catfish-thursday/" title="10:43 am" rel="bookmark"><time datetime="2014-07-03T10:43:30-07:00">July 3, 2014</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2014/07/catfish.jpg.webp 460w, /wp-content/uploads/2014/07/catfish-300x214.jpg.webp 300w" sizes="(max-width: 460px) 100vw, 460px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1041" src="/wp-content/uploads/2014/07/catfish.jpg" alt="catfish" width="460" height="329" srcset="/wp-content/uploads/2014/07/catfish.jpg 460w, /wp-content/uploads/2014/07/catfish-300x214.jpg 300w" sizes="(max-width: 460px) 100vw, 460px" data-eio="p"></picture></p>
+<p>Ugh. You guys. I was having a shitty morning, but then, it was &#8220;Catfish Thursday,&#8221; and I felt so much better! What&#8217;s Catfish Thursday? That&#8217;s the morning Rowdy and I watch Catfish. Why is Catfish Thursday good? Catfish Thursday is good because it usually has coffee, and it has Catfish. I feel like I have to stop typing Catfish because the word is starting to look weird and lose its meaning, and THAT makes me feel like I&#8217;m losing my grip on reality! Wheeee!</p>
+<p>THAT SHOW is so riveting to watch! I love it! Every episode is a weird new look into the fucked up workings of the human psyche. I do a weekly recap of the new episode to Jason, and, out loud, it always sounds so bizarre. It is bizarre, I guess. Even the catfish that turn out to be legit are super weird. Like, ok, you are who you say you are, but you&#8217;re also the one person in the world who has a super popular youtube channel, but no cell phone? Ok? Whatever you say, lil catfish!</p>
+<p>Another thing I&#8217;ve learned from Catfish, is that &#8220;rapper&#8221; is the number one career choice for fraudulent internet boyfriends. I mean, one of these catfish was actually pretending to BE Bow Wow. Come on, young girls, get it together. This many dudes can not be hot rappers. It&#8217;s just statistics.</p>
+<p>Anyways. That&#8217;s Catfish Thursday, and the most important thing is that I feel better. The second most important thing is that we all learned a very important lesson about how hot a dude can be with silver hair.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-999" class="clear post-999 post type-post status-publish format-standard hentry category-eyeshadow category-floss-gloss category-nails category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/eyeshadow/" rel="category tag">Eyeshadow</a>, <a href="/category/floss-gloss/" rel="category tag">Floss Gloss</a>, <a href="/category/nails/" rel="category tag">Nails</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/picture-show/" rel="bookmark">Picture Show</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/picture-show/" title="9:49 am" rel="bookmark"><time datetime="2014-06-02T09:49:00-07:00">June 2, 2014</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/picture-show/#comments">4 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>Since it&#8217;s Monday, I thought we could ease into the week together. AKA I don&#8217;t want to write anything, I want to go to Target. Lucky for everyone my phone has 4,201 pictures on it! Lucky for YOU, I&#8217;m only going to show you a few. I can&#8217;t show you all of them, because that would be too erotique. You would not even be able to handle it.  Your eyes would bug out, steam would whistle out of your ears, and you would hit yourself over the head a bunch of times with a mallet.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/05/horizontal_rule-300x72.png.webp 300w, /wp-content/uploads/2013/05/horizontal_rule.png.webp 400w" sizes="(max-width: 300px) 100vw, 300px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter wp-image-91 size-medium" src="/wp-content/uploads/2013/05/horizontal_rule-300x72.png" alt="*****" width="300" height="72" srcset="/wp-content/uploads/2013/05/horizontal_rule-300x72.png 300w, /wp-content/uploads/2013/05/horizontal_rule.png 400w" sizes="(max-width: 300px) 100vw, 300px" data-eio="p"></picture></p>
+<p><picture><source srcset="/wp-content/uploads/2014/06/nana-hands.jpg.webp 428w, /wp-content/uploads/2014/06/nana-hands-200x300.jpg.webp 200w" sizes="(max-width: 428px) 100vw, 428px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1000" src="/wp-content/uploads/2014/06/nana-hands.jpg" alt="nana hands" width="428" height="640" srcset="/wp-content/uploads/2014/06/nana-hands.jpg 428w, /wp-content/uploads/2014/06/nana-hands-200x300.jpg 200w" sizes="(max-width: 428px) 100vw, 428px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Crazy bright in any light!</em></p>
+<p>Every few weeks, or so, I go to my Nana&#8217;s house and give her a manicure. She likes to get her nails done with fun colors, and I like to sit at her kitchen table and hear the same story a bunch of times. JUST KIDDING. I mean, not really. She does tell me the same story a bunch of times, but when she&#8217;s not doing that, she&#8217;s telling me cool stuff. Seriously, if your Nana is around, go over and do her nails. While you&#8217;re doing them, ask her all the questions you&#8217;ve ever wanted to know about family secrets and who she was before she was your Nana. No lie, she will tell you EVERYTHING.</p>
+<p>These photos are from when I did her birthday nails a couple months ago. It was a really fun morning. We did nails, talked shit about all the people we know, and some shit about people we don&#8217;t know. Relatives were calling the whole time, so we never ran out of topics to discuss.</p>
+<p>I know you guys probably don&#8217;t want to read a beauty blog about some abuelita, but OH WELL. She&#8217;s one of my top #1 LADY POWER ICONS. She&#8217;s a queen. And, look at the polish she picked! This color is Bikini Coral by Floss Gloss. It&#8217;s a killer, retina searing, attention grabbing summer polish! It looks fucking amazing on her skin.</p>
+<p>Nana would hate that I was showing these pictures, because she thinks she has ugly hands, but she&#8217;s tripping. As long as I can remember, I&#8217;ve thought her hands were beautiful. When I was a kid, I would look at her graceful fingers with their perfectly shaped nails and think to myself, &#8220;Those are perfect lady hands.&#8221; Unfortunately, I did not grow up to inherit her lovely hands. Her rings don&#8217;t even come close to fitting me as I was cursed with los chorizo fingers.</p>
+<p><picture><source srcset="/wp-content/uploads/2014/06/mystery-look1.jpg.webp 480w, /wp-content/uploads/2014/06/mystery-look1-225x300.jpg.webp 225w" sizes="(max-width: 480px) 100vw, 480px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1002" src="/wp-content/uploads/2014/06/mystery-look1.jpg" alt="mystery look" width="480" height="640" srcset="/wp-content/uploads/2014/06/mystery-look1.jpg 480w, /wp-content/uploads/2014/06/mystery-look1-225x300.jpg 225w" sizes="(max-width: 480px) 100vw, 480px" data-eio="p"></picture></p>
+<p><picture><source srcset="/wp-content/uploads/2014/06/mystery-look-2.jpg.webp 960w, /wp-content/uploads/2014/06/mystery-look-2-289x300.jpg.webp 289w" sizes="(max-width: 480px) 100vw, 480px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter wp-image-1003" src="/wp-content/uploads/2014/06/mystery-look-2.jpg" alt="mystery look 2" width="480" height="498" srcset="/wp-content/uploads/2014/06/mystery-look-2.jpg 960w, /wp-content/uploads/2014/06/mystery-look-2-289x300.jpg 289w" sizes="(max-width: 480px) 100vw, 480px" data-eio="p"></picture></p>
+<p>This is a look I did for myself a couple weeks ago. I don&#8217;t remember what shadows I used. My best, educated guess, is that this was done using the Urban Decay Naked 2 palette. My lips are brought to you by Mindless Lip Chewing. Mindless Lip Chewing: For when you want to look crusty and corroded. I&#8217;m sorry I don&#8217;t have the exact colors used for the eyes! I didn&#8217;t do this look for the site, so I wasn&#8217;t really paying attention. I thought I&#8217;d show you guys anyways though. Maybe someone needs some neutral look inspiration.</p>
+<p><picture><source srcset="/wp-content/uploads/2014/06/random-blue-hair.jpg.webp 960w, /wp-content/uploads/2014/06/random-blue-hair-225x300.jpg.webp 225w, /wp-content/uploads/2014/06/random-blue-hair-768x1024.jpg.webp 768w" sizes="(max-width: 480px) 100vw, 480px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter wp-image-1004" src="/wp-content/uploads/2014/06/random-blue-hair.jpg" alt="random blue hair" width="480" height="640" srcset="/wp-content/uploads/2014/06/random-blue-hair.jpg 960w, /wp-content/uploads/2014/06/random-blue-hair-225x300.jpg 225w, /wp-content/uploads/2014/06/random-blue-hair-768x1024.jpg 768w" sizes="(max-width: 480px) 100vw, 480px" data-eio="p"></picture></p>
+<p>WAHHHHHH!!! I miss my blue hair. *CRYING CAT EMOJI* *CHICKEN LEG EMOJI*</p>
+<p>Speaking of emojis, is there an emoji suggestion box somewhere? I need a cheese wedge emoji, a hot dog emoji, and a crossed fingers emoji. Also, some more brown emojis would be cool, too. Don&#8217;t make me have to pretend that bride emoji is actually a Mexican girl in a communion dress!!</p>
+<p><picture><source srcset="/wp-content/uploads/2014/06/goat.jpg.webp 576w, /wp-content/uploads/2014/06/goat-288x300.jpg.webp 288w" sizes="(max-width: 576px) 100vw, 576px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1005" src="/wp-content/uploads/2014/06/goat.jpg" alt="goat" width="576" height="600" srcset="/wp-content/uploads/2014/06/goat.jpg 576w, /wp-content/uploads/2014/06/goat-288x300.jpg 288w" sizes="(max-width: 576px) 100vw, 576px" data-eio="p"></picture></p>
+<p style="text-align: left;">HAHAHAHAHAHAHAHA!!! YOU GUYS. LOOK AT THIS GOAT!!! GROSS, GOAT! DO YOU EVEN KNOW THAT GUY?!?!?!?!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-948" class="clear post-948 post type-post status-publish format-standard hentry category-accessories category-floss-gloss category-hex-nail-jewelry category-nails category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/accessories/" rel="category tag">Accessories</a>, <a href="/category/floss-gloss/" rel="category tag">Floss Gloss</a>, <a href="/category/hex-nail-jewelry/" rel="category tag">Hex Nail Jewelry</a>, <a href="/category/nails/" rel="category tag">Nails</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/yonce-neck/" rel="bookmark">YONCE ON MY NECK</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/yonce-neck/" title="3:30 pm" rel="bookmark"><time datetime="2014-02-25T15:30:39-08:00">February 25, 2014</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2014/02/Serfbort.jpg.webp 960w, /wp-content/uploads/2014/02/Serfbort-300x224.jpg.webp 300w" sizes="(max-width: 768px) 100vw, 768px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-949" alt="Serfbort" src="/wp-content/uploads/2014/02/Serfbort.jpg" width="768" height="574" srcset="/wp-content/uploads/2014/02/Serfbort.jpg 960w, /wp-content/uploads/2014/02/Serfbort-300x224.jpg 300w" sizes="(max-width: 768px) 100vw, 768px" data-eio="p"></picture></p>
+<p style="text-align: center;">SERFBORT.</p>
+<p style="text-align: left;">When I stay up too late, I get brilliant. When I get brilliant, I envision and order Beyonce themed necklaces from one of those custom name necklace websites. Less than two weeks later, BAM, my dream has come to fruition.</p>
+<p style="text-align: left;"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-950" alt="serfbort gif" src="/wp-content/uploads/2014/02/serfbort-gif.gif" width="500" height="309"></p>
+<p style="text-align: left;">I have some badazz Beyonce themed nail decals on the way, but until I get them, my &#8220;Diamond&#8221; charm from Hex Nail Jewelry makes for a good Bey referencing manicure (THIS DIAMOND. MY DIAMOND. THIS ROCK. MY ROC.).</p>
+<p style="text-align: left;">I WOKE UP LIKE THIS.</p>
+<p style="text-align: left;">GAH! Once I get going on that, it&#8217;s pretty hard to stop.</p>
+<p style="text-align: left;">I&#8217;m wearing Floss Gloss&#8217; new color, for Spring 2014, &#8220;Lean,&#8221; and it&#8217;s just as gorgeous as I was hoping. This whole set up I have going on today is a BOSS one. You know when you got some good shit, and you feel all proud of yourself? That&#8217;s me right now. Also, in the sprit of &#8220;Drunk in Love&#8221; I totally have a hickey in that photo up thurr. I cropped it out. YOU&#8217;RE WELCOME.</p>
+<p style="text-align: left;"><a href="http://www.hexnailjewelry.com/collections/gangsta-s-paradise/products/diamond">Buy the &#8220;Diamond&#8221; charm from Hex Nail Jewelry HERE.</a></p>
+<p style="text-align: left;"><a href="http://flossgloss.com/collections/lacquers/products/lean">Buy &#8220;Lean&#8221; from Floss Gloss HERE.</a></p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-935" class="clear post-935 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/stranger-danger/" rel="bookmark">Stranger Danger</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/stranger-danger/" title="3:29 pm" rel="bookmark"><time datetime="2014-02-17T15:29:06-08:00">February 17, 2014</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/stranger-danger/#comments">5 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>You know what I love? Compliments from strangers! But, I have this weird thing wrong with me, where if someone tells me something nice about myself, I immediately have to tell them why they&#8217;re wrong. Case in point: Yesterday, an older lady at the movies told me she thought my hair was, &#8220;Fabulous. Just fabulous!&#8221; I told her thank you, then I told her it was so much more work than I had anticipated. She laughed, and said, &#8220;It looks just wonderful.&#8221; And I say, &#8220;Ugh! You should see my shower!&#8221; (YOU SHOULD SEE MY SHOWER?!) She goes, &#8220;Well, you didn&#8217;t have to tell me <em>that,&#8221; </em>and then she briskly walked away! I, like, feebly said thank you to her again as she was running away from me.</p>
+<p>What a weirdo, right? Me. Not her. She was right to run away.</p>
+<p>Right now, it&#8217;s my hair. The second someone tells me they like it, I show them where my roots are showing. You like my makeup? Oh, that&#8217;s nice! Let me tell you about how I&#8217;m sweating all of it off, and, also, have you seen my mustache? What&#8217;s that? I just look nice today? Thanks! I think I look terrible, and I would like to provide the counterpoint to your compliment.</p>
+<p>I&#8217;m trying to tell myself to just say thank you, but it&#8217;s hard! I don&#8217;t know what my deal is? Whatever it is, it probably comes from the same place inside me that forces me to do comedy routines for nurses and dental hygienists. I&#8217;m compelled by forces that I can not contain!</p>
+<p>Does everyone do this? Why do I have to tell everyone how shitty I look? I mean, if I really look shitty, they probably already know, right? Why is it so hard to just accept something nice? What&#8217;s my problem?</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-930" class="clear post-930 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/happy-galentines-day/" rel="bookmark">Happy Galentine&#8217;s Day!</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/happy-galentines-day/" title="11:49 am" rel="bookmark"><time datetime="2014-02-13T11:49:00-08:00">February 13, 2014</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2014/02/Galentines-Day.jpg.webp 2308w, /wp-content/uploads/2014/02/Galentines-Day-300x199.jpg.webp 300w, /wp-content/uploads/2014/02/Galentines-Day-1024x681.jpg.webp 1024w, /wp-content/uploads/2014/02/Galentines-Day-1272x846.jpg.webp 1272w" sizes="(max-width: 665px) 100vw, 665px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-931" alt="Galentine's Day" src="/wp-content/uploads/2014/02/Galentines-Day.jpg" width="665" height="442" srcset="/wp-content/uploads/2014/02/Galentines-Day.jpg 2308w, /wp-content/uploads/2014/02/Galentines-Day-300x199.jpg 300w, /wp-content/uploads/2014/02/Galentines-Day-1024x681.jpg 1024w, /wp-content/uploads/2014/02/Galentines-Day-1272x846.jpg 1272w" sizes="(max-width: 665px) 100vw, 665px" data-eio="p"></picture></p>
+<p style="text-align: left;">It&#8217;s the day before Valentine&#8217;s Day, so you know what that means! It&#8217;s Galentine&#8217;s Day! The day to celebrate all the lady friends in your life.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2014/02/parks-and-rec.jpg.webp 600w, /wp-content/uploads/2014/02/parks-and-rec-200x300.jpg.webp 200w" sizes="(max-width: 480px) 100vw, 480px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-932" alt="parks and rec" src="/wp-content/uploads/2014/02/parks-and-rec.jpg" width="480" height="718" srcset="/wp-content/uploads/2014/02/parks-and-rec.jpg 600w, /wp-content/uploads/2014/02/parks-and-rec-200x300.jpg 200w" sizes="(max-width: 480px) 100vw, 480px" data-eio="p"></picture></p>
+<p style="text-align: left;">So, happy Galentine&#8217;s Day my beautiful, rule-breaking moths! My clever, wonderful flying squirrels! My gorgeous, purebred poodles! I&#8217;m so thankful for all my fabulous, clever, strong, supportive lady loves! Where would I be without my women? Just swimming in a sea of sausage, I guess. HARD PASS.</p>
+<p style="text-align: left;">Friends, readers, my boos, keep on sparkling you flawless and rare diamonds! Every day is Galentine&#8217;s Day in my heart.</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-856" class="clear post-856 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/snow-bunny/" rel="bookmark">Snow Bunny</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/snow-bunny/" title="1:23 pm" rel="bookmark"><time datetime="2013-12-30T13:23:22-08:00">December 30, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/snow-bunny/#comments">1 Comment</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>Hey, everyone! Remember me? I guess I accidentally took a Christmas break!</p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-857" alt="my-bad" src="/wp-content/uploads/2013/12/my-bad.gif" width="414" height="264"></p>
+<p>I took my laptop on our trip with us, but I just never pulled it out. I was busy! We went to Utah to visit my family, then we hit Orange County on the way home to visit my in-laws.</p>
+<p>I would like to assert that we are NOT from Utah. My entire immediate family moved there because, I don&#8217;t know, they like drinking but it wasn&#8217;t challenging enough in California? Or, they like it when things are, like, grossly wholesome? I did consider the fact that they just don&#8217;t like ME. It&#8217;s hard to not entertain the possibility when everyone who lived in your childhood home all moved somewhere else, together, 12 hours from you. FINE THEN. I&#8217;LL BE RIGHT HERE.</p>
+<p>CALI TIL I DIE.</p>
+<p>I like my Christmases warm, my drug laws lax, and my population unimpressed.</p>
+<p>In Utah, there is stupid snow everywhere, and you have to wear winter clothes like, socks, and pants, and shoes that aren&#8217;t flip flops. INDOORS! It&#8217;s terrible! SOCKS!? Who even? What the? It&#8217;s so much work!</p>
+<p>Being back in Southern California was a relief. I love my family, but I miss my own bed, and my natural environment. The air in Utah is so clean, it burns the inside of my nose. I need those minerals and vitamins in the California air to keep me strong and focused. Dirty air is bad for me? I doubt it. If I breathe poison all day, I am surely stronger and more powerful than anyone who doesn&#8217;t. Try me. See what happens. Now that I&#8217;m back in California, I can punch a hole right through your chest. I was born here. I&#8217;m on some X-Mang shit, FO SHO. That&#8217;s just science, y&#8217;all!</p>
+<p>The trip was a mixed bag, but overall, fun. I got to see all my nieces and nephews aka my darling baby children. I did that Tia work, handing out gifts and lipsticky kisses with unrestrained enthusiasm. I love to kiss those little faces, even though it&#8217;s tough to see how big they get in between visits. My two oldest kids, my nieces, just turned 8 and 10 this week, and that&#8217;s rough. I want them to stay little forever! They&#8217;ve lost those chubby baby faces, and now they like One Direction. Which is fine! I don&#8217;t begrudge anyone their generation&#8217;s boy band. I had the New Kids, my mom had the Jackson 5. We all need some non-threatening dudes at that age, it&#8217;s just nature. Then, you work your way up to peen with guitars. I went straight from Joey McIntyre to Slash, but there are usually more steps in the middle. I&#8217;m just a prodigy. (P.S. I just googled Joey from New Kids, and that fool is 40 fucking years old. How do these things happen? I need to start planning for our retirement because I guess it comes faster than you think it will.) (P.P.S. Can we all agree that Donnie had no business being in a boy band? Motherfucker was a full grown man with, like, a beard and a wood paneled study. He was old as hell. If you were a 9 year old into Donnie, you probably have hella therapy bills now. Not because of Donnie, specifically, but because you clearly have issues.)</p>
+<p>All the family stuff was good. We had noche buenas with so much good food; enchiladas, taquitos, frijoles y arroz, salsa, GUACAMOLE MADE BY ME! Christmas with my mom is the sting of jalapeños on your fingertips and tongue, it&#8217;s hot chocolate made from Abuelita tablets. It&#8217;s Navidad! She even pulled my oldest nieces and nephew into a roughshod Nativity pageant that featured Joseph in a knockoff Gucci head wrap, and culminated with &#8220;Mary&#8221; ripping the blanket off of the doll cast as Jesus, hoisting it into the air and shouting, &#8220;BABY JESUS IS REALLY A GIRL!!!&#8221;</p>
+<p>It wasn&#8217;t all La Raza and controversial Jesus theories though. I left California with what we thought was a stress headache that actually turned out to be a dental issue. In a stunning example of &#8220;worst case scenario while on vacation out of state&#8221; I had to make an emergency dentist&#8217;s appointment to try and get my face back in order. It did NOT go well. Turns out, I have two giant abscesses that have worked their way into my sinuses. My own teeth have conspired to erode my face bones. It&#8217;s a mess. The dentist couldn&#8217;t do all the work necessary to fix it in such a short amount of time, the day before Christmas Eve. So, he did what he could do to relieve the pain a little, wrote me a prescription for some antibiotics, and sent me on my way. It was not what I had planned for that day.</p>
+<p>Here&#8217;s your girl on her way to the dentist:</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/12/pre-dentist-768x1024.jpg.webp 768w, /wp-content/uploads/2013/12/pre-dentist-225x300.jpg.webp 225w, /wp-content/uploads/2013/12/pre-dentist.jpg.webp 960w" sizes="(max-width: 390px) 100vw, 390px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-858" alt="pre dentist" src="/wp-content/uploads/2013/12/pre-dentist-768x1024.jpg" width="390" height="520" srcset="/wp-content/uploads/2013/12/pre-dentist-768x1024.jpg 768w, /wp-content/uploads/2013/12/pre-dentist-225x300.jpg 225w, /wp-content/uploads/2013/12/pre-dentist.jpg 960w" sizes="(max-width: 390px) 100vw, 390px" data-eio="p"></picture></p>
+<p style="text-align: left;">And now here&#8217;s your girl post dentist:</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/12/post-dentist-768x1024.jpg.webp 768w, /wp-content/uploads/2013/12/post-dentist-225x300.jpg.webp 225w, /wp-content/uploads/2013/12/post-dentist.jpg.webp 960w" sizes="(max-width: 373px) 100vw, 373px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-859" alt="post dentist" src="/wp-content/uploads/2013/12/post-dentist-768x1024.jpg" width="373" height="496" srcset="/wp-content/uploads/2013/12/post-dentist-768x1024.jpg 768w, /wp-content/uploads/2013/12/post-dentist-225x300.jpg 225w, /wp-content/uploads/2013/12/post-dentist.jpg 960w" sizes="(max-width: 373px) 100vw, 373px" data-eio="p"></picture></p>
+<p style="text-align: left;">It wasn&#8217;t fun. It was pretty painful. But, I persevered. I&#8217;m always a little bit annoyed, so when shitty things happen, I can keep my cool and roll with it. I was drooling on myself for the rest of that night, and I was in pain off and on throughout the rest of the trip, but, at least there was an off. Before I went to the dentist, it was just nonstop on.</p>
+<p style="text-align: left;">So, that put a little bit of a damper on our trip, but it was manageable. Plus, my parents felt really bad for me, which is extra nice. My mom was petting me a lot, and that helps. She was also making me rinse my mouth with hydrogen peroxide, which was not nice even though it helped. Gross.</p>
+<p style="text-align: left;">After we left Utah, we drove straight through to Orange County to spend time with Jason&#8217;s family. I spent the night over there for the first time! Jason and I slept on the floor, in a spare room, with this scary thing holding down its post just inches from my head.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/12/creepy-kid-768x1024.jpg.webp 768w, /wp-content/uploads/2013/12/creepy-kid-225x300.jpg.webp 225w, /wp-content/uploads/2013/12/creepy-kid-1272x1696.jpg.webp 1272w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-860" alt="creepy kid" src="/wp-content/uploads/2013/12/creepy-kid-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/12/creepy-kid-768x1024.jpg 768w, /wp-content/uploads/2013/12/creepy-kid-225x300.jpg 225w, /wp-content/uploads/2013/12/creepy-kid-1272x1696.jpg 1272w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>What&#8217;s he in trouble for? MURDER?! Probably!</em></p>
+<p style="text-align: left;">Luckily, beautiful White Jesus was there to keep an eye on things and make sure that murder baby didn&#8217;t turn around in the night.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/12/white-jesus-1024x768.jpg.webp 1024w, /wp-content/uploads/2013/12/white-jesus-300x225.jpg.webp 300w, /wp-content/uploads/2013/12/white-jesus-1272x954.jpg.webp 1272w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-861" alt="white jesus" src="/wp-content/uploads/2013/12/white-jesus-1024x768.jpg" width="487" height="365" srcset="/wp-content/uploads/2013/12/white-jesus-1024x768.jpg 1024w, /wp-content/uploads/2013/12/white-jesus-300x225.jpg 300w, /wp-content/uploads/2013/12/white-jesus-1272x954.jpg 1272w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p style="text-align: center;">WHITE JESUS GOT CHU, GURL!</p>
+<p style="text-align: left;">Our day there was really fun too. The more time I spend with them, the more I see our life together as a family. There isn&#8217;t anything funny about that, it&#8217;s just good. I miss doing family stuff, like sprawling on couches all day and watching movies together, or hearing a whole afternoon&#8217;s worth of dad jokes. It&#8217;s hard sometimes to be so far from my family, and it makes me happy to know I can get my fix if I need it. I still have to wear a bra over there, but Imma work on that. Baby steps.</p>
+<p style="text-align: left;">Our trip was great, but I was so happy to be home. We got in around 10:30 on Saturday night, and we basically spent most of the day yesterday asleep. I&#8217;d like to spend most of today asleep too. Vacation is so exhausting! I was going to unpack us today, but I think I&#8217;ll be ok pulling my underwear out of a suitcase for the rest of the week. It&#8217;s a slower way of unpacking. It gets the job done, it just takes a little longer.</p>
+<p style="text-align: left;">As the cherry on top of my week, <a href="http://www.jenwillphoto.com/">one of my favorite people in the whole known and unknown universe</a> got engaged a couple days ago. I don&#8217;t want to make any assumptions, but I&#8217;m already pulling together makeup looks. I JUST GET SO EXCITED!!!</p>
+<p style="text-align: left;">So, Christmas over! It&#8217;s time to get back to regular life. That&#8217;s cool. I&#8217;m ready to do it! I&#8217;m back and ready to show you guys some good stuff! I hope you guys all had a good holiday too. Did anyone get any amazing beauty related Christmas gifts? I got some perfume I really wanted, so that was a mega score. I&#8217;ll tell you all about it soon!</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-845" class="clear post-845 post type-post status-publish format-standard hentry category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/risky-beauty-business/" rel="bookmark">Risky Beauty Business</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/risky-beauty-business/" title="12:29 pm" rel="bookmark"><time datetime="2013-12-18T12:29:46-08:00">December 18, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/risky-beauty-business/#comments">8 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>You guys. That new Beyonce album dropped and I fell out. But, ever since then, I&#8217;ve been on a nonstop Vitamin Bey regimen. So, now I&#8217;m stronger than ever! No lie, my abs hurt because I&#8217;ve basically been dancing for four days straight. Just nonstop booty pops.</p>
+<p>I&#8217;ve been feeling kind of uninspired lately. This blog can be tough for me sometimes because it&#8217;s not just about makeup, it&#8217;s also about writing. It&#8217;s hard for me to bring myself to write a lackluster, bare bones post about a product when I&#8217;m just not feeling the words. I hate it, and I wish knew how to write on command, but I don&#8217;t. I try to pump out something every day, but when the creativity isn&#8217;t there, it&#8217;s just not there. I&#8217;ve been getting stagnant while product just piles up on my desk. I haven&#8217;t even used my Naked3 palette. Isn&#8217;t that sad?</p>
+<p>When I get blah like that, everything gets blah. I&#8217;d look in the mirror and not feel like putting makeup on because my hair has been looking like butt, my eyebrows were overgrown and I&#8217;ve been dealing with a breakout. Like, fuck putting all that time into my face when my eyebrows look like that. I needed a big change to shake myself up!</p>
+<p>You get used to doing things a certain way, you know how to make it look good, but that&#8217;s no fun forever. I always want a new look! But, what? The biggest beauty change is always hair related, right? I don&#8217;t want bangs anyone, I don&#8217;t want long hair anymore, I don&#8217;t want the coppery color anymore, but what DO I want?</p>
+<p>That&#8217;s where I always get stuck.</p>
+<p>Over the years, I&#8217;ve tried to adopt a detached attitude to my hair. It&#8217;s just hair. It&#8217;ll grow back, you know? So, the problem isn&#8217;t that I&#8217;m scared of cutting my hair, the problem is that I can never decide HOW to cut my hair. My friend that usually does my hair takes a hands off approach to this part. Since we&#8217;re not just customer/client, we&#8217;re also ex-coworkers, party friends, and birthday week buddies, this adds an extra layer of trickiness. She worries about taking big risks because she doesn&#8217;t want to be responsible for something I end up hating, and I want her to tell me what to do. We frequently end up at this impasse. So, with her blessing, I went to another hairdresser to try and get a different perspective. It worked out great! Working with someone who doesn&#8217;t know all my annoying client quirks was just what I needed.</p>
+<p>I went in, took a bunch of different pictures, told her I needed something big, and man, did I get it.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/12/blue-hair-768x1024.jpg.webp 768w, /wp-content/uploads/2013/12/blue-hair-225x300.jpg.webp 225w, /wp-content/uploads/2013/12/blue-hair.jpg.webp 960w" sizes="(max-width: 487px) 100vw, 487px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-848" alt="blue hair" src="/wp-content/uploads/2013/12/blue-hair-768x1024.jpg" width="487" height="650" srcset="/wp-content/uploads/2013/12/blue-hair-768x1024.jpg 768w, /wp-content/uploads/2013/12/blue-hair-225x300.jpg 225w, /wp-content/uploads/2013/12/blue-hair.jpg 960w" sizes="(max-width: 487px) 100vw, 487px" data-eio="p"></picture></p>
+<p>DO YOU LOVE IT?! I LOVE IT!!</p>
+<p>I&#8217;ve wanted a color like this for years! But, as I got into my late twenties and then my thirties, I convinced myself that I was too old. I&#8217;d look at pictures of hair colored like this, and just hem and haw. I almost didn&#8217;t go through with it this time! I&#8217;m so glad I did though! My only condition was that if my hair was going to be blue, the cut had to be sophisticated. I&#8217;m sorry, but I really do think I&#8217;m too old to pull off super long blue hair. But that&#8217;s ok! I didn&#8217;t want that anyways!</p>
+<p>Beauty risks are so fucking scary. What if you hate it? What if it looks terrible? What if people think you look stupid? We get so stuck on the negative what ifs, that I think we forget to think about the positive ifs. Like, what if you look fucking amazing? What if a modeling scout sees you and you become a superstar? What if you love it? If nobody is telling you you can&#8217;t do something, why do we tell ourselves? We&#8217;re our own worst enemies. We&#8217;ll stand on the metaphorical edge of a big decision cliff, look down and say, &#8220;I can&#8217;t jump! What if I fall?!&#8221; But, we rarely stop to consider the possibility that we could fly. What if you could fly all along but you never knew because you never tried? That&#8217;s not just hair, that&#8217;s life, bbs! It sounds like such corny bullshit, but it&#8217;s a concept I struggle with often. It takes mighty big ovaries to step outside of our comfort zones, but it&#8217;s always worth it. Even when we fail, it&#8217;s a success, because we tried. This is dumb too, but it&#8217;s like when I decided to try being a blonde. It looked terrible, but at least I found out! I could stop wondering about it, and file it away. And really, that&#8217;s the worst that can happen. It looks bad. No big deal, everything is fixable with enough color and time!</p>
+<p>Regrets are stupid and indecision is the worst. Sometimes, you just have to jump.</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-775" class="clear post-775 post type-post status-publish format-standard hentry category-beauty-idols category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/beauty-idols/" rel="category tag">Beauty Idols</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/beauty-idols-contemporary/" rel="bookmark">Beauty Idols: The Contemporary</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/beauty-idols-contemporary/" title="1:38 pm" rel="bookmark"><time datetime="2013-11-21T13:38:11-08:00">November 21, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/beauty-idols-contemporary/#comments">11 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p>I&#8217;ve been wanting to start an open-ended series of posts about my beauty idols. The people who inspire me, the faces that make me want to be beautiful. I was thinking of starting with someone older than me, someone who has been an influence for decades, but I couldn&#8217;t decide where to start. Then, in the middle of the night last night, my first subject showed herself to me. It wasn&#8217;t who I thought it would be, but I found myself spooling out a thousand images in my mind that showed me, yes, she&#8217;s where to start.</p>
+<p>You might be surprised.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-beaded-headpiece.jpg.webp" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-776" alt="kim k beaded headpiece" src="/wp-content/uploads/2013/11/kim-k-beaded-headpiece.jpg" width="500" height="621" data-eio="p"></picture></p>
+<p style="text-align: center;">WHO&#8217;S THAT GIRRRRRRL????</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-gold-collar.jpg.webp 500w, /wp-content/uploads/2013/11/kim-k-gold-collar-241x300.jpg.webp 241w" sizes="(max-width: 500px) 100vw, 500px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-777" alt="kim k gold collar" src="/wp-content/uploads/2013/11/kim-k-gold-collar.jpg" width="500" height="621" srcset="/wp-content/uploads/2013/11/kim-k-gold-collar.jpg 500w, /wp-content/uploads/2013/11/kim-k-gold-collar-241x300.jpg 241w" sizes="(max-width: 500px) 100vw, 500px" data-eio="p"></picture></p>
+<p style="text-align: center;">IT&#8217;S KIM!</p>
+<p style="text-align: left;">Before you start, let me stop you: Do not even try to come at me with your Kim Kardashian hate. I won&#8217;t have it. I don&#8217;t hear it. I don&#8217;t even care. Whatever comment you have makes you sound prudish/judgmental/sexist/jealous/mad. Sorry bout it! It ain&#8217;t welcome here!</p>
+<p style="text-align: left;">Do I care about her sex tape? Not even a tiny bit. Do I think she&#8217;s dumb? No, I do not. I think she&#8217;s completely self aware and shrewd. If you don&#8217;t see the game, you might need to think harder about who&#8217;s dumb.</p>
+<p style="text-align: left;">I&#8217;m sorry if I sound defensive, but I just spent an hour and a half Googling Kimmie, and the ugly, disgusting, misogynistic things that pop up about her before anything else are disheartening. Why the need to waste so much energy tearing this woman down? The attacks on her are so personal, and so hateful. For what? Why? Because of her money? Because of her body? Why so much hate towards her body?</p>
+<p style="text-align: left;">The woman is an anomaly.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-body-con.jpg.webp 430w, /wp-content/uploads/2013/11/kim-k-body-con-222x300.jpg.webp 222w" sizes="(max-width: 430px) 100vw, 430px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-780" alt="kim k body con" src="/wp-content/uploads/2013/11/kim-k-body-con.jpg" width="430" height="580" srcset="/wp-content/uploads/2013/11/kim-k-body-con.jpg 430w, /wp-content/uploads/2013/11/kim-k-body-con-222x300.jpg 222w" sizes="(max-width: 430px) 100vw, 430px" data-eio="p"></picture></p>
+<p style="text-align: left;">We should all be so lucky! When I look at her, I don&#8217;t even get mad about my body. She&#8217;s so fantastical, her body is nearly unattainable. Other celebrity bodies, I can comprehend the work that has gone into them. But how Kim&#8217;s stomach is so flat, and she keeps her ass so big, I&#8217;ll never understand.</p>
+<p style="text-align: left;">I really think people can not handle the fact that she exists in the same real universe as the rest of us. She&#8217;s not a cartoon. She&#8217;s a living, breathing woman who, by genetics or design, looks impossible. She&#8217;s just so outlandishly shaped that she scrambles our brains. One of the best descriptions of Kim I&#8217;ve ever read came from Tina Fey, who described her looks as, &#8220;&#8230;made by Russian scientists to sabotage our athletes.&#8221;</p>
+<p style="text-align: left;">When she was pregnant, she looked so fecund, so radiant, she was a modern day fertility goddess. Pregnancy suited her beautifully.</p>
+<p style="text-align: center;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-pregnant-715x1024.jpg.webp 715w, /wp-content/uploads/2013/11/kim-k-pregnant-209x300.jpg.webp 209w, /wp-content/uploads/2013/11/kim-k-pregnant.jpg.webp 1118w" sizes="(max-width: 500px) 100vw, 500px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter  wp-image-779" alt="kim k pregnant" src="/wp-content/uploads/2013/11/kim-k-pregnant-715x1024.jpg" width="500" height="717" srcset="/wp-content/uploads/2013/11/kim-k-pregnant-715x1024.jpg 715w, /wp-content/uploads/2013/11/kim-k-pregnant-209x300.jpg 209w, /wp-content/uploads/2013/11/kim-k-pregnant.jpg 1118w" sizes="(max-width: 500px) 100vw, 500px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Kimberly! Stahp!!</em></p>
+<p style="text-align: left;">P.S. Would you like to know what the first autocomplete suggestion was when I Googled &#8220;Kim Kardashian pregnant?&#8221; Whale. It thought I wanted to Google that her pregnant body makes her look like a whale. It thought it was obvious. That&#8217;s so fucking gross. Just let the woman be pregnant. Let her let her body do what it needs and wants to do. Could you imagine? The whole world being so vocally critical of your pregnant body? Horrifying. I guess the argument could be made that such is the price of fame, but do we, as a culture, need to extract every penny so viciously?</p>
+<p style="text-align: left;">Anyways.</p>
+<p style="text-align: left;">Beauty and fashion wise, MEDIA WISE, she&#8217;s an icon for the new millennium. I find her constant style reinvention inspiring, and her unapologetic need for glamour bracing. Most often, people, celebrities in particular demur when faced with the question of whether they want all these &#8220;things&#8221; all these material trappings. Not so for Kim. She is awash in fashion and glitter and expensive things, and she is fine with it. She seems like the kind of person who prefers a hotel to camping, and that doesn&#8217;t make her bad. I get that preference! A distaste for roughing it doesn&#8217;t make you any less real.</p>
+<p style="text-align: left;">She is SO REAL.</p>
+<p style="text-align: left;">Where our beloved Queen Bey seem so far above the rest of us, Kim lets us see her ugly crying face, she lets us see her painfully mottled feet, swollen from her pregnancy. Kim seems like maybe you knew a girl like her in high school. She would have had on glittery butterfly clips, and you would ride in her Eclipse to go get fries at McDonald&#8217;s. She sings along to &#8220;No Scrubs&#8221; with you. Her bags were more expensive than yours, she had a pager, and her parents would let her do things your parents would never allow. The Kardashians, Kim in particular, understand how to show you they&#8217;re like you. I love that. That&#8217;s a big part of why I chose Kim as my first beauty icon. She&#8217;s not always the perfectly contoured face on the red carpet.</p>
+<p style="text-align: left;">And can we talk about that contoured face?</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-contour.jpg.webp 550w, /wp-content/uploads/2013/11/kim-k-contour-150x150.jpg.webp 150w, /wp-content/uploads/2013/11/kim-k-contour-300x300.jpg.webp 300w" sizes="(max-width: 550px) 100vw, 550px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-781" alt="kim k contour" src="/wp-content/uploads/2013/11/kim-k-contour.jpg" width="550" height="550" srcset="/wp-content/uploads/2013/11/kim-k-contour.jpg 550w, /wp-content/uploads/2013/11/kim-k-contour-150x150.jpg 150w, /wp-content/uploads/2013/11/kim-k-contour-300x300.jpg 300w" sizes="(max-width: 550px) 100vw, 550px" data-eio="p"></picture></p>
+<p style="text-align: left;">Kim&#8217;s look has sparked a makeup wildfire. Normal women who don&#8217;t have makeup artists, who don&#8217;t have photo shoots, know how to do a highlight and contour now, and that is because of Kim Kardashian. All over the beauty world, &#8220;Kim Kardashian face&#8221; is shorthand for an admittedly heavy, but polished and flawless contour job. She brought it to the masses. THANK YOU, KIM.</p>
+<p style="text-align: left;">This fabulous woman, with one sex tape, unleashed a whirlwind of big hair, face contouring, body, and style upon the world. And, she was able to bring her entire family along with her! Famous for nothing? Bullshit. She&#8217;s famous because she keeps going. She&#8217;s famous because no matter what&#8217;s going on around her, divorces, pregnancies, body shaming, the insatiable public hunger for her downfall, she straps on gorgeous shoes and walks out the door. She&#8217;s famous because she perseveres. She&#8217;s famous because she&#8217;s not an idiot. Paris Hilton was an idiot. Kim is no idiot. She&#8217;s famous because she is our Most Beautiful. She looks like America. She is all too much, and we LOVE to have too much.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-karl-l.jpg.webp 576w, /wp-content/uploads/2013/11/kim-k-karl-l-300x199.jpg.webp 300w" sizes="(max-width: 576px) 100vw, 576px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-782" alt="kim k karl l" src="/wp-content/uploads/2013/11/kim-k-karl-l.jpg" width="576" height="383" srcset="/wp-content/uploads/2013/11/kim-k-karl-l.jpg 576w, /wp-content/uploads/2013/11/kim-k-karl-l-300x199.jpg 300w" sizes="(max-width: 576px) 100vw, 576px" data-eio="p"></picture></p>
+<p style="text-align: left;">Kim is one of my beauty idols for the obvious reasons: her makeup is perfect, she has an adventurous sense of style, her hair is ideal, she knows her own face and body and she uses them with a model&#8217;s sensibility.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-blue-couch.jpg.webp 620w, /wp-content/uploads/2013/11/kim-k-blue-couch-300x199.jpg.webp 300w" sizes="(max-width: 620px) 100vw, 620px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-783" alt="kim k blue couch" src="/wp-content/uploads/2013/11/kim-k-blue-couch.jpg" width="620" height="413" srcset="/wp-content/uploads/2013/11/kim-k-blue-couch.jpg 620w, /wp-content/uploads/2013/11/kim-k-blue-couch-300x199.jpg 300w" sizes="(max-width: 620px) 100vw, 620px" data-eio="p"></picture></p>
+<p style="text-align: left;">Kim is one of my beauty idols for the less obvious reason: she doesn&#8217;t let the hate keep her down. If you&#8217;re going to be a beauty revolutionary, you might have to face some harsh criticism. I can&#8217;t think of anyone who gets it worse than Kim, and she shows off her beauty anyways.</p>
+<p style="text-align: left;"><picture><source srcset="/wp-content/uploads/2013/11/kim-k-crop-top.jpg.webp 467w, /wp-content/uploads/2013/11/kim-k-crop-top-222x300.jpg.webp 222w" sizes="(max-width: 467px) 100vw, 467px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-784" alt="kim k crop top" src="/wp-content/uploads/2013/11/kim-k-crop-top.jpg" width="467" height="630" srcset="/wp-content/uploads/2013/11/kim-k-crop-top.jpg 467w, /wp-content/uploads/2013/11/kim-k-crop-top-222x300.jpg 222w" sizes="(max-width: 467px) 100vw, 467px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>About all of this.</em></p>
+<p style="text-align: left;">Kim will not yield the spotlight. You can&#8217;t force her. She doesn&#8217;t retreat. She goes blonde.</p>
+<p style="text-align: left;">
+					</p>
+</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-715" class="clear post-715 post type-post status-publish format-standard hentry category-friday-im-in-love category-personal">
+	<div class="entry-wrap wrap clear">
+		
+		<header class="entry-header">
+			<span class="categories-links"><a href="/category/friday-im-in-love/" rel="category tag">Friday I'm in Love</a>, <a href="/category/personal/" rel="category tag">Personal</a></span><h1 class="entry-title"><a href="/season-witch/" rel="bookmark">Season of the Witch</a></h1>		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="entry-date"><a href="/season-witch/" title="11:27 am" rel="bookmark"><time datetime="2013-11-01T11:27:52-07:00">November 1, 2013</time></a></span><span class="author vcard"><a class="url fn n" href="/author/sarah/" title="View all posts by Sarah Cosper" rel="author">Sarah Cosper</a></span>
+						<span class="comments-link"><a href="/season-witch/#comments">6 Comments</a></span>
+			
+					</footer><!-- .entry-meta -->
+
+				<div class="entry-content clear">
+			<p><picture><source srcset="/wp-content/uploads/2013/11/ahs-friday-im-in-love.jpg.webp 1024w, /wp-content/uploads/2013/11/ahs-friday-im-in-love-300x168.jpg.webp 300w" sizes="(max-width: 1024px) 100vw, 1024px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-718" alt="ahs friday im in love" src="/wp-content/uploads/2013/11/ahs-friday-im-in-love.jpg" width="1024" height="576" srcset="/wp-content/uploads/2013/11/ahs-friday-im-in-love.jpg 1024w, /wp-content/uploads/2013/11/ahs-friday-im-in-love-300x168.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" data-eio="p"></picture></p>
+<p>Oh man. I ate a ton of little candies last night. I got all hopped up on sugar, and then I crashed. I woke up this morning feeling terrible. Is this what kids feel like the day after Halloween, or, am I just an old lady? I don&#8217;t know, but I have a ton of candy left and I&#8217;m surfing the crimson wave, so I&#8217;m basically just going to sit on the candy bowl while I dump the rest of the bags into my mouth until I either stop or start crying. We&#8217;ll see how I&#8217;m feeling. Thanks for everything, body! You&#8217;re a real shithead sometimes.</p>
+<p>Other than enduring a visit from Tia Rojo, this has been my first full week back to work here at the Lab Bunny in I don&#8217;t know how long. I am SPENT! I don&#8217;t know how some of these other blogs do so many posts a day. Don&#8217;t they have television shows to watch?!</p>
+<p>Speaking of television shows, can we talk about American Horror Story aka The Reason TV Was Invented? I am a HUGE AHS fan. American Horror Story is my Breaking Bad. Like, Breaking Bad is a good show, I get it, but BB can eat it next to AHS. EAT. IT. Now, I&#8217;m not all the way through Breaking Bad yet, but I&#8217;m pretty sure Walter White never fell in love with the ghost of a school shooter, or became a possessed nun, or went to witch war against Ms. Tina Turner. Gimme a show where Dylan McDermott cries and jacks it at the same time, or give me nothing. This season is about female power, and I am INTO IT. Jessica Lange is fantastic, as usual, but I&#8217;m really excited about Frances Conroy&#8217;s character, Myrtle Snow. They&#8217;re so obviously dressing her as Grace Coddington, and she looks fucking fabulous. I can&#8217;t even take it.</p>
+<p><picture><source srcset="/wp-content/uploads/2013/11/grace-coddington.jpg.webp 374w, /wp-content/uploads/2013/11/grace-coddington-203x300.jpg.webp 203w" sizes="(max-width: 374px) 100vw, 374px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-717" alt="Grace Coddington" src="/wp-content/uploads/2013/11/grace-coddington.jpg" width="374" height="550" srcset="/wp-content/uploads/2013/11/grace-coddington.jpg 374w, /wp-content/uploads/2013/11/grace-coddington-203x300.jpg 203w" sizes="(max-width: 374px) 100vw, 374px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Grace.</em></p>
+<p><picture><source srcset="/wp-content/uploads/2013/11/ahs.jpg.webp 628w, /wp-content/uploads/2013/11/ahs-300x200.jpg.webp 300w" sizes="(max-width: 628px) 100vw, 628px" type="image/webp"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-716" alt="ahs" src="/wp-content/uploads/2013/11/ahs.jpg" width="628" height="419" srcset="/wp-content/uploads/2013/11/ahs.jpg 628w, /wp-content/uploads/2013/11/ahs-300x200.jpg 300w" sizes="(max-width: 628px) 100vw, 628px" data-eio="p"></picture></p>
+<p style="text-align: center;"><em>Myrtle.</em></p>
+<p>I want those red, ruffled gloves so bad. When they made their appearance on Wednesday night&#8217;s show, I literally gasped. I&#8217;m not sure, but I&#8217;m pretty positive I&#8217;d never take them off.</p>
+<p>When AHS is over at the end of the season, I am so, so sad. I wish it was on year round. This year, the first episode of the new season debuted a few days after my birthday, and it made me want to skip right over my birthday, just to get my show that much faster. You never know what&#8217;s going to happen on this show!! Like, making predictions are fun, but they never matter because they hardly ever come true. This year, I saw alligators come back from the dead and eat some dudes. Zombie alligators. Why? WHY NOT?!</p>
+<p>First rule of AHS: You ALWAYS talk about AHS.</p>
+<p>Second rule of AHS: Don&#8217;t ask why. &#8220;Why?&#8221; and AHS do not belong together.</p>
+<p>Mad Men used to be my favorite show. Mad Men is still one of my favorite shows, but my passion for it has never reached AHS heights. I&#8217;m becoming an obsessed weirdo with a television show. Like Dr. Who people. Dr. Who people are nuts! But, I get it now! Dylan McDermott&#8217;s murder gazebo from Season 1 is like my magic phone booth, or whatever.</p>
+<p>You guys. This season has Patti LuPone. LUUUUPOOOOONE. She&#8217;s a holy roller with shirtless hunks for sons who all live next door to a boarding school for teenage witches.</p>
+<p>Sometimes, I think the writers just have a bunch of different words written on scraps of paper in a witch hat, and they just pull random ideas out of the hat and write a show. I love it. I really, really do.</p>
+<p>I sat down to write a little post about my week, and it just ended up being about American Horror Story. So, you know what? Fuck it. Friday I&#8217;m in Love with American Horror Story. And I have every reason to believe it&#8217;s in love with me. This season, in particular, feels like a love letter to me. Every stage of my life has had its pop culture witches, The Witches, The Craft and now American Horror Story Coven. I&#8217;m all grown up now, and I like my witches to be POWER BITCHES with gorgeous outfits.</p>
+<p>HASHTAGTHEWITCHISBACK. HASHTAGBLACKISTHENEWBLACK.</p>
+<p>The first season is on Netflix. It&#8217;s scary and so funny. The second season hasn&#8217;t show up yet, and the third season is 4 episodes in. I&#8217;m not sure if you could pick it up right now, but maybe! Really, every week a new story develops, so you might as well try to jump in now!</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+		
+		<span class="entry-format-badge theme-genericon"><span class="screen-reader-text">Standard</span></span>
+	</div>
+<!-- .entry-wrap -->
+</article><!-- #post-## -->
+			
+				<nav role="navigation" id="nav-below" class="navigation-paging">
+		<div class="wrap clear">
+			<h1 class="screen-reader-text">Post navigation</h1>
+
+		
+			
+						<div class="previous"><a href="/category/personal/page/2/"><span class="meta-nav">&larr;</span> <span class="text-nav">Older posts</span></a></div>
+			
+		
+		</div>
+	</nav><!-- #nav-below -->
+	
+		
+		</div>
+<!-- #content -->
+	</section><!-- #primary -->
+
+
+	</div>
+<!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info wrap">
+						<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Ryu by <a href="http://automattic.com/" rel="designer">Automattic</a>.		</div>
+<!-- .site-info -->
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+<script type="text/javascript" src="/wp-content/themes/ryu/js/navigation.js?ver=20120206" id="ryu-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/skip-link-focus-fix.js?ver=20130115" id="ryu-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/ryu/js/ryu.js?ver=20130319" id="ryu-theme-js"></script>
+
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41236199-1']);
+  _gaq.push(['_trackPageview']);
+
+  setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])", 15000);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+
+</body>
+</html>

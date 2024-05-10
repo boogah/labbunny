@@ -1,0 +1,26 @@
+/*
+Theme Name:     Ken
+Theme URI:      http://jasoncosper.com/
+Description:    Ken is less of a "child theme" and more of a "buddy theme" for Ryu...
+Author:         Jason Cosper
+Author URI:     http://jasoncosper.com/
+Template:       ryu                             
+Version:        1.0
+*/
+@import url("/wp-content/themes/ryu/style.css");
+
+.wpengine-promo {
+	display: none;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+ul.checkmark {
+	list-style: none;
+}
+
+ul.checkmark li:before {
+	content:"\2713\0020";
+}
